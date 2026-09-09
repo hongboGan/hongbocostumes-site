@@ -8,3 +8,4 @@ dist
 .accio-site.json
 *.log
 preview-server.cjs
+*.log.err
