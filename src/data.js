@@ -1,0 +1,441 @@
+// ---------------------------------------------------------------
+// Site content data — Hongbo Costumes B2B independent site
+// Products & company facts sourced from the owner's Alibaba store:
+// https://ouwanni.en.alibaba.com  (Wuhan Ouwanni Clothing Co., Ltd.)
+// ---------------------------------------------------------------
+
+export const SITE = {
+  name: 'Hongbo Costumes',
+  wordmark: 'HONG&nbsp;BO',
+  tagline: 'Halloween, Cosplay & Fancy-Dress Costume Manufacturer',
+  legalName: 'Wuhan Ouwanni Clothing Co., Ltd.',
+  location: 'Wuhan, Hubei, China',
+  email: 'Zoe@hoburn.group',
+  whatsapp: '8618120424228',
+  whatsappDisplay: '+86 181 2042 4228',
+};
+
+export const waLink = (msg) =>
+  `https://wa.me/${SITE.whatsapp}?text=${encodeURIComponent(msg)}`;
+
+export const WA_DEFAULT = waLink(
+  `Hi ${SITE.name}! I'm interested in your costumes. Could you send me the catalog and wholesale prices?`
+);
+
+export const HERO_IMAGES = [
+  'https://sc04.alicdn.com/kf/H28e456cb9ff14f99bc2fa323e422d4c2U/276291960/H28e456cb9ff14f99bc2fa323e422d4c2U.png',
+  'https://sc04.alicdn.com/kf/Hf6fde6294969419b881a5c348755153eo/276291960/Hf6fde6294969419b881a5c348755153eo.jpg',
+  'https://sc04.alicdn.com/kf/Hfab37dfe6bd4493bb240672ca91210211/276291960/Hfab37dfe6bd4493bb240672ca91210211.jpg',
+  'https://sc04.alicdn.com/kf/Hde549176b01440dca97e99599fb9192aT/276291960/Hde549176b01440dca97e99599fb9192aT.jpg',
+  'https://sc04.alicdn.com/kf/H78064ef9b0564b38a2db34779a57e691f/276291960/H78064ef9b0564b38a2db34779a57e691f.jpg',
+];
+
+export const COMPANY = {
+  headline: 'A costume factory that moves as fast as your selling season.',
+  stats: [
+    { value: '7+', label: 'Years exporting' },
+    { value: '41', label: 'In-house team' },
+    { value: '3', label: 'Production lines' },
+    { value: '1,540㎡', label: 'Factory floor' },
+  ],
+  proofs: [
+    { value: '4.7/5', label: 'Supplier rating' },
+    { value: '≤4h', label: 'Response time' },
+    { value: '91%', label: 'On-time dispatch' },
+    { value: '25%', label: 'Reorder rate' },
+  ],
+  services: [
+    {
+      title: 'Custom OEM & ODM',
+      text: 'Custom colors, sizes, prints and logos on stock patterns — or build your own design from sketch, drawing or sample.',
+      icon: 'pen',
+    },
+    {
+      title: '7-Day Samples',
+      text: 'Sample orders ship within about 7 days so you can validate quality before bulk production.',
+      icon: 'rocket',
+    },
+    {
+      title: 'Rigorous QC',
+      text: '4 QC inspectors plus needle detection on kid-safe lines. 91% on-time dispatch across orders.',
+      icon: 'shield',
+    },
+    {
+      title: 'Amazon FBA Ready',
+      text: 'E-commerce-friendly packing, retail-ready labeling and FBA support for marketplace sellers.',
+      icon: 'box',
+    },
+  ],
+  process: [
+    { step: '01', title: 'Send inquiry', text: 'Tell us your styles, quantities and target price.' },
+    { step: '02', title: 'Get quote & sample', text: 'We confirm specs, produce samples in ~7 days.' },
+    { step: '03', title: 'Bulk production', text: '3 production lines run your order with QC checks.' },
+    { step: '04', title: 'Ship worldwide', text: 'Sea, air or express — tracked to your door.' },
+  ],
+};
+
+export const CATEGORIES = [
+  {
+    id: 'halloween',
+    label: 'Halloween Costumes',
+    tag: 'Scare & shine',
+    blurb: 'Adult & kids Halloween sets for parties, haunted houses and events.',
+    image: 'https://sc04.alicdn.com/kf/H170c9a1eac524f45a2bac7c0cab2ec52N/Girls-Renaissance-Velvet-Dress-and-Hooded-Cloak.png',
+  },
+  {
+    id: 'movie',
+    label: 'Movie, TV & Superhero',
+    tag: 'Screen icons',
+    blurb: 'Character-style jumpsuits and movie looks with custom 3D print options.',
+    image: 'https://sc04.alicdn.com/kf/H7d1ee8d69aaa44fa810adf96259119949/High-Quality-Custom-Logo-OEM-Costumes-Bodysuit.jpg',
+  },
+  {
+    id: 'anime',
+    label: 'Anime & Cosplay',
+    tag: 'Con-ready',
+    blurb: 'Lolita, maid, kimono and cosplay sets for conventions and collectors.',
+    image: 'https://sc04.alicdn.com/kf/H4d0e420388f944418a413e9df4ae9272S/Cute-Lolita-Maid-Dress-Plus-Size-Apron.jpg',
+  },
+  {
+    id: 'kids',
+    label: 'Kids, Princess & Party',
+    tag: 'Little stars',
+    blurb: 'Tutu princess gowns, sparkle dresses and playful animal sets for kids.',
+    image: 'https://sc04.alicdn.com/kf/H9c5d88933b1a4ec18883992314c0719c8/Kids-Sequin-Princess-Tulle-Dress-Girls-Sparkly.png',
+  },
+  {
+    id: 'funny',
+    label: 'Funny, Career & Novelty',
+    tag: 'Make them laugh',
+    blurb: 'Career day outfits and novelty costumes that stand out in any crowd.',
+    image: 'https://sc04.alicdn.com/kf/H0fac5017e4ee493eb80557b39587e46ao/Funny-Beer-Mug-Costume-for-Kids-Oktoberfest.png',
+  },
+  {
+    id: 'christmas',
+    label: 'Christmas & Thanksgiving',
+    tag: 'Holiday hits',
+    blurb: 'Santa sets, Christmas tree suits and festive cosplay for the holiday season.',
+    image: 'https://sc04.alicdn.com/kf/H5edf6297ca38439089280d8e48ebc9335/New-Arrival-Christmas-Costume-Family-Santa-Claus.jpg',
+  },
+];
+
+export const PRODUCTS = [
+  {
+    id: 'victorian-tailcoat-boys',
+    cat: 'halloween',
+    ali: 'Halloween Costume',
+    name: "Boys' Victorian Tailcoat 3-Piece Suit",
+    fullTitle:
+      "Boys Kids Victorian Tailcoat Suit 3 Piece Set Gold Buttons Bowtie Halloween Party Stage Performance Fancy Costume",
+    image:
+      'https://sc04.alicdn.com/kf/Haf44b63b7d2142c9a60ea7be4dc2589dC/Boys-Kids-Victorian-Tailcoat-Suit-3-Piece.jpg',
+    priceFrom: 9.99,
+    priceTo: 11.59,
+    url: 'https://www.alibaba.com/product-detail/Boys-Kids-Victorian-Tailcoat-Suit-3_1601944760177.html',
+    blurb: 'Tailcoat, gold buttons and bowtie — a stage-ready 3-piece set for kids.',
+  },
+  {
+    id: 'renaissance-velvet-cloak',
+    cat: 'halloween',
+    ali: 'Halloween Costume',
+    name: "Girls' Renaissance Velvet Dress & Cloak",
+    fullTitle:
+      "Girls Renaissance Velvet Dress and Hooded Cloak Set Gold Trim Medieval Faire Halloween Stage Performance Costume",
+    image:
+      'https://sc04.alicdn.com/kf/H170c9a1eac524f45a2bac7c0cab2ec52N/Girls-Renaissance-Velvet-Dress-and-Hooded-Cloak.png',
+    priceFrom: 16.29,
+    priceTo: 19.99,
+    url: 'https://www.alibaba.com/product-detail/Girls-Renaissance-Velvet-Dress-and-Hooded_1601944665286.html',
+    blurb: 'Velvet dress with hooded cloak and gold trim — medieval faire elegance.',
+  },
+  {
+    id: 'gothic-lolita-maid',
+    cat: 'halloween',
+    ali: 'Halloween Costume',
+    name: "Women's Gothic Lolita Maid Outfit",
+    fullTitle:
+      'Japanese Maid Costume Women Gothic Lolita Pinstripe Apron Dress Choker Ruffled Sleeve Cosplay Halloween Outfit',
+    image:
+      'https://sc04.alicdn.com/kf/Hf7d8db79ec344b7c96339e27f87995638/Japanese-Maid-Costume-Women-Gothic-Lolita-Pinstripe.png',
+    priceFrom: 14.41,
+    priceTo: 16.89,
+    url: 'https://www.alibaba.com/product-detail/Japanese-Maid-Costume-Women-Gothic-Lolita_1601942395450.html',
+    blurb: 'Pinstripe apron dress, choker and ruffled sleeves — gothic maid cosplay.',
+  },
+  {
+    id: 'templar-knight-set',
+    cat: 'halloween',
+    ali: 'Anime Costume',
+    name: 'Templar Knight Crusader Tunic Set',
+    fullTitle:
+      'Deluxe Cross Print Halloween Templar Knight Medieval Tunic Warrior Costume Crusader Costume Vest Coat With Belt',
+    image:
+      'https://sc04.alicdn.com/kf/Hcff9723cbd61436e956cd3ef8a381fe9E/Deluxe-Cross-Print-Halloween-Templar-Knight-Medieval.jpg',
+    priceFrom: 9.8,
+    priceTo: 10.5,
+    url: 'https://www.alibaba.com/product-detail/Deluxe-Cross-Print-Halloween-Templar-Knight_1601017702252.html',
+    blurb: 'Cross-print tunic, vest coat and belt — a deluxe crusader warrior look.',
+  },
+  {
+    id: 'custom-3d-bodysuit',
+    cat: 'movie',
+    ali: 'Spider Man Costume',
+    name: 'Custom 3D-Print Bodysuit Jumpsuit',
+    fullTitle:
+      'High Quality Custom Logo OEM Costumes Bodysuit 3D Print Adult Halloween Costume Custom Jumpsuit',
+    image:
+      'https://sc04.alicdn.com/kf/H7d1ee8d69aaa44fa810adf96259119949/High-Quality-Custom-Logo-OEM-Costumes-Bodysuit.jpg',
+    priceFrom: 1.8,
+    priceTo: 9.9,
+    url: 'https://www.alibaba.com/product-detail/High-Quality-Custom-Logo-OEM-Costumes_1601021299050.html',
+    blurb: 'Your artwork, our sewing — custom logo 3D-print bodysuits for brands.',
+  },
+  {
+    id: 'moana-maui-set',
+    cat: 'movie',
+    ali: 'Princess&Prince Costume',
+    name: 'Moana Movie Maui Cosplay Set',
+    fullTitle:
+      'New Movie Moana 4 Costume Maui Cosplay Costume Girls Carnival Party Princess Moana Dress With Necklace',
+    image:
+      'https://sc04.alicdn.com/kf/H57b082f399444e79b003f49967717651i/New-Movie-Moana-4-Costume-Maui-Cosplay.jpg',
+    priceFrom: null,
+    priceTo: null,
+    url: 'https://www.alibaba.com/product-detail/New-Movie-Moana-4-Costume-Maui_1601256496495.html',
+    blurb: 'Movie-style Moana costume with matching necklace — carnival party ready.',
+  },
+  {
+    id: 'lolita-catgirl-maid',
+    cat: 'anime',
+    ali: 'Anime Costume',
+    name: 'Lolita Catgirl Maid Dress Set',
+    fullTitle:
+      'Cute Lolita Maid Dress Plus Size Apron Set Catgirl Roleplay Costume Black White Kawaii Lolita Dress',
+    image:
+      'https://sc04.alicdn.com/kf/H4d0e420388f944418a413e9df4ae9272S/Cute-Lolita-Maid-Dress-Plus-Size-Apron.jpg',
+    priceFrom: 11.18,
+    priceTo: 12.59,
+    url: 'https://www.alibaba.com/product-detail/Cute-Lolita-Maid-Dress-Plus-Size_1601687638877.html',
+    blurb: 'Kawaii black-white maid dress with apron — plus-size catgirl roleplay.',
+  },
+  {
+    id: 'japanese-kimono-robe',
+    cat: 'anime',
+    ali: 'Anime Costume',
+    name: 'Japanese Kimono Yukata Robe',
+    fullTitle:
+      'Silky Satin Floral Robe Japanese Traditional Kimono Bath Robe With Obi Princess Japan Kimono Yukata Dress',
+    image:
+      'https://sc04.alicdn.com/kf/H5fc55f62a92941c5931e82075b1af8efp/Silky-Satin-Floral-Robe-Japanese-Traditional-Kimono.jpg',
+    priceFrom: 9.2,
+    priceTo: 9.8,
+    url: 'https://www.alibaba.com/product-detail/Silky-Satin-Floral-Robe-Japanese-Traditional_1601019282544.html',
+    blurb: 'Satin floral kimono with obi belt — traditional Japanese yukata style.',
+  },
+  {
+    id: 'sequin-princess-dress',
+    cat: 'kids',
+    ali: 'Princess&Prince Costume',
+    name: "Kids' Sequin Princess Tulle Gown",
+    fullTitle:
+      'Kids Sequin Princess Tulle Dress Girls Sparkly Bubble Sleeve Gown for Halloween and Birthday Party',
+    image:
+      'https://sc04.alicdn.com/kf/H9c5d88933b1a4ec18883992314c0719c8/Kids-Sequin-Princess-Tulle-Dress-Girls-Sparkly.png',
+    priceFrom: 9.69,
+    priceTo: 11.25,
+    url: 'https://www.alibaba.com/product-detail/Kids-Sequin-Princess-Tulle-Dress-Girls_1601789054240.html',
+    blurb: 'Sparkly bubble-sleeve gown for Halloween parties and birthdays.',
+  },
+  {
+    id: 'ballet-tutu-dress',
+    cat: 'kids',
+    ali: 'Princess&Prince Costume',
+    name: "Girls' Ballet Tutu 3D Floral Dress",
+    fullTitle:
+      'Girls Ballet Tutu Princess Dress 3D Floral Applique Sequin Swirl Embroidered Tulle Skirt Stage Performance Choir Outfit',
+    image:
+      'https://sc04.alicdn.com/kf/He59edf13102542aea861fdab311ecef3H/Girls-Ballet-Tutu-Princess-Dress-3D-Floral.png',
+    priceFrom: 7.37,
+    priceTo: 8.69,
+    url: 'https://www.alibaba.com/product-detail/Girls-Ballet-Tutu-Princess-Dress-3D_1601930221114.html',
+    blurb: '3D floral applique on a swirl-embroidered tutu — stage & choir ready.',
+  },
+  {
+    id: 'cindy-princess-dress',
+    cat: 'kids',
+    ali: 'Princess&Prince Costume',
+    name: 'Cindy Princess Puffy Gauze Dress',
+    fullTitle:
+      'Hot Selling Cindy Princess Dress Solid Color Puffy Gauze Princess Dress Halloween Cosplay Birthday Dress',
+    image:
+      'https://sc04.alicdn.com/kf/Hc5d341d142764046a4f9bdff08986d98P/Hot-Selling-Cindy-Princess-Dress-Solid-Color.jpg',
+    priceFrom: 9.9,
+    priceTo: 12.59,
+    url: 'https://www.alibaba.com/product-detail/Hot-Selling-Cindy-Princess-Dress-Solid_1601019964342.html',
+    blurb: 'Puffy gauze princess dress — a hot-selling birthday & cosplay pick.',
+  },
+  {
+    id: 'flower-girl-tutu',
+    cat: 'kids',
+    ali: 'Girl Daily Dress',
+    name: "Christmas Flower Girl Tutu Dress",
+    fullTitle:
+      "Christmas Girl's Princess Flower Girl's Wedding Sequin Mesh Cake Tutu Dress for Children with Echo Character",
+    image:
+      'https://sc04.alicdn.com/kf/H8adf56e18c5c4bf192a5bf7605ea89ccC/Christmas-Girl-s-Princess-Flower-Girl-s.png',
+    priceFrom: 10.79,
+    priceTo: 12.77,
+    url: 'https://www.alibaba.com/product-detail/Christmas-Girl-s-Princess-Flower-Girl_1601894506218.html',
+    blurb: 'Sequin mesh cake-tutu style — flower girl & Christmas party favorite.',
+  },
+  {
+    id: 'pink-pig-kids-set',
+    cat: 'kids',
+    ali: 'Party Mask&Hat&Props',
+    name: "Kids' Pink Pig Animal Costume Set",
+    fullTitle:
+      'Cute Kids Pink Pig Animal Cosplay Costume Complete Accessory Set With Pig Ear Headband Nose Bow Tail Paw Gloves Pink Tutu',
+    image:
+      'https://sc04.alicdn.com/kf/Hc285824d8cd5409c91e76eb8d660314f1/Cute-Kids-Pink-Pig-Animal-Cosplay-Costume.jpg',
+    priceFrom: 1.59,
+    priceTo: 2.02,
+    url: 'https://www.alibaba.com/product-detail/Cute-Kids-Pink-Pig-Animal-Cosplay_1601885860475.html',
+    blurb: 'Complete pig set — headband, nose, bow, tail, gloves and tutu.',
+  },
+  {
+    id: 'pirate-kids-set',
+    cat: 'kids',
+    ali: 'Customization Print',
+    name: "Kids' Pirate Suit & Top Set",
+    fullTitle:
+      "New Arrival Halloween Anime-Style Costume Set Kids' Little Boys Pirate Suit and Top for Cosplay Performance",
+    image:
+      'https://sc04.alicdn.com/kf/Hb0f386b6cd9f4321b4ccb60f60b46248D/New-Arrival-Halloween-Anime-Style-Costume-Set.jpg',
+    priceFrom: 4.99,
+    priceTo: 6.29,
+    url: 'https://www.alibaba.com/product-detail/New-Arrival-Halloween-Anime-Style-Costume_1601013027695.html',
+    blurb: "Anime-style pirate suit & top for little boys' cosplay performance.",
+  },
+  {
+    id: 'scientist-lab-coat',
+    cat: 'funny',
+    ali: 'Career Day Costume',
+    name: "Kids' Scientist Lab Coat Set",
+    fullTitle:
+      'Unisex Children Scientist Lab Coat Costume Set Breathable White Doctor Coat With Protective Goggles Name ID Card',
+    image:
+      'https://sc04.alicdn.com/kf/H08f229b495144590bb1be9ce22104ba6v/Unisex-Children-Scientist-Lab-Coat-Costume-Set.png',
+    priceFrom: 5.59,
+    priceTo: 6.99,
+    url: 'https://www.alibaba.com/product-detail/Unisex-Children-Scientist-Lab-Coat-Costume_1601885785572.html',
+    blurb: 'Breathable lab coat with goggles and ID card — career day classic.',
+  },
+  {
+    id: 'crossing-guard-girls',
+    cat: 'funny',
+    ali: 'Career Day Costume',
+    name: "Girls' Crossing Guard Costume",
+    fullTitle:
+      'Halloween Costumes Helper Costume for Girls Crossing Guard Costume for Kids Girls Traffic Director Costume Service Outfit',
+    image:
+      'https://sc04.alicdn.com/kf/He64fab74131f4a8cadecf99caf5806e1l.png',
+    priceFrom: null,
+    priceTo: null,
+    url: 'https://www.alibaba.com/product-detail/Halloween-Costumes-Helper-Costume-for-Girls_1601573109311.html',
+    blurb: 'Traffic-director helper outfit — community helper dress-up favorite.',
+  },
+  {
+    id: 'beer-mug-kids',
+    cat: 'funny',
+    ali: 'Funny Costume',
+    name: "Kids' Beer Mug Oktoberfest Suit",
+    fullTitle:
+      'Funny Beer Mug Costume for Kids Oktoberfest Party Performance Outfit Yellow Ale Cup With Foam Handle Tunics',
+    image:
+      'https://sc04.alicdn.com/kf/H0fac5017e4ee493eb80557b39587e46ao/Funny-Beer-Mug-Costume-for-Kids-Oktoberfest.png',
+    priceFrom: 6.59,
+    priceTo: 7.59,
+    url: 'https://www.alibaba.com/product-detail/Funny-Beer-Mug-Costume-for-Kids_1601845414511.html',
+    blurb: 'Yellow ale-cup tunic with foam handle — Oktoberfest party gag hit.',
+  },
+  {
+    id: 'lederhosen-set',
+    cat: 'funny',
+    ali: 'Easter &St PatrickCostume',
+    name: "Men's Bavarian Oktoberfest Lederhosen Set",
+    fullTitle:
+      'Mens Bavarian Oktoberfest Costume Set Lederhosen Orange Shorts Green Vest White Shirt Alpine Hat Complete Beer Outfit',
+    image:
+      'https://sc04.alicdn.com/kf/H536c5b3b182d419dafaee4e637c1779fE/Mens-Bavarian-Oktoberfest-Costume-Set-Lederhosen-Orange.png',
+    priceFrom: 11.59,
+    priceTo: 13.99,
+    url: 'https://www.alibaba.com/product-detail/Mens-Bavarian-Oktoberfest-Costume-Set-Lederhosen_1601922255732.html',
+    blurb: 'Lederhosen, vest, shirt and alpine hat — the complete Bavarian outfit.',
+  },
+  {
+    id: 'santa-family-set',
+    cat: 'christmas',
+    ali: 'Christmas&Thanksgiving',
+    name: 'Santa Claus Family Outfit Set',
+    fullTitle:
+      'New Arrival Christmas Costume Family Santa Claus Set Clause Outfit Xmas Suit Santa Outfit for Christmas Party Cosplay',
+    image:
+      'https://sc04.alicdn.com/kf/H5edf6297ca38439089280d8e48ebc9335/New-Arrival-Christmas-Costume-Family-Santa-Claus.jpg',
+    priceFrom: 10.56,
+    priceTo: 13.66,
+    url: 'https://www.alibaba.com/product-detail/New-Arrival-Christmas-Costume-Family-Santa_1601273833860.html',
+    blurb: 'Family Santa suits from XS to 2XL — matching Christmas cosplay sets.',
+  },
+  {
+    id: 'christmas-tree-kids',
+    cat: 'christmas',
+    ali: 'Christmas&Thanksgiving',
+    name: "Kids' Christmas Tree Costume Suit",
+    fullTitle:
+      'Hot Sale Customizable Green Christmas Party Unisex Santa Children Clothing Tree Suit Cosplay Outfits for Kids Includes Dresses',
+    image:
+      'https://sc04.alicdn.com/kf/H8405edd1e60d42e3849f5f59c9dc187fn/Hot-Sale-Customizable-Green-Christmas-Party-Unisex.jpg',
+    priceFrom: 6.5,
+    priceTo: 7,
+    url: 'https://www.alibaba.com/product-detail/Hot-Sale-Customizable-Green-Christmas-Party_1601018570958.html',
+    blurb: 'Green Christmas tree suit for kids — customizable unisex holiday look.',
+  },
+  {
+    id: 'gingerbread-onesie',
+    cat: 'christmas',
+    ali: 'Onesie Pajama',
+    name: 'Gingerbread Man Bodysuit Onesie',
+    fullTitle:
+      'Customizable Halloween Christmas Boys Cosplay Gingerbread Man Costume Brown Polyester Fabric Bodysuit',
+    image:
+      'https://sc04.alicdn.com/kf/H324dcfc952bb49be991b4e957124aa86d/Customizable-Halloween-Christmas-Boys-Cosplay-Gingerbread-Man.jpg',
+    priceFrom: 7.14,
+    priceTo: 8.16,
+    url: 'https://www.alibaba.com/product-detail/Customizable-Halloween-Christmas-Boys-Cosplay-Gingerbread_1601211966167.html',
+    blurb: 'Brown gingerbread bodysuit — a sweet hit for Christmas & Halloween.',
+  },
+];
+
+export const getCategory = (id) => CATEGORIES.find((c) => c.id === id);
+export const getProduct = (id) => PRODUCTS.find((p) => p.id === id);
+export const productsIn = (catId) => PRODUCTS.filter((p) => p.cat === catId);
+export const formatPrice = (p) =>
+  p.priceFrom == null
+    ? 'Wholesale price on request'
+    : `From $${p.priceFrom.toFixed(2)} / pc`;
+export const priceRange = (p) =>
+  p.priceFrom == null
+    ? 'Wholesale price on request'
+    : p.priceTo && p.priceTo > p.priceFrom
+      ? `$${p.priceFrom.toFixed(2)}–${p.priceTo.toFixed(2)} / piece`
+      : `From $${p.priceFrom.toFixed(2)} / piece`;
+
+export const PRODUCT_TYPE_OPTIONS = [
+  'Halloween Costumes',
+  'Movie, TV & Superhero',
+  'Anime & Cosplay',
+  'Kids, Princess & Party',
+  'Funny, Career & Novelty',
+  'Christmas & Thanksgiving',
+  'Custom OEM / ODM (my own design)',
+];
