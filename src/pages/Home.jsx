@@ -23,12 +23,24 @@ const BESTSELLER_IDS = [
   'beer-mug-kids',
 ];
 
+const SUPERHERO_IDS = [
+  'venom-symbiote',
+  'miles-morales-spiderman',
+  'spider-gwen',
+  'iron-spider',
+  'venom-carnage-red',
+  'deadpool-cosplay',
+  'captain-america-muscle',
+  'spiderman-peter-parker',
+];
+
 function SectionTag({ children, color = 'lime' }) {
   return <span className={`stag stag--${color}`}>{children}</span>;
 }
 
 export default function Home() {
   const bestsellers = BESTSELLER_IDS.map((id) => PRODUCTS.find((p) => p.id === id)).filter(Boolean);
+  const superheroPicks = SUPERHERO_IDS.map((id) => PRODUCTS.find((p) => p.id === id)).filter(Boolean);
   const collage = ['santa-family-set', 'sequin-princess-dress', 'lolita-catgirl-maid']
     .map((id) => PRODUCTS.find((p) => p.id === id))
     .filter(Boolean);
@@ -123,6 +135,33 @@ export default function Home() {
               );
             })}
           </div>
+        </div>
+      </section>
+
+      {/* ============ SUPERHERO HQ ============ */}
+      <section className="sec sec--ink herozone" id="superhero">
+        <div className="wrap">
+          <div className="sec__head">
+            <div>
+              <SectionTag color="sky">Now trending · Spider-Verse</SectionTag>
+              <h2>
+                Superhero HQ — <em>spider</em> bodysuits that move fast.
+              </h2>
+              <p className="herozone__lede">
+                One-piece muscle suits in Miles, Spider-Gwen, Venom &amp; more
+                styles. Low MOQ, wholesale price on request — tell us your
+                target market and we&rsquo;ll quote FOB.
+              </p>
+            </div>
+            <Link className="btn btn--lime btn--ghostlnk" to="/products?cat=movie">
+              All superhero styles <ArrowUpRight size={17} />
+            </Link>
+          </div>
+        </div>
+        <div className="wrap hg-grid">
+          {superheroPicks.map((p, i) => (
+            <ProductCard key={p.id} product={p} tone={i % 2 ? 'pink' : 'lime'} />
+          ))}
         </div>
       </section>
 

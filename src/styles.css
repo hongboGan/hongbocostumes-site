@@ -1205,3 +1205,10 @@ select.field { appearance: auto; }
     scroll-behavior: auto !important;
   }
 }
+
+/* Superhero HQ section (home) */
+.herozone__lede { max-width: 34rem; margin: 1rem 0 0; color: rgba(255,246,233,0.78); }
+.hg-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-top: 1.6rem; padding-bottom: 0.5rem; }
+@media (max-width: 1100px) { .hg-grid { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 760px)  { .hg-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 440px)  { .hg-grid { grid-template-columns: 1fr; } }
