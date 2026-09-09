@@ -6,6 +6,7 @@ import {
   PRODUCT_TYPE_OPTIONS,
   SITE,
   WA_DEFAULT,
+  getCategory,
   getProduct,
   waLink,
 } from '../data.js';
@@ -33,18 +34,7 @@ export default function Inquiry() {
 
   useEffect(() => {
     if (product) {
-      const catLabel =
-        product.cat === 'halloween'
-          ? 'Halloween Costumes'
-          : product.cat === 'movie'
-            ? 'Movie, TV & Superhero'
-            : product.cat === 'anime'
-              ? 'Anime & Cosplay'
-              : product.cat === 'kids'
-                ? 'Kids, Princess & Party'
-                : product.cat === 'funny'
-                  ? 'Funny, Career & Novelty'
-                  : 'Christmas & Thanksgiving';
+      const catLabel = getCategory(product.cat)?.label || '';
       setForm((f) => ({ ...f, productType: f.productType || catLabel }));
     }
   }, [product]);
