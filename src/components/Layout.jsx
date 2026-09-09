@@ -208,6 +208,11 @@ function WaFloat() {
 }
 
 export default function Layout() {
+  // Inquiry & product detail pages already have prominent in-page WhatsApp
+  // CTAs; hide the floating button there to avoid overlapping form fields.
+  const { pathname } = useLocation();
+  const hideFloat = pathname === '/inquiry' || /^\/products\/[^/]+\/?$/.test(pathname);
+
   return (
     <div className="site">
       <TopBar />
@@ -217,7 +222,7 @@ export default function Layout() {
         <Outlet />
       </main>
       <Footer />
-      <WaFloat />
+      {!hideFloat && <WaFloat />}
     </div>
   );
 }
