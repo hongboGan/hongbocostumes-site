@@ -87,7 +87,7 @@ export const CATEGORIES = [
     label: 'Superhero, Movie & TV',
     tag: 'Screen icons',
     blurb: 'Character-style jumpsuits and movie looks with custom 3D print options.',
-    image: 'https://sc04.alicdn.com/kf/H7d1ee8d69aaa44fa810adf96259119949/High-Quality-Custom-Logo-OEM-Costumes-Bodysuit.jpg',
+    image: '/products/custom-3d-bodysuit.jpg',
   },
   {
     id: 'anime',
@@ -190,8 +190,7 @@ export const PRODUCTS = [
     name: 'Custom 3D-Print Bodysuit Jumpsuit',
     fullTitle:
       'High Quality Custom Logo OEM Costumes Bodysuit 3D Print Adult Halloween Costume Custom Jumpsuit',
-    image:
-      'https://sc04.alicdn.com/kf/H7d1ee8d69aaa44fa810adf96259119949/High-Quality-Custom-Logo-OEM-Costumes-Bodysuit.jpg',
+    image: '/products/custom-3d-bodysuit.jpg',
     priceFrom: 1.8,
     priceTo: 9.9,
     url: 'https://www.alibaba.com/product-detail/High-Quality-Custom-Logo-OEM-Costumes_1601021299050.html',
@@ -204,8 +203,7 @@ export const PRODUCTS = [
     name: 'Moana Movie Maui Cosplay Set',
     fullTitle:
       'New Movie Moana 4 Costume Maui Cosplay Costume Girls Carnival Party Princess Moana Dress With Necklace',
-    image:
-      'https://sc04.alicdn.com/kf/H57b082f399444e79b003f49967717651i/New-Movie-Moana-4-Costume-Maui-Cosplay.jpg',
+    image: '/products/moana-maui-set.jpg',
     priceFrom: null,
     priceTo: null,
     url: 'https://www.alibaba.com/product-detail/New-Movie-Moana-4-Costume-Maui_1601256496495.html',
