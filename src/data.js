@@ -662,7 +662,7 @@ export const PRODUCTS = [
     name: 'Miles Morales Spider-Man Style Bodysuit',
     fullTitle:
       'Spider-Verse hero bodysuit — Miles Morales style muscle-print one-piece, kids & adult sizes',
-    image: 'https://cbu01.alicdn.com/img/ibank/O1CN01mb7J8o1zrngziVqmZ_!!4120606768-0-cib.jpg',
+    image: '/products/miles-morales-spiderman.jpg',
     priceFrom: 4.96,
     priceTo: null,
     url: 'https://detail.1688.com/offer/1057529956433.html',
@@ -675,7 +675,7 @@ export const PRODUCTS = [
     name: 'Spider-Gwen Style Bodysuit',
     fullTitle:
       'Spider-Gwen style zipped muscle bodysuit — Spider-Verse cosplay for kids & adults',
-    image: 'https://cbu01.alicdn.com/img/ibank/O1CN01wyDtY61zrngzXDhlK_!!4120606768-0-cib.jpg',
+    image: '/products/spider-gwen.jpg',
     priceFrom: 6.76,
     priceTo: null,
     url: 'https://detail.1688.com/offer/1057546484270.html',
@@ -688,7 +688,7 @@ export const PRODUCTS = [
     name: 'Iron Spider Style Bodysuit',
     fullTitle:
       'Iron Spider style one-piece muscle bodysuit — armored hero cosplay for kids & adults',
-    image: 'https://cbu01.alicdn.com/img/ibank/O1CN011TAuqJ1zrngzlCDah_!!4120606768-0-cib.jpg',
+    image: '/products/iron-spider.jpg',
     priceFrom: 6.76,
     priceTo: null,
     url: 'https://detail.1688.com/offer/1048003693133.html',
@@ -701,7 +701,7 @@ export const PRODUCTS = [
     name: 'Venom Symbiote Style Bodysuit',
     fullTitle:
       'Venom symbiote style muscle bodysuit — black hero one-piece for kids & men, cross-border favorite',
-    image: 'https://cbu01.alicdn.com/img/ibank/O1CN01OnmygB1zrngzRygch_!!4120606768-0-cib.jpg',
+    image: '/products/venom-symbiote.jpg',
     priceFrom: 7.44,
     priceTo: null,
     url: 'https://detail.1688.com/offer/677781421791.html',
@@ -714,7 +714,7 @@ export const PRODUCTS = [
     name: 'Spider-Man Movie Style Bodysuit (Peter Parker)',
     fullTitle:
       'Marvel Spider-Man 4 Peter Parker style muscle one-piece — movie same-style Halloween cosplay',
-    image: 'https://cbu01.alicdn.com/img/ibank/O1CN01Her9b41zrnhwuZdwu_!!4120606768-0-cib.jpg',
+    image: '/products/spiderman-peter-parker.jpg',
     priceFrom: 7.89,
     priceTo: null,
     url: 'https://detail.1688.com/offer/1044012337052.html',
@@ -727,7 +727,7 @@ export const PRODUCTS = [
     name: 'Carnage Red Venom Style Bodysuit',
     fullTitle:
       'Venom 2 red Carnage style hero one-piece — movie same-style Halloween performance bodysuit',
-    image: 'https://cbu01.alicdn.com/img/ibank/O1CN0155MvAA1zrnh02IjA8_!!4120606768-0-cib.jpg',
+    image: '/products/venom-carnage-red.jpg',
     priceFrom: 6.76,
     priceTo: null,
     url: 'https://detail.1688.com/offer/1055943056841.html',
@@ -740,7 +740,7 @@ export const PRODUCTS = [
     name: 'Flash Venom Style Bodysuit',
     fullTitle:
       'Flashy Venom style iridescent one-piece — glowing web print for stage & Halloween',
-    image: 'https://cbu01.alicdn.com/img/ibank/O1CN01jM8Zgg1zrngzDcCNU_!!4120606768-0-cib.jpg',
+    image: '/products/lightning-venom.jpg',
     priceFrom: 9.01,
     priceTo: null,
     url: 'https://detail.1688.com/offer/678350480192.html',
@@ -753,7 +753,7 @@ export const PRODUCTS = [
     name: 'Venom & Black Panther Style Kids Bodysuit',
     fullTitle:
       'Venom series & Black Panther style kids muscle bodysuit with hood — hero cosplay one-piece for children',
-    image: 'https://cbu01.alicdn.com/img/ibank/O1CN01TtWF7P1zrngz73lbe_!!4120606768-0-cib.jpg',
+    image: '/products/venom-blackpanther-kids.jpg',
     priceFrom: 7.44,
     priceTo: null,
     url: 'https://detail.1688.com/offer/974035074934.html',
@@ -766,7 +766,7 @@ export const PRODUCTS = [
     name: 'Captain America Style Muscle Bodysuit',
     fullTitle:
       'Avengers Captain America style kids muscle one-piece — star-print hero bodysuit for Halloween',
-    image: 'https://cbu01.alicdn.com/img/ibank/O1CN01rltF1B1zrnh0Dly5r_!!4120606768-0-cib.jpg',
+    image: '/products/captain-america-muscle.jpg',
     priceFrom: 7.44,
     priceTo: null,
     url: 'https://detail.1688.com/offer/970052340311.html',
@@ -779,7 +779,7 @@ export const PRODUCTS = [
     name: 'Deadpool Style Cosplay Bodysuit',
     fullTitle:
       'Deadpool style stage performance bodysuit — red & black hero one-piece for kids & men',
-    image: 'https://cbu01.alicdn.com/img/ibank/O1CN01K8yWiP1zrngzx5eeC_!!4120606768-0-cib.jpg',
+    image: '/products/deadpool-cosplay.jpg',
     priceFrom: 7.89,
     priceTo: null,
     url: 'https://detail.1688.com/offer/678069917532.html',
@@ -792,7 +792,7 @@ export const PRODUCTS = [
     name: 'Wolverine Style Cosplay Bodysuit',
     fullTitle:
       'Wolverine & Deadpool 3 style cosplay one-piece — claw-print hero bodysuit for stage',
-    image: 'https://cbu01.alicdn.com/img/ibank/O1CN01XCesrj1zrnh00DfnS_!!4120606768-0-cib.jpg',
+    image: '/products/wolverine-deadpool3.jpg',
     priceFrom: 7.89,
     priceTo: null,
     url: 'https://detail.1688.com/offer/971543476372.html',
@@ -805,7 +805,7 @@ export const PRODUCTS = [
     name: 'Marvel Superhero Capes Set',
     fullTitle:
       'Reversible hero capes — Spider-Man, Superman, Captain America, Batman & Iron Man styles for stage & parade',
-    image: 'https://cbu01.alicdn.com/img/ibank/O1CN010vfjBb1zrnh2vSUKX_!!4120606768-0-cib.jpg',
+    image: '/products/hero-capes-set.jpg',
     priceFrom: 2.03,
     priceTo: null,
     url: 'https://detail.1688.com/offer/1047498472235.html',
