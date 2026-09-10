@@ -66,17 +66,19 @@ export default function Inquiry() {
         },
         body: JSON.stringify(payload),
       });
-      if (!res.ok) throw new Error('bad status');
-      const data = await res.json();
-      if (data && data.success === 'true') {
+      const data = await res.json().catch(() => null);
+      if (res.ok && data && String(data.success) === 'true') {
         setStatus('ok');
       } else {
-        throw new Error('rejected');
+        throw new Error((data && data.message) || `Form service error (${res.status})`);
       }
     } catch (err) {
       setStatus('error');
+      const detail = String((err && err.message) || '');
       setErrorMsg(
-        'The form service could not be reached. Please use the WhatsApp or email buttons below — we usually reply within hours.'
+        /activat/i.test(detail)
+          ? 'Our form service is being activated right now. Please use the WhatsApp or email buttons below — we usually reply within hours.'
+          : 'The form service could not be reached. Please use the WhatsApp or email buttons below — we usually reply within hours.'
       );
     }
   }
