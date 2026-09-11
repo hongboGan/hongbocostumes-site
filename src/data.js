@@ -22,14 +22,6 @@ export const WA_DEFAULT = waLink(
   `Hi ${SITE.name}! I'm interested in your costumes. Could you send me the catalog and wholesale prices?`
 );
 
-export const HERO_IMAGES = [
-  'https://sc04.alicdn.com/kf/H28e456cb9ff14f99bc2fa323e422d4c2U/276291960/H28e456cb9ff14f99bc2fa323e422d4c2U.png',
-  'https://sc04.alicdn.com/kf/Hf6fde6294969419b881a5c348755153eo/276291960/Hf6fde6294969419b881a5c348755153eo.jpg',
-  'https://sc04.alicdn.com/kf/Hfab37dfe6bd4493bb240672ca91210211/276291960/Hfab37dfe6bd4493bb240672ca91210211.jpg',
-  'https://sc04.alicdn.com/kf/Hde549176b01440dca97e99599fb9192aT/276291960/Hde549176b01440dca97e99599fb9192aT.jpg',
-  'https://sc04.alicdn.com/kf/H78064ef9b0564b38a2db34779a57e691f/276291960/H78064ef9b0564b38a2db34779a57e691f.jpg',
-];
-
 export const COMPANY = {
   headline: 'A costume factory that moves as fast as your selling season.',
   stats: [
