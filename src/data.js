@@ -656,7 +656,7 @@ export const PRODUCTS = [
   {
     id: 'miles-morales-spiderman',
     cat: 'movie',
-    ali: '1688 超级英雄(蜘蛛侠-迈尔斯)',
+    ali: '1688 - Superhero (Spider-Man / Miles Morales)',
     name: 'Miles Morales Spider-Man Style Bodysuit',
     fullTitle:
       'Spider-Verse hero bodysuit — Miles Morales style muscle-print one-piece, kids & adult sizes',
@@ -669,7 +669,7 @@ export const PRODUCTS = [
   {
     id: 'spider-gwen',
     cat: 'movie',
-    ali: '1688 超级英雄(蜘蛛侠-格温)',
+    ali: '1688 - Superhero (Spider-Gwen)',
     name: 'Spider-Gwen Style Bodysuit',
     fullTitle:
       'Spider-Gwen style zipped muscle bodysuit — Spider-Verse cosplay for kids & adults',
@@ -682,7 +682,7 @@ export const PRODUCTS = [
   {
     id: 'iron-spider',
     cat: 'movie',
-    ali: '1688 超级英雄(蜘蛛侠/钢铁蜘蛛款)',
+    ali: '1688 - Superhero (Iron Spider)',
     name: 'Iron Spider Style Bodysuit',
     fullTitle:
       'Iron Spider style one-piece muscle bodysuit — armored hero cosplay for kids & adults',
@@ -695,7 +695,7 @@ export const PRODUCTS = [
   {
     id: 'venom-symbiote',
     cat: 'movie',
-    ali: '1688 超级英雄(毒液)',
+    ali: '1688 - Superhero (Venom)',
     name: 'Venom Symbiote Style Bodysuit',
     fullTitle:
       'Venom symbiote style muscle bodysuit — black hero one-piece for kids & men, cross-border favorite',
@@ -708,7 +708,7 @@ export const PRODUCTS = [
   {
     id: 'spiderman-peter-parker',
     cat: 'movie',
-    ali: '1688 超级英雄(蜘蛛侠-彼得·帕克)',
+    ali: '1688 - Superhero (Peter Parker)',
     name: 'Spider-Man Movie Style Bodysuit (Peter Parker)',
     fullTitle:
       'Marvel Spider-Man 4 Peter Parker style muscle one-piece — movie same-style Halloween cosplay',
@@ -721,7 +721,7 @@ export const PRODUCTS = [
   {
     id: 'venom-carnage-red',
     cat: 'movie',
-    ali: '1688 超级英雄(毒液/屠杀)',
+    ali: '1688 - Superhero (Carnage)',
     name: 'Carnage Red Venom Style Bodysuit',
     fullTitle:
       'Venom 2 red Carnage style hero one-piece — movie same-style Halloween performance bodysuit',
@@ -734,7 +734,7 @@ export const PRODUCTS = [
   {
     id: 'lightning-venom',
     cat: 'movie',
-    ali: '1688 超级英雄(毒液-炫彩)',
+    ali: '1688 - Superhero (Iridescent Venom)',
     name: 'Flash Venom Style Bodysuit',
     fullTitle:
       'Flashy Venom style iridescent one-piece — glowing web print for stage & Halloween',
@@ -747,7 +747,7 @@ export const PRODUCTS = [
   {
     id: 'venom-blackpanther-kids',
     cat: 'movie',
-    ali: '1688 超级英雄(毒液系列/多角色儿童款)',
+    ali: '1688 - Superhero (Kids multi-character)',
     name: 'Venom & Black Panther Style Kids Bodysuit',
     fullTitle:
       'Venom series & Black Panther style kids muscle bodysuit with hood — hero cosplay one-piece for children',
@@ -760,7 +760,7 @@ export const PRODUCTS = [
   {
     id: 'captain-america-muscle',
     cat: 'movie',
-    ali: '1688 超级英雄(美国队长)',
+    ali: '1688 - Superhero (Captain America)',
     name: 'Captain America Style Muscle Bodysuit',
     fullTitle:
       'Avengers Captain America style kids muscle one-piece — star-print hero bodysuit for Halloween',
@@ -773,7 +773,7 @@ export const PRODUCTS = [
   {
     id: 'deadpool-cosplay',
     cat: 'movie',
-    ali: '1688 超级英雄(死侍)',
+    ali: '1688 - Superhero (Deadpool)',
     name: 'Deadpool Style Cosplay Bodysuit',
     fullTitle:
       'Deadpool style stage performance bodysuit — red & black hero one-piece for kids & men',
@@ -786,7 +786,7 @@ export const PRODUCTS = [
   {
     id: 'wolverine-deadpool3',
     cat: 'movie',
-    ali: '1688 超级英雄(金刚狼/死侍3合集)',
+    ali: '1688 - Superhero (Wolverine)',
     name: 'Wolverine Style Cosplay Bodysuit',
     fullTitle:
       'Wolverine & Deadpool 3 style cosplay one-piece — claw-print hero bodysuit for stage',
@@ -799,7 +799,7 @@ export const PRODUCTS = [
   {
     id: 'hero-capes-set',
     cat: 'props',
-    ali: '1688 超级英雄披风/配饰',
+    ali: '1688 - Superhero capes & accessories',
     name: 'Marvel Superhero Capes Set',
     fullTitle:
       'Reversible hero capes — Spider-Man, Superman, Captain America, Batman & Iron Man styles for stage & parade',
