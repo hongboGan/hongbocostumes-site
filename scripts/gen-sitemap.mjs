@@ -4,6 +4,7 @@ import { writeFileSync, mkdirSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { PRODUCTS, CATEGORIES } from '../src/data.js';
+import { BLOG_POSTS } from '../src/content/blog.js';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const BASE = 'https://www.hongbocostumes.com';
@@ -23,11 +24,18 @@ const urls = [
     freq: 'monthly',
   })),
   { loc: `${BASE}/inquiry`, priority: '0.9', freq: 'yearly' },
+  { loc: `${BASE}/blog`, priority: '0.9', freq: 'daily' },
+  ...BLOG_POSTS.map((p) => ({
+    loc: `${BASE}/blog/${p.slug}`,
+    priority: '0.7',
+    freq: 'monthly',
+    lastmod: p.date,
+  })),
 ];
 
 const body = urls
   .map(
-    (u) => `  <url>\n    <loc>${u.loc}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>${u.freq}</changefreq>\n    <priority>${u.priority}</priority>\n  </url>`
+    (u) => `  <url>\n    <loc>${u.loc}</loc>\n    <lastmod>${u.lastmod || today}</lastmod>\n    <changefreq>${u.freq}</changefreq>\n    <priority>${u.priority}</priority>\n  </url>`
   )
   .join('\n');
 

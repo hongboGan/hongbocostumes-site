@@ -70,6 +70,9 @@ function Header() {
               </Link>
             </span>
           </span>
+          <NavLink to="/blog" className={({ isActive }) => (isActive ? 'nav__link on' : 'nav__link')}>
+            Blog
+          </NavLink>
           <NavLink to="/inquiry" className={({ isActive }) => (isActive ? 'nav__link on' : 'nav__link')}>
             Inquiry
           </NavLink>
@@ -104,6 +107,9 @@ function Header() {
           ))}
           <Link to="/products" className="mnav__l">
             View all products
+          </Link>
+          <Link to="/blog" className="mnav__l">
+            Blog — trend notes
           </Link>
           <Link to="/inquiry" className="mnav__l mnav__cta">
             Get a Quote <ArrowUpRight size={16} />
@@ -169,6 +175,7 @@ function Footer() {
           <p className="footer__h">Company</p>
           <Link to="/">Home</Link>
           <Link to="/products">Products</Link>
+          <Link to="/blog">Blog &amp; insights</Link>
           <Link to="/inquiry">Request a quote</Link>
           <a href="https://ouwanni.en.alibaba.com/" target="_blank" rel="noreferrer">
             Full catalog on Alibaba →
