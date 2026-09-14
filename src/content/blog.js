@@ -4,6 +4,72 @@
 
 export const BLOG_POSTS = [
   {
+    slug: 'spiderman-suit-fit-guide-sizing',
+    title: 'Spider-Man Suit Fit Guide: The Questions Buyers Ask Before They Order',
+    date: '2026-09-14',
+    tags: ['Cosplay', 'Sizing', 'Buying guide'],
+    cover: '/products/spiderman-peter-parker.jpg',
+    excerpt:
+      'Height vs chest sizing, stretch behaviour and layering \u2014 the fit questions cosplay communities repeat every autumn, answered for buyers and retailers.',
+    sources: [
+      'r/CosplayHelp fit & stretch threads',
+      'r/cosplayers bodysuit fitting discussions',
+      'r/CosplayHelp Spider-Man 2099 suit requests',
+    ],
+    body: `Every September the same questions fill hero-suit threads: *will it fit?*, *how stretchy is it?*, *what do I wear underneath?* They come from cosplayers, from parents buying for teenagers, and increasingly from retailers who are tired of returns. Here is the practical version of what those discussions keep concluding.
+
+## Measure height first, chest second
+
+Most hero suits are sold by **height band**, not chest size \u2014 and height is what people actually complain about, because it decides torso and inseam length.
+
+- Under 165 cm: expect to shorten the legs on an adult-cut suit.
+- 165\u2013185 cm: the standard bands cover nearly everyone.
+- Over 190 cm: ask for custom length on the torso and sleeves.
+
+Chest measurement mainly decides whether the zip closes comfortably \u2014 not whether the suit looks right.
+
+## How a stretch suit really behaves
+
+- A four-way stretch blend (polyester/spandex) typically absorbs **5\u20138 cm** of difference. It does not fix a wrong height band.
+- The fabric relaxes after the first wear, so a suit that feels snug in the mirror is usually correct.
+- 3D-printed texture panels add stiffness at the shoulders and chest. That is intentional; it is what makes the suit read as "muscle" in photos.
+
+## Layering: what to wear underneath
+
+The community answer is consistent and cheap to follow:
+
+- **Compression shorts or a dance belt** under a full-body suit \u2014 keeps the silhouette clean and prevents chafing.
+- Skip thick cotton: it binds at the knees and elbows and shows through lighter colours.
+- For masks, a face shell plus a thin balaclava hood keeps the eye openings aligned, and anti-fog treatment stops the lenses misting.
+
+## Kids' sizing and safety
+
+- Check neck clearance first. A suit should never be tight at the throat.
+- Prefer covered or guarded zips on children's lines.
+- Needle detection and fibre-content labelling are baseline compliance items for kids' costumes in the EU and US.
+- Buy one size up for growing kids \u2014 a slightly loose hero suit looks better than a tight one.
+
+## For retailers: publish a chart that stops returns
+
+- Give a **height-based table** plus one line telling buyers to measure the person, not their usual size tag.
+- State the stretch tolerance (5\u20138 cm) so people order correctly the first time.
+- Keep a few mask-only SKUs: low shipping weight, easy basket filler next to any suit.
+- Offer custom sizing on hero suits \u2014 it converts well on premium requests and differentiates you from marketplaces.
+
+Styles where fit questions come up most often in our line: the [Miles Morales style suit](/products/miles-morales-spiderman), the [Spider-Gwen style suit](/products/spider-gwen), the [Venom symbiote-style suit](/products/venom-symbiote) and the metallic [Iron Spider style suit](/products/iron-spider). For fully custom graphics and measurements, there is the [made-to-order 3D bodysuit](/products/custom-3d-bodysuit).
+
+## Pre-order checklist
+
+- Height band first, chest second
+- Assume 5\u20138 cm of stretch, no more
+- Compression layer underneath, never cotton
+- Check mask eye alignment before buying
+- Kids: neck clearance + compliance labels
+- Ask for a size chart, and a sample on larger orders
+
+Need wholesale pricing, a height-based size chart or a sample before your autumn order? [Send an inquiry](/inquiry) with your sizes and target quantity \u2014 most hero bodysuits are quoted within one business day. Prefer chatting? Message us on WhatsApp and we will send fabric options and the current size chart.`,
+  },
+  {
     slug: 'spiderman-bodysuits-fastest-selling-cosplay-2026',
     title: 'Spider-Man Bodysuits Are the Fastest-Selling Cosplay Item This Season',
     date: '2026-09-11',
