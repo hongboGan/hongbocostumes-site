@@ -4,6 +4,62 @@
 
 export const BLOG_POSTS = [
   {
+    slug: 'creepy-adult-halloween-costumes-that-deliver',
+    title: 'Genuinely Scary Halloween Costumes That Actually Deliver (and How to Stock Them)',
+    date: '2026-09-15',
+    tags: ['Halloween', 'Horror', 'Buying guide'],
+    cover: 'https://sc04.alicdn.com/kf/H954ba1514f2c4aad97419e5e793564eco/Adult-Bloody-Bride-Costume-Red-Sleeveless-Tulle.jpg',
+    excerpt:
+      'Silhouette, texture and movement decide whether a horror costume frightens or just looks like a costume. What buyers should look for \u2014 and what retailers should stock for October.',
+    sources: [
+      'r/halloween creepy-costume request threads',
+      'r/Halloween_Costumes scary costume idea discussions',
+      'r/AskReddit genuinely-scary costume threads',
+    ],
+    body: `Ask any costume community for a "genuinely scary" idea and the same complaint shows up: most store-bought horror costumes read as *a costume*, not a threat. The difference is rarely price. It is **silhouette, texture and movement** \u2014 and those three things decide whether a piece looks frightening in a dark room or under a phone flash.
+
+## What "genuinely scary" actually means
+
+- **Silhouette first.** A strong shape \u2014 veil, cape, trailing hem, exaggerated shoulders \u2014 registers from three metres away, which is where photos and party judgement actually happen.
+- **Texture over print.** Matte tulle, distressed gauze and dull velvet look expensive and unsettling. Shiny satin photographs as "party costume".
+- **A degree of unknowability.** A partially hidden face (mask, hood, veil) unsettles more than a fully detailed one.
+- **Movement.** Layered hems and trailing sleeves create the sense that something is *moving toward you*. Static garments simply look like clothes.
+
+## Five styles that consistently deliver
+
+1. **[Bloody bride-style gown](/products/bloody-bride)** \u2014 tiered tulle, lace veil and a black belt. The silhouette does all the work; no gore props needed.
+2. **[Skull king set](/products/skull-king)** \u2014 bone mask plus cape and armour panels. Reads as a character from a distance, not as a printed suit.
+3. **[Retro clown](/products/retro-clown)** \u2014 vintage two-tone jumpsuit with ruffled collar. Uncanny without being gory, so it works at family-friendly events too.
+4. **[Mummy hooded set](/products/mummy-kids)** \u2014 the horror look children can wear comfortably: soft gauze panels, no trailing fabric near the feet.
+5. **[Half-face phantom mask](/products/phantom-mask)** \u2014 the cheapest upgrade in the category. Put it with any formal black outfit and the look changes immediately.
+
+## Layering and finishing details
+
+- Keep makeup **matte**; a dewy base under a mask looks like a costume, not a creature.
+- Cover wrists and neck with gloves or a high collar. Bare skin breaks the illusion faster than anything else.
+- Test any lenses or prosthetics a week early \u2014 comfort on the night matters more than a detail nobody will see.
+- Bring a compact mirror: party lighting hides detail you will notice in every photo tomorrow.
+
+## For retailers: stocking horror without overstocking
+
+- **Colourways decide sell-through.** In adult horror, black, oxblood, bone and moss outsell bright palettes; keep brights for kids and novelty.
+- **Accessory margin is real.** Veils, hoods, gloves and masks ship cheap and lift average order value \u2014 attach one to every horror style.
+- **Adults buy late.** Most adult purchases land in the first two weeks of October, so hold M/L/XL depth rather than spreading stock thin across sizes.
+- **Plan the cut-off.** Bulk production typically runs 10\u201320 days plus freight; October demand has to be committed in September.
+- **Compliance still applies.** Kids' horror lines need neck clearance, guarded zips and fibre-content labels regardless of the theme.
+
+## Quick order checklist
+
+- Does the silhouette read from three metres?
+- Is the main fabric matte rather than shiny?
+- Does the mask or hood leave room for makeup?
+- Are wrists and neck covered?
+- Kids' version: comfort, clearance and labels
+- Lead time works back from your October date
+
+Want wholesale pricing on horror styles, or fabric samples for the veil and gauze pieces? [Send an inquiry](/inquiry) with the styles, quantities and destination market \u2014 we reply within one business day. Prefer chatting? Message us on WhatsApp and we will send the current stock list and fabric options.`,
+  },
+  {
     slug: 'spiderman-suit-fit-guide-sizing',
     title: 'Spider-Man Suit Fit Guide: The Questions Buyers Ask Before They Order',
     date: '2026-09-14',
