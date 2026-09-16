@@ -4,6 +4,58 @@
 
 export const BLOG_POSTS = [
   {
+    slug: 'family-group-costume-themes-that-work',
+    title: 'Family and Group Costume Themes That Actually Work (Pairings, Sizing and What to Stock)',
+    date: '2026-09-16',
+    tags: ['Group costumes', 'Family', 'Buying guide'],
+    cover: '/products/hero-capes-set.jpg',
+    excerpt:
+      'Family and group costumes are the highest-intent order in the category. How to build a coordinated set that photographs as one group \u2014 and how retailers should stock it.',
+    sources: [
+      'r/Halloween_Costumes family and large-group thread themes',
+      'r/toddlers family costume request discussions',
+      'r/Parenting Halloween planning threads',
+    ],
+    body: `Ask a costume community for family ideas and a pattern appears immediately: the requests that attract the most replies are never about a single costume. They are about **how to make five people look like one group** \u2014 without a sewing machine, a large budget, or a last-minute panic on 30 October.
+
+## Why group themes keep winning
+
+Family and group costumes have quietly become the highest-intent order in the category. Parents plan earlier than solo buyers, they need several units per order, and they care about one thing above everything else: that the set reads as a set. Retailers feel the same pull \u2014 a themed group sells three to five garments instead of one.
+
+## Four theme structures that consistently work
+
+1. **Same character, different sizes.** One iconic look repeated across ages. The easiest structure to buy and the most recognisable in photographs.
+2. **One team, different heroes.** A cape-and-mask set lets every child choose a different hero while the group still reads as one unit \u2014 [the five-in-one hero cape set](/products/hero-capes-set) exists precisely for this.
+3. **Adult-and-child pairs.** One adult and one child in a matched pairing: a parent-and-child [Moana and Maui set](/products/moana-maui-set), or a [Spider-Gwen](/products/spider-gwen) and [Miles Morales](/products/miles-morales-spiderman) pairing for siblings.
+4. **A shared world rather than a shared character.** Adults in one dark [horror-styled gown](/products/bloody-bride) and children in matching [kids' hooded bodysuits](/products/venom-blackpanther-kids) \u2014 the theme carries the group, not the individual costume.
+
+## Sizing rules that prevent returns
+
+- **Buy to the largest measurement, not the average.** Height decides length; chest and waist decide fit. When in doubt, size children up \u2014 they layer.
+- **Check the neck and the ankle.** Trailing hems and stiff collars are returned more often than genuine fit problems.
+- **Confirm the colour match.** Two "black" costumes from different suppliers rarely match under party lighting; order every piece from one line.
+- **Plan for one child changing their mind.** Offer a cape, mask or accessory as a backup \u2014 the cheapest fix that saves the whole group photo.
+
+## For retailers: sell the kit, not the piece
+
+- **Bundle by theme, price by group.** A three-item kit converts better than three separate listings and lifts average order value without discounting.
+- **Carry a full size run, not a full style run.** Depth in S-XL across two themes outsells six styles in one size.
+- **Watch the calendar.** Group buyers shop earliest; most family orders land in September and the first week of October.
+- **Stock accessories in multiples.** Masks, capes and gloves sell out first and cost least to ship.
+- **Kids' lines carry compliance.** Neck clearance, guarded fastenings and fibre-content labels apply regardless of the theme.
+
+## Quick group-planning checklist
+
+- One theme, decided before shopping
+- Every member's height and chest measurement
+- All pieces from a single line, for colour match
+- One backup accessory per child
+- Sizes confirmed two weeks before the event
+- Lead time allowed: 10-20 days production plus freight
+
+Building a family or group range for your store, or ordering matched sets for a themed event? [Send an inquiry](/inquiry) with your theme, quantities and size split \u2014 we reply within one business day. Prefer to talk it through? Message us on WhatsApp and we will send fabric options and the current group-set stock list.`,
+  },
+  {
     slug: 'creepy-adult-halloween-costumes-that-deliver',
     title: 'Genuinely Scary Halloween Costumes That Actually Deliver (and How to Stock Them)',
     date: '2026-09-15',
