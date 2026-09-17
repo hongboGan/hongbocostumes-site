@@ -4,6 +4,59 @@
 
 export const BLOG_POSTS = [
   {
+    slug: 'inclusive-costume-sizing-extended-size-ranges',
+    title: 'Inclusive Costume Sizing: Why One-Piece Suits Fail and How Extended Size Ranges Win',
+    date: '2026-09-17',
+    tags: ['Sizing', 'Cosplay', 'Buying guide'],
+    cover: '/products/venom-symbiote.jpg',
+    excerpt:
+      'One-piece suits fail on torso length, stretch percentage and zip design \u2014 not on weight. What buyers should measure, and how retailers extend a size range without doubling stock.',
+    sources: [
+      'r/CosplayHelp plus-size and one-piece fit threads',
+      'r/cosplayers bodysuit alteration discussions',
+      'r/PlusSizeFashion costume sizing threads',
+    ],
+    body: `Search any cosplay help community for sizing and the same question repeats in a dozen forms: the suit fits in the shoulders and nowhere else. A one-piece costume is unforgiving \u2014 there is no waistband to adjust and no hem to let down. Understanding **where a one-piece fails** is the difference between a costume a buyer keeps and one that comes back.
+
+## Why one-piece suits fail different bodies
+
+- **Torso length, not weight, causes most problems.** A size chart built on bust and waist says nothing about the distance from shoulder to crotch. A tall buyer in a correctly "sized" suit can end up with fabric that pulls down at the shoulders.
+- **Stretch percentage decides forgiveness.** Spandex blends with four-way stretch recover after being pulled; low-stretch polyester prints do not, and they turn shiny at the seams where they strain.
+- **A short zip is a design flaw.** If the zipper stops at mid-back, the suit cannot be stepped into. Buyers outside the standard range need a full-length or back-to-neck zip.
+- **Bust, waist and hip are rarely proportional.** Grading a pattern up in equal steps assumes a body shape few people have.
+
+## A measurement checklist that prevents returns
+
+- **Height plus torso length.** Measure shoulder-to-crotch as well as standing height.
+- **Bust, waist and hip separately.** Take the largest measurement and size to that; padding can fill a loose area, but nothing fixes a suit that will not close.
+- **Shoulder width and sleeve length** for anything with attached armour or a hood.
+- **Ask what the zip does.** Full-length, or back-to-neck.
+- **Ask how the fabric behaves under stretch.** A four-way stretch knit is worth the difference in price.
+
+## Extended sizes without doubling your stock
+
+- **Grade two jumps, not ten sizes.** Take a core range and extend it upward by two sizes \u2014 most of the demand sits in the first step up.
+- **Hold depth in black and the best-selling hero colours**, rather than spreading thin across every print.
+- **Offer made-to-measure on top sellers.** [Custom-size bodysuits](/products/custom-3d-bodysuit) answer the fit complaint directly and carry a higher margin than stock sizes.
+- **Publish a measurement table per style.** Buyers comparing two listings choose the one that gives them numbers.
+- **Validate the pattern on one style first.** A [symbiote-style suit](/products/venom-symbiote) and an [armoured muscle suit](/products/captain-america-muscle) need different grading, so prove the extended range on one before scaling the category.
+
+## Styles that tolerate extended grading
+
+Prints that run edge to edge across the body photograph every point of strain. Darker, textured or panel-constructed styles \u2014 a [Spider-Gwen suit](/products/spider-gwen) or a [Deadpool bodysuit](/products/deadpool-cosplay) \u2014 absorb that strain visually while keeping the character readable from across a room.
+
+## Quick order checklist
+
+- Height and shoulder-to-crotch measured
+- Bust, waist and hip taken separately, sized to the largest
+- Four-way stretch confirmed
+- Zip type confirmed
+- Size table published with the listing
+- Extended sizes validated on one style before rollout
+
+Building an extended size range, or ordering one-piece suits for a market where fit is the leading complaint? [Send an inquiry](/inquiry) with the styles, your size curve and your target market \u2014 we will send grading options and fabric specifications within one business day. Prefer to talk it through? Message us on WhatsApp for the current size chart.`,
+  },
+  {
     slug: 'family-group-costume-themes-that-work',
     title: 'Family and Group Costume Themes That Actually Work (Pairings, Sizing and What to Stock)',
     date: '2026-09-16',
