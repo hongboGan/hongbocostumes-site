@@ -4,6 +4,54 @@
 
 export const BLOG_POSTS = [
   {
+    slug: 'career-day-costumes-kids-class-sets',
+    title: 'Career Day Costumes for Kids: What Schools Ask For and How to Sell Class Sets',
+    date: '2026-09-18',
+    tags: ['Kids', 'School events', 'Buying guide'],
+    cover: 'https://sc04.alicdn.com/kf/Hc0ae6a3c0ff746eb821f7b0b0622ab02I/Children-s-Halloween-Firefighter-Performance-Stage-Costumes.jpg',
+    excerpt:
+      'Career day, community helper week and "when I grow up" day run all year. Schools want layerable, photo-ready costumes without masks \u2014 and they buy by the class, not the unit.',
+    sources: [
+      'r/ElementaryTeachers career day costume threads',
+      'r/Parenting career day presentation discussions',
+      'r/Halloween_Costumes school and workplace costume threads',
+    ],
+    body: `Career day, community helper week, book week, "when I grow up" day \u2014 schools run dress-up events all year, and they all ask for the same thing: **a costume a child can pull on over their uniform, recognise in a photograph, and take off unaided at break**. That is a different product from a Halloween costume, and most suppliers get it wrong.
+
+## What schools actually ask for
+
+- **Layerable pieces, not full suits.** A vest, a hat, a badge and one prop solve career day. Full-body costumes are hot by ten in the morning and impossible in a school bathroom.
+- **The career all-stars.** Firefighter, police officer, doctor, nurse, vet, paramedic, scientist and construction worker cover the overwhelming majority of themes teachers set.
+- **No full-face coverage.** Masks are banned in most school settings; anything that covers the face or restricts sight is a non-starter.
+- **Props that are accessories, not weapons.** Anything resembling a weapon is excluded by school policy. Hats, stethoscopes and tool belts are not.
+
+## The styles that sell for career events
+
+- **[Kids' firefighter set](/products/firefighter-kids)** \u2014 the most requested career of all; the coat carries the entire costume.
+- **[Boys' police set](/products/cop-boys)** and the **[girls' crossing guard set](/products/crossing-guard-girls)** \u2014 school-safety themes, and both layer easily over a uniform.
+- **[Pink nurse set](/products/pink-nurse-girls)** and the **[six-piece doctor and surgeon set](/products/surgeon-dr-set)** \u2014 the props do the work, so the garment stays simple.
+- **[Scientist lab coat set](/products/scientist-lab-coat)** \u2014 the fastest-growing theme, and the easiest to re-target as a STEM event rather than a career event.
+
+## For suppliers: selling to schools, not just parents
+
+- **Price class sets, not single units.** Parent-teacher associations buy twenty to thirty units at once. Quote a per-class price with a size mix included, instead of asking them to pick sizes themselves.
+- **Sell accessory packs alongside.** Badges, hats and stethoscopes ship cheaply and let a school stretch one set of costumes across two year groups.
+- **Publish a size table in age terms.** Schools think in ages and heights, not dress sizes \u2014 list both.
+- **Follow the school calendar.** Career days cluster in the autumn term and again in spring. Orders need to be placed four to six weeks ahead, not in the week of the event.
+- **Compliance is the differentiator.** Neck clearance, guarded fastenings, fibre-content labels and no flame-risk trims. Unbranded marketplace sellers routinely fail this on kids' lines.
+
+## A checklist before you quote a school
+
+- Layerable over uniform, removable without help
+- Career theme confirmed against the school's list
+- No masks and no weapon props
+- Ages mapped to a published size table
+- Class-set pricing and size mix quoted
+- Lead time works back from the event date
+
+Supplying a school, a PTA fundraiser or a theme week? [Send an inquiry](/inquiry) with the career themes, quantity per class and age ranges \u2014 we will send class-set pricing, size mixes and compliance documentation within one business day. Prefer to talk it through? Message us on WhatsApp for the current career-day stock list.`,
+  },
+  {
     slug: 'inclusive-costume-sizing-extended-size-ranges',
     title: 'Inclusive Costume Sizing: Why One-Piece Suits Fail and How Extended Size Ranges Win',
     date: '2026-09-17',
