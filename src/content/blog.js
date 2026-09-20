@@ -4,6 +4,52 @@
 
 export const BLOG_POSTS = [
   {
+    slug: 'christmas-family-costume-sets-order-window',
+    title: 'Christmas Family Costume Sets: Why the Order Window Is September\u2013October',
+    date: '2026-09-20',
+    tags: ['Christmas', 'Buying guide', 'Wholesale'],
+    cover: 'https://sc04.alicdn.com/kf/H5edf6297ca38439089280d8e48ebc9335/New-Arrival-Christmas-Costume-Family-Santa-Claus.jpg',
+    excerpt:
+      'Christmas is a season of photographs, not a single date \u2014 and families buy sets, not singles. Why the September to October order window decides the season.',
+    sources: [
+      'r/christmas holiday set sourcing discussions',
+      'r/Oldnavy holiday print sell-out timing',
+      'r/toddlers annual size top-up threads',
+    ],
+    body: `Christmas is the second peak of the costume year, and it fails differently from Halloween. Halloween is a date; Christmas is a **season of photographs**. Families buy in November, take the picture in December, and \u2014 crucially \u2014 they buy *sets*, not singles. That changes how a wholesale order has to be built, and it is why September and October are the two months that decide whether a Christmas programme sells out or sits.
+
+## Why the buying has already started
+
+The demand signal shows up long before the decorations do. Across family and parenting communities, the questions that start appearing from late August are consistent: *where can I still find a matching set for the whole family*, and *should I buy now or wait for a sale \u2014 will my size sell out?*
+
+Retailers answer that question the same way every year, because holiday prints and extended sizes go first. For a supplier, the practical reading is simple: whoever is on the shelf in October takes the season, and the buyers still deciding in November are choosing between leftovers.
+
+Working back from a December photo date, 45 to 60 days of production and freight is normal for sea shipments. That puts the order window squarely on September and October \u2014 place later and the only options left are air freight, reduced size ranges and a higher landed cost.
+
+## The pattern that makes a Christmas order repeat
+
+The most useful insight from these discussions is what buyers say they *don't* want: to re-shop the entire family every single year. Families want the same print to come back, so they can top up only the sizes that grew.
+
+That is a design decision, not a marketing one. Keep a signature print stable year over year, and refresh the fit and fabric instead. The payoff is a buyer who reorders annually without a re-buying decision \u2014 and a customer who does not have to be re-acquired in October.
+
+## The sets that carry a Christmas programme
+
+- **[Family Santa set](/products/santa-family-set)** \u2014 the anchor SKU: adults and children in one consistent look, which is exactly what a group photo requires.
+- **[Kids' Christmas tree set](/products/christmas-tree-kids)** \u2014 the child-facing colour that sells next to the traditional red.
+- **[Golden Santa cosplay set](/products/golden-santa)** \u2014 the upgrade option for adult buyers and party hosts.
+- **[Gingerbread onesie](/products/gingerbread-onesie)** \u2014 one-piece comfort, and the easiest gift-wrap item in the range.
+
+## Before you place the Christmas PO
+
+- **Build the size mix around families, not averages.** Adult-to-child ratios run roughly one to two in a family order; a flat size curve leaves adult sizes stranded in January.
+- **Confirm the size ceiling.** Extended adult sizing is the first thing to disappear in-season, and the most common complaint afterwards.
+- **Lock the print early.** Reprinting a holiday print in November is not a small favour; it is a second production run.
+- **Check the fabric for a warm room.** Christmas sets are worn indoors for hours \u2014 brushed, breathable knits beat heavy polyester.
+- **Ask for gift-ready packaging.** Sets are frequently bought as presents, so retail packing earns its cost.
+
+Supplying a retail programme, a family-photo promotion or a corporate holiday event? [Send an inquiry](/inquiry) with the styles, size range and quantity per size \u2014 we will come back with a Christmas production slot, a size-mix suggestion and landed cost within one business day. Prefer to talk it through? Message us on WhatsApp for the current Christmas set catalogue.`,
+  },
+  {
     slug: 'career-day-costumes-kids-class-sets',
     title: 'Career Day Costumes for Kids: What Schools Ask For and How to Sell Class Sets',
     date: '2026-09-18',
