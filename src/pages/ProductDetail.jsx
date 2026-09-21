@@ -9,6 +9,7 @@ import {
   productsIn,
   waLink,
 } from '../data.js';
+import { usePageMeta } from '../lib/seo.js';
 import NotFound from './NotFound.jsx';
 
 const FACTS = [
@@ -23,6 +24,14 @@ const FACTS = [
 export default function ProductDetail() {
   const { id } = useParams();
   const p = getProduct(id);
+
+  usePageMeta(
+    p ? `${p.name} | Hongbo Costumes` : 'Product not found | Hongbo Costumes',
+    p
+      ? `${p.blurb} Factory-direct wholesale with OEM/ODM, samples in about 7 days and FBA-ready packing.`
+      : undefined,
+    p ? `/products/${p.id}` : '/products'
+  );
 
   if (!p) return <NotFound />;
 

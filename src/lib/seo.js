@@ -2,8 +2,18 @@ import { useEffect } from 'react';
 
 const SITE_URL = 'https://www.hongbocostumes.com';
 
+// Prerender capture hook. The prerender entry installs a collector so page
+// metadata can be read during the server render, where effects never run.
+let collector = null;
+
+export function setMetaCollector(fn) {
+  collector = fn;
+}
+
 // Sets document title / meta description / canonical + og:url for a route.
 export function usePageMeta(title, description, path = '') {
+  if (collector) collector({ title, description, path });
+
   useEffect(() => {
     if (title) document.title = title;
 

@@ -1,15 +1,8 @@
 import React from 'react';
-import { createRoot } from 'react-dom/client';
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
+import { createRoot, hydrateRoot } from 'react-dom/client';
+import { BrowserRouter, useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
-import Layout from './components/Layout.jsx';
-import Home from './pages/Home.jsx';
-import Products from './pages/Products.jsx';
-import ProductDetail from './pages/ProductDetail.jsx';
-import Inquiry from './pages/Inquiry.jsx';
-import Blog from './pages/Blog.jsx';
-import BlogPost from './pages/BlogPost.jsx';
-import NotFound from './pages/NotFound.jsx';
+import { AppRoutes } from './App.jsx';
 import './styles.css';
 
 function ScrollToTop() {
@@ -24,19 +17,26 @@ function App() {
   return (
     <BrowserRouter>
       <ScrollToTop />
-      <Routes>
-        <Route element={<Layout />}>
-          <Route path="/" element={<Home />} />
-          <Route path="/products" element={<Products />} />
-          <Route path="/products/:id" element={<ProductDetail />} />
-          <Route path="/inquiry" element={<Inquiry />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/blog/:slug" element={<BlogPost />} />
-          <Route path="*" element={<NotFound />} />
-        </Route>
-      </Routes>
+      <AppRoutes />
     </BrowserRouter>
   );
 }
 
-createRoot(document.getElementById('root')).render(<App />);
+// Prerendered pages carry data-prerender="<path>". Only hydrate when it matches
+// the current URL; otherwise (SPA fallback, query routes) mount fresh so the
+// stale static markup is replaced instead of hydrated against.
+function normalize(path) {
+  return path.length > 1 ? path.replace(/\/+$/, '') : path;
+}
+
+const container = document.getElementById('root');
+const tree = <App />;
+const prerendered = container.dataset.prerender;
+const current = normalize(window.location.pathname + window.location.search);
+
+if (prerendered && normalize(prerendered) === current) {
+  hydrateRoot(container, tree);
+} else {
+  container.replaceChildren();
+  createRoot(container).render(tree);
+}

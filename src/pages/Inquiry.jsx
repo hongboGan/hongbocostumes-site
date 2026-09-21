@@ -10,6 +10,7 @@ import {
   getProduct,
   waLink,
 } from '../data.js';
+import { usePageMeta } from '../lib/seo.js';
 
 const FORM_URL = 'https://formsubmit.co/ajax/Zoe@hoburn.group';
 
@@ -31,6 +32,12 @@ export default function Inquiry() {
   const [form, setForm] = useState(empty);
   const [status, setStatus] = useState('idle'); // idle | sending | ok | error
   const [errorMsg, setErrorMsg] = useState('');
+
+  usePageMeta(
+    'Request a Wholesale Quote | Hongbo Costumes',
+    'Send your costume enquiry with styles, quantities and target market. Factory-direct pricing, OEM/ODM and sample orders in about 7 days.',
+    '/inquiry'
+  );
 
   useEffect(() => {
     if (product) {

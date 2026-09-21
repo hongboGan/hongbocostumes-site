@@ -9,10 +9,20 @@ import {
   WA_DEFAULT,
   getCategory,
 } from '../data.js';
+import { usePageMeta } from '../lib/seo.js';
 
 export default function Products() {
   const [params, setParams] = useSearchParams();
-  const active = params.get('cat') || 'all';
+  const requested = params.get('cat') || 'all';
+  // Unknown ?cat= values (stale links, crawler guesses) fall back to the full
+  // catalog, so the chip row and the list never contradict each other.
+  const active = requested === 'all' || getCategory(requested) ? requested : 'all';
+
+  usePageMeta(
+    'Wholesale Costumes & Cosplay Catalog | Hongbo Costumes',
+    'Factory catalogue of Halloween, cosplay, superhero, princess and Christmas costumes. Wholesale pricing, custom OEM/ODM and FBA-ready packing.',
+    '/products'
+  );
 
   const list = useMemo(
     () => (active === 'all' ? PRODUCTS : PRODUCTS.filter((p) => p.cat === active)),
