@@ -4,6 +4,43 @@
 
 export const BLOG_POSTS = [
   {
+    slug: 'adaptive-accessible-halloween-costumes',
+    title: 'Adaptive & Accessible Halloween Costumes: The Gap Buyers Keep Asking For',
+    date: '2026-09-22',
+    tags: ['Inclusive', 'Buying guide', 'Wholesale'],
+    cover: '/products/hero-capes-set.jpg',
+    excerpt:
+      'Wheelchair-friendly and sensory-friendly costume requests are constant in disability communities, and the retail shelf is still mostly empty. Here is the spec that answers them.',
+    sources: [
+      'r/Halloween_Costumes wheelchair costume idea threads',
+      'r/wheelchairs seated-first costume discussions',
+      'r/Autism_Parenting sensory-friendly costume threads',
+    ],
+    body:
+      'Every autumn, the same request appears across disability, wheelchair and autism-parenting communities: **a costume that works as it comes**. Not a modified one, not a home build, not "we will figure something out" \u2014 a costume designed for the body that will wear it. A few retailers have answered that for children, and the response has been warm. For most sizes, ages and needs, the shelf is still empty.\n\n' +
+      'That gap is a commercial opening for anyone supplying schools, therapy programmes, children\'s hospitals, inclusive toy shops and event organisers. The spec is not complicated. It is simply different from a standard costume brief.\n\n' +
+      '## Designing for seated wear\n\n' +
+      '- **Cut for the chair, not the walking body.** A seated garment needs a shorter back length, a flat seat area with no bulky seams and no rigid panel behind the torso.\n' +
+      '- **Keep fabric clear of the wheels.** Floor-length skirts, wide sleeves and long capes are the three things most likely to catch a spoke or a brake lever. Short, shoulder-attached capes on a breakaway closure cover the superhero brief without the hazard.\n' +
+      '- **Let the wearer dress from the front.** Back zips are close to unusable seated. Wrap fronts, side openings and soft hook-and-loop closures let someone dress alone or with one helper.\n' +
+      '- **Treat the chair as part of the silhouette.** A car, a rocket, a ship, a flower pot \u2014 the designs people ask for by name are the ones that visually include the chair.\n\n' +
+      '## Designing for sensory comfort\n\n' +
+      '- **Two pieces beat one.** A single full-body suit is the most common complaint from parents of autistic children; separately wearable tops and bottoms let a child keep the costume on.\n' +
+      '- **Tag-free, flat seams, brushed lining.** Itch is why a costume comes off after ten minutes.\n' +
+      '- **Offer a mask-free option.** Headbands, crowns, ears and hats carry the character without covering the face.\n' +
+      '- **Nothing loud, nothing blinking.** Sound and light modules turn a costume into an event \u2014 for many children, that is precisely the problem.\n\n' +
+      '## Two rules of respect\n\n' +
+      'Selling into this space carries two non-negotiables. First, **a mobility aid is never a costume prop**: disability communities are explicit that borrowing a wheelchair for a look is not acceptable. Second, **show real users** \u2014 photograph the range on people who actually use mobility aids, or keep it to product-only shots. A staged model sitting stiffly in a chair reads as costume, not inclusion.\n\n' +
+      '## What to ask a supplier\n\n' +
+      '- Can the pattern be cut for seated wear, with a shortened back and closures moved to the front?\n' +
+      '- Is there a two-piece version, and is the lining brushed?\n' +
+      '- Are masks optional, with a headband or hat alternative in the same print?\n' +
+      '- Are capes breakaway or fully detachable?\n\n' +
+      'Those four answers in writing are the difference between a catalogue page that sells and a return.\n\n' +
+      'Our **[superhero capes set](/products/hero-capes-set)** uses detachable, breakaway capes; the **[kids\' animal set](/products/pink-pig-kids-set)** is a two-piece build that survives a full school day; and the **[kids\' crown and tiara](/products/king-crown-kids)** carries a character with nothing over the face.\n\n' +
+      'Building an inclusive range for a school district, hospital programme or retail line? [Send an inquiry](/inquiry) with your sizes, quantities and the accessibility features you need \u2014 we will reply with a pattern recommendation, MOQ and timeline. Prefer to talk it through? Message us on WhatsApp.',
+  },
+  {
     slug: 'inflatable-costumes-return-rate-specs',
     title: 'Inflatable Costumes: Why They Get Returned \u2014 and the Specs That Prevent It',
     date: '2026-09-21',
