@@ -4,6 +4,40 @@
 
 export const BLOG_POSTS = [
   {
+    slug: 'cosplay-size-chart-returns-fix',
+    title: 'Cosplay Size Charts: Why Buyers Can\u2019t Read Them \u2014 and the Five Fields That Fix It',
+    date: '2026-09-23',
+    tags: ['Sizing', 'Buying guide', 'Wholesale'],
+    cover: '/products/custom-3d-bodysuit.jpg',
+    excerpt:
+      'Cosplay communities keep answering the same sizing question, and the chart is the reason. Here are the five garment fields that turn a guess into a purchase.',
+    sources: [
+      'r/CosplayHelp size-chart question threads',
+      'r/CosplayHelp measurement-over-height/weight advice',
+      'r/CosplayHelp sizing-up and garment-measurement discussions',
+    ],
+    body:
+      'Cosplay communities have an unwritten rule that suppliers rarely see: **the size chart is the problem**. Ask how anyone chose their last suit and the same story comes back in the same order \u2014 the chart listed height and weight, they ordered their usual letter size, and the suit arrived with a torso ten to twenty centimetres off in a direction nobody warned them about.\n\n' +
+      'The signal is loud enough that some communities now run an automatic reply on every sizing question, telling people not to choose from height, weight or their normal clothing size. When volunteer moderators have to answer the same question dozens of times a week, that is not a buyer-education problem. It is a product-data problem.\n\n' +
+      '## Why charts fail cosplayers\n\n' +
+      '- **Height and weight are not measurements.** Two people at 175 cm and 70 kg can differ by 15 cm at the chest, and a bodysuit has no tolerance for that.\n' +
+      '- **Sizes are quoted as ranges.** "Chest 96-104 cm" says nothing about whether the garment is tight at 96 or loose at 104.\n' +
+      '- **One axis is missing entirely.** Bodysuits fail vertically \u2014 torso length and inseam \u2014 while charts rarely publish either.\n' +
+      '- **No stretch data.** A four-way stretch knit at 10% rebound fits nothing like a low-stretch print, at the same quoted size.\n\n' +
+      '## The five fields buyers actually need\n\n' +
+      '1. **Garment measurements, not body ranges** \u2014 chest, waist, hip and inseam taken flat on the finished product, with the seam-to-seam method stated.\n' +
+      '2. **Stretch and rebound**, as a percentage, for each fabric in the style.\n' +
+      '3. **Torso length and inseam**, listed per size, because this is where bodysuits fail.\n' +
+      '4. **A model reference** \u2014 the model\u2019s height, the measurements they wore, and the size shown in the studio image.\n' +
+      '5. **A measuring guide** \u2014 where the tape sits, and the instruction to size to the larger half of the body.\n\n' +
+      '## Why every thread ends with "size up"\n\n' +
+      'Nearly every sizing discussion lands on the same advice: **take the larger one, because a tailor can take it in but cannot let it out.** That is a rational answer to missing data, and it is expensive. Large sizes sell out first, small sizes sit, and exchanges eat the margin on a suit that was never going to be returned.\n\n' +
+      '## Make the chart a profit lever\n\n' +
+      'An exchange on a bodysuit costs more than the price difference between two sizes. Publishing the five fields turns a guessing game into a purchase, and it does something else that matters to wholesale buyers: it makes a size run **predictable to stock**, because demand stops concentrating on "the size that fits the most people".\n\n' +
+      'When a buyer genuinely sits between sizes, the answer is not a bigger standard size \u2014 it is a made-to-measure cut. Our **[custom 3D-print bodysuit](/products/custom-3d-bodysuit)** is built to individual measurements, and both our **[Spider-Man style suit](/products/miles-morales-spiderman)** and the **[kids\u2019 Venom and Black Panther suit](/products/venom-blackpanther-kids)** ship with per-size garment measurements on the product data sheet.\n\n' +
+      'Selling cosplay or bodysuits and tired of sizing exchanges? [Send an inquiry](/inquiry) with the styles you stock \u2014 we will send our measurement sheets, the size-run pattern we see on reorders, and made-to-measure terms. Prefer to talk it through? Message us on WhatsApp.',
+  },
+  {
     slug: 'adaptive-accessible-halloween-costumes',
     title: 'Adaptive & Accessible Halloween Costumes: The Gap Buyers Keep Asking For',
     date: '2026-09-22',
