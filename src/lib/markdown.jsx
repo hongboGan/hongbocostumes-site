@@ -9,11 +9,14 @@ function renderInline(text, keyPrefix) {
   const parts = String(text).split(pattern).filter(Boolean);
   return parts.map((part, i) => {
     const key = `${keyPrefix}-${i}`;
+    // Bold / italic content is parsed recursively so links and emphasis nested
+    // inside them still render ("**[label](/products/id)**" is a common pattern
+    // in posts and used to fall through as literal text).
     if (/^\*\*[^*]+\*\*$/.test(part)) {
-      return <strong key={key}>{part.slice(2, -2)}</strong>;
+      return <strong key={key}>{renderInline(part.slice(2, -2), key)}</strong>;
     }
     if (/^\*[^*]+\*$/.test(part)) {
-      return <em key={key}>{part.slice(1, -1)}</em>;
+      return <em key={key}>{renderInline(part.slice(1, -1), key)}</em>;
     }
     const link = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
     if (link) {
