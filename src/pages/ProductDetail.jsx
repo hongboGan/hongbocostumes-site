@@ -101,14 +101,16 @@ export default function ProductDetail() {
                 <span>Hang tags</span>
               </div>
 
-              <a
-                className="pd__source"
-                href={p.url}
-                target="_blank"
-                rel="noreferrer"
-              >
-                View this listing on our Alibaba store ↗
-              </a>
+              {p.url ? (
+                <a
+                  className="pd__source"
+                  href={p.url}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View this listing on our Alibaba store ↗
+                </a>
+              ) : null}
             </div>
           </div>
         </div>

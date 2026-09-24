@@ -801,6 +801,54 @@ export const PRODUCTS = [
     url: 'https://detail.1688.com/offer/1047498472235.html',
     blurb: 'Five-in-one hero cape set — instant costume upgrade.',
   },
+  {
+    id: 'glow-ghost-cape-kids',
+    cat: 'halloween',
+    ali: '1688 - Halloween (glow ghost cape set)',
+    name: "Kids' Glow-in-the-Dark Ghost Cape Set",
+    fullTitle:
+      'Kids glow in the dark ghost hooded cape with light-up face mask Halloween party costume for boys and girls',
+    image: '/products/glow-ghost-cape-kids.jpg',
+    priceFrom: 3.85,
+    priceTo: null,
+    blurb: 'Glowing ghost hood and cape with a light-up face — the piece parents are buying in volume this season.',
+  },
+  {
+    id: 'idol-stage-costume-set',
+    cat: 'kids',
+    ali: '1688 - Kids stage (idol performance set)',
+    name: "Girls' Idol Stage Costume Set",
+    fullTitle:
+      'Girls idol stage costume set pop singer performance outfit for kids dance show party fancy dress',
+    image: '/products/idol-stage-costume-set.jpg',
+    priceFrom: 7.42,
+    priceTo: null,
+    blurb: 'Stage-ready sparkle set for girls — the performance look behind this season\'s biggest kids costume trend.',
+  },
+  {
+    id: 'christmas-baby-bodysuit-set',
+    cat: 'christmas',
+    ali: '1688 - Christmas (infant bodysuit set)',
+    name: "Baby's Christmas 4-Piece Bodysuit & Tutu Set",
+    fullTitle:
+      'Baby first Christmas outfit 4 piece set santa bodysuit tutu skirt headband for infant girls holiday party',
+    image: '/products/christmas-baby-bodysuit-set.jpg',
+    priceFrom: 6.65,
+    priceTo: null,
+    blurb: 'Four-piece infant Christmas set with bodysuit, tutu and headband — built for first-holiday photos.',
+  },
+  {
+    id: 'tactical-ghost-mask',
+    cat: 'props',
+    ali: '1688 - Props (tactical ghost half-mask)',
+    name: 'Tactical Ghost Half-Mask with Mesh Eyes',
+    fullTitle:
+      'Tactical ghost mask skull half face cover with mesh eyes for Halloween party cosplay costume accessory',
+    image: '/products/tactical-ghost-mask.jpg',
+    priceFrom: 1.43,
+    priceTo: null,
+    blurb: 'Mesh-eyed tactical half-mask — a low-cost add-on that lifts every order value.',
+  },
 ];
 
 export const getCategory = (id) => CATEGORIES.find((c) => c.id === id);
