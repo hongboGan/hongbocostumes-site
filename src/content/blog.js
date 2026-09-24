@@ -4,6 +4,48 @@
 
 export const BLOG_POSTS = [
   {
+    slug: 'cosplay-mask-visor-fogging-specs',
+    title: 'Cosplay Masks and Helmets: Why Visors Fog, and the Specs That Fix It',
+    date: '2026-09-24',
+    tags: ['Masks', 'Buying guide', 'Wholesale'],
+    cover: 'https://sc04.alicdn.com/kf/Hc5db7cb48cb846d8b2089005a6a5fcf2t/Halloween-Carnival-Half-Face-Phantom-Mask-One.jpg',
+    excerpt:
+      'A fogged visor is a sealed volume with a moisture source and no exhaust. Here are the specs that keep a mask clear, wearable and sellable.',
+    sources: [
+      'r/cosplayprops visor fogging and ventilation builds',
+      'r/501st helmet field-of-view discussion',
+      'r/Mandalorian see-and-breathe threads',
+    ],
+    body:
+      'Anyone who has trooped a sealed helmet knows the sequence: the lens fogs at the edges first, then across the middle, then you lift the mask to see and the illusion is gone. Fogging is not bad luck. It is a sealed volume with a moisture source and no exhaust.\n\n' +
+      '## Why a sealed mask always fogs\n\n' +
+      '- **Breath is warm and saturated**, and the visor sits cooler than your face, so moisture condenses directly onto it.\n' +
+      '- **A sealed volume never exchanges air.** Humidity climbs with every breath until the lens cannot stay clear.\n' +
+      '- **Foam liners hold the moisture** and press it against the lens, which is why a tight, well-padded helmet is often the worst offender.\n' +
+      '- **A soiled or scratched lens fogs first** \u2014 condensation forms on imperfections, so clean the visor before any treatment.\n\n' +
+      '## The fix that actually works: exhaust, not intake\n\n' +
+      'Builders converge on the same answer: **a small fan that pushes air out of the mask, not in.** Moving air across the inside of the lens and out through a vent keeps the surface closer to ambient temperature and carries moisture away with it. Two practical points matter more than the fan\u2019s rated airflow:\n\n' +
+      '- **Put the exhaust at the highest point of the mask**, because warm, moist air rises.\n' +
+      '- **Give the fan a return path.** An intake at the cheeks or chin plus an exhaust at the crown creates a circuit; two vents on the same side simply recirculate the same humid air.\n\n' +
+      '## Treat the lens, and treat the seal as a design decision\n\n' +
+      '- **Anti-fog coating or film**, reapplied before each event, works best on a clean lens.\n' +
+      '- **A tight nose-bridge seal is a trade-off.** It stops breath reaching the lens, but it also traps moisture inside the volume. Cheek venting is often the better answer than a perfect seal.\n' +
+      '- **Detachable liners** can be washed and dried between wears, which matters more to comfort than the coating does.\n\n' +
+      '## Visibility is a safety spec, not a comfort feature\n\n' +
+      '- **Peripheral field of view**: how much of the floor the wearer can see without turning their head.\n' +
+      '- **Can they look down?** Stairs, curbs and children all require it, and "you have to bend at the waist" is a design failure, not a quirk.\n' +
+      '- **For children\u2019s masks**: no dark lenses, clear breathing openings, and adult supervision regardless of the mask.\n\n' +
+      '## What belongs on the spec sheet\n\n' +
+      '- Vent positions and the air path through the mask \u2014 intake, across the face, exhaust.\n' +
+      '- Visor material, and whether the visor is replaceable.\n' +
+      '- Measured field of view, and whether the wearer can look down.\n' +
+      '- Fan and battery access, if the style is powered.\n' +
+      '- Liner material and whether it detaches.\n\n' +
+      'Publishing those five lines converts a novelty into a professional product, and it is what separates a mask that gets worn all night from one that gets returned.\n\n' +
+      'Our **[Phantom half-face carnival mask](/products/phantom-mask)** leaves the mouth and nose open \u2014 which is exactly why half-face masks fog far less than a sealed helmet. For younger wearers, the **[kids\u2019 crown and tiara](/products/king-crown-kids)** carries the character with nothing over the eyes at all, and the **[kids\u2019 mummy hooded jumpsuit](/products/mummy-kids)** covers the face with breathable gauze instead of glass that fogs.\n\n' +
+      'Stocking masks, helmets or headgear for the season? [Send an inquiry](/inquiry) with the styles and volumes \u2014 we will send vent layouts, visor specs and carton data, plus the anti-fog and liner add-ons that cut visibility complaints. Prefer to talk it through? Message us on WhatsApp.',
+  },
+  {
     slug: 'cosplay-size-chart-returns-fix',
     title: 'Cosplay Size Charts: Why Buyers Can\u2019t Read Them \u2014 and the Five Fields That Fix It',
     date: '2026-09-23',
