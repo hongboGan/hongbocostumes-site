@@ -42,7 +42,11 @@ export default function Inquiry() {
   useEffect(() => {
     if (product) {
       const catLabel = getCategory(product.cat)?.label || '';
-      setForm((f) => ({ ...f, productType: f.productType || catLabel }));
+      setForm((f) => ({
+        ...f,
+        productType: f.productType || catLabel,
+        message: f.message || `I am interested in: ${product.name}. Please send wholesale pricing, MOQ and lead time.`,
+      }));
     }
   }, [product]);
 
@@ -58,7 +62,7 @@ export default function Inquiry() {
       whatsapp: form.whatsapp || '—',
       quantity: form.quantity || '—',
       message: form.message || '—',
-      _subject: `New website inquiry: ${form.productType || 'General'} (${form.name})`,
+      _subject: `New website inquiry: ${product ? product.name : form.productType || 'General'} (${form.name})`,
       _template: 'table',
       _captcha: 'false',
       _honey: '',

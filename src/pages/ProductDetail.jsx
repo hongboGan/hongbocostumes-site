@@ -102,16 +102,15 @@ export default function ProductDetail() {
               </div>
 
               {p.url ? (
-                <a
-                  className="pd__source"
-                  href={p.url}
-                  target={p.url.startsWith('/') ? undefined : '_blank'}
-                  rel={p.url.startsWith('/') ? undefined : 'noreferrer'}
-                >
-                  {p.url.startsWith('/')
-                    ? 'Request pricing and MOQ ↗'
-                    : 'View this listing on our Alibaba store ↗'}
-                </a>
+                p.url.startsWith('/') ? (
+                  <Link className="btn btn--ink btn--ghostlnk btn--sm" to={`/inquiry?product=${p.id}`}>
+                    Request pricing and MOQ <ArrowUpRight size={15} />
+                  </Link>
+                ) : (
+                  <a className="pd__source" href={p.url} target="_blank" rel="noreferrer">
+                    View this listing on our Alibaba store ↗
+                  </a>
+                )
               ) : null}
             </div>
           </div>
