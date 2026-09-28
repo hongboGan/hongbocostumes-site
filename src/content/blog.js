@@ -4,6 +4,42 @@
 
 export const BLOG_POSTS = [
   {
+    slug: 'couples-costume-sets-wholesale-pairs',
+    title: 'Couples Costume Sets: How Wholesale Buyers Stock and Sell Pairs',
+    date: '2026-09-28',
+    tags: ['Couples', 'Buying guide', 'Wholesale'],
+    cover: '/products/spider-gwen.jpg',
+    excerpt:
+      'Pairs are bought later, at full price, and lost entirely when one size is missing. Here is how to stock couples costume sets so both sales happen.',
+    sources: [
+      'r/Halloween_Costumes couples and trio costume threads',
+      'r/Halloween_Costumes pair coordination discussions',
+      'r/halloween costume-contest winner threads',
+    ],
+    body:
+      'A pair is not two singles sold together. It is one purchase decision made by two people, usually late, often against a contest or a photo deadline \u2014 and it is lost entirely when only one half of the outfit is still in stock. That last point is where most wholesale ranges quietly lose money in October.\n\n' +
+      '## Pairs behave differently from singles\n\n' +
+      '- **They decide later.** Couples tend to buy in the final two weeks, which means near-full price and no appetite for a wait.\n' +
+      '- **The look has to read as one outfit.** Two costumes that are individually fine but visually unrelated fail the brief.\n' +
+      '- **The motivation is usually a moment** \u2014 a party contest, an office event, a photo. Statement pieces beat subtle ones.\n' +
+      '- **Body differences are the norm.** Height gaps and different builds are the rule, not the exception, so coordination matters more than theme.\n\n' +
+      '## The sizing trap that takes out both sales\n\n' +
+      'The most common failure in a pairs programme is stocking each side on its own size curve. The women\u2019s sizes sell through first, the men\u2019s half stays on the shelf, and what looked like a sell-out is a half-lot of unsellable stock.\n\n' +
+      '- **Publish one chart with two sides.** Buyers need to see both halves of the pair on the same page, in the same measurement format.\n' +
+      '- **Match the depth, not the average.** Stock the paired sizes in mirrored quantities so both halves survive to the last week.\n' +
+      '- **Restock both halves together.** A pair shipped in two shipments sells as nothing until the second one lands.\n' +
+      '- **Offer a made-to-measure option** for the partner who never fits a stock size. One custom piece saves the whole order.\n\n' +
+      '## Selling the pair at the shelf and on the page\n\n' +
+      '- **Name the pairing, not the SKUs.** "Hero Duo Set" sells; two separate product names do not.\n' +
+      '- **Photograph them together.** A single image of both wearers does more than two solo shots.\n' +
+      '- **Price the bundle with a small saving**, rather than discounting each half and inviting cherry-picking.\n' +
+      '- **Give the buyer one link that adds both pieces**, so the order is never half-completed.\n\n' +
+      '## What actually belongs in a pairs programme\n\n' +
+      'A tight range beats a wide one: **one or two matched duos** that photograph well, **one accessory set** that turns any two costumes into a coordinated look, and **one made-to-measure option** for the sizes stock can never cover.\n\n' +
+      'Our **[Spider-Gwen style bodysuit](/products/spider-gwen)** and **[Spider-Man style suit](/products/spiderman-peter-parker)** are built to be stocked as a matched hero duo \u2014 same construction, mirrored sizing. When one partner sits between sizes, the **[custom 3D-print bodysuit](/products/custom-3d-bodysuit)** is cut to individual measurements so the pair still ships complete. And a **[superhero capes set](/products/hero-capes-set)** is the cheapest way to make any two costumes read as one outfit.\n\n' +
+      'Stocking for couples, contests or office events this season? [Send an inquiry](/inquiry) with the pairings you have in mind \u2014 we will come back with mirrored size runs, pack ratios and a suggested bundle price. Prefer to talk it through? Message us on WhatsApp.',
+  },
+  {
     slug: 'cosplay-mask-visor-fogging-specs',
     title: 'Cosplay Masks and Helmets: Why Visors Fog, and the Specs That Fix It',
     date: '2026-09-24',
