@@ -130,7 +130,7 @@ export const PRODUCTS = [
       'https://sc04.alicdn.com/kf/Haf44b63b7d2142c9a60ea7be4dc2589dC/Boys-Kids-Victorian-Tailcoat-Suit-3-Piece.jpg',
     priceFrom: 9.99,
     priceTo: 11.59,
-    url: 'https://www.alibaba.com/product-detail/Boys-Kids-Victorian-Tailcoat-Suit-3_1601944760177.html',
+    url: '/inquiry',
     blurb: 'Tailcoat, gold buttons and bowtie — a stage-ready 3-piece set for kids.',
   },
   {
@@ -144,7 +144,7 @@ export const PRODUCTS = [
       'https://sc04.alicdn.com/kf/H170c9a1eac524f45a2bac7c0cab2ec52N/Girls-Renaissance-Velvet-Dress-and-Hooded-Cloak.png',
     priceFrom: 16.29,
     priceTo: 19.99,
-    url: 'https://www.alibaba.com/product-detail/Girls-Renaissance-Velvet-Dress-and-Hooded_1601944665286.html',
+    url: '/inquiry',
     blurb: 'Velvet dress with hooded cloak and gold trim — medieval faire elegance.',
   },
   {
@@ -158,7 +158,7 @@ export const PRODUCTS = [
       'https://sc04.alicdn.com/kf/Hf7d8db79ec344b7c96339e27f87995638/Japanese-Maid-Costume-Women-Gothic-Lolita-Pinstripe.png',
     priceFrom: 14.41,
     priceTo: 16.89,
-    url: 'https://www.alibaba.com/product-detail/Japanese-Maid-Costume-Women-Gothic-Lolita_1601942395450.html',
+    url: '/inquiry',
     blurb: 'Pinstripe apron dress, choker and ruffled sleeves — gothic maid cosplay.',
   },
   {
@@ -172,7 +172,7 @@ export const PRODUCTS = [
       'https://sc04.alicdn.com/kf/Hcff9723cbd61436e956cd3ef8a381fe9E/Deluxe-Cross-Print-Halloween-Templar-Knight-Medieval.jpg',
     priceFrom: 9.8,
     priceTo: 10.5,
-    url: 'https://www.alibaba.com/product-detail/Deluxe-Cross-Print-Halloween-Templar-Knight_1601017702252.html',
+    url: '/inquiry',
     blurb: 'Cross-print tunic, vest coat and belt — a deluxe crusader warrior look.',
   },
   {
@@ -185,7 +185,7 @@ export const PRODUCTS = [
     image: '/products/custom-3d-bodysuit.jpg',
     priceFrom: 1.8,
     priceTo: 9.9,
-    url: 'https://www.alibaba.com/product-detail/High-Quality-Custom-Logo-OEM-Costumes_1601021299050.html',
+    url: '/inquiry',
     blurb: 'Your artwork, our sewing — custom logo 3D-print bodysuits for brands.',
   },
   {
@@ -198,7 +198,7 @@ export const PRODUCTS = [
     image: '/products/moana-maui-set.jpg',
     priceFrom: null,
     priceTo: null,
-    url: 'https://www.alibaba.com/product-detail/New-Movie-Moana-4-Costume-Maui_1601256496495.html',
+    url: '/inquiry',
     blurb: 'Movie-style Moana costume with matching necklace — carnival party ready.',
   },
   {
@@ -212,7 +212,7 @@ export const PRODUCTS = [
       'https://sc04.alicdn.com/kf/H4d0e420388f944418a413e9df4ae9272S/Cute-Lolita-Maid-Dress-Plus-Size-Apron.jpg',
     priceFrom: 11.18,
     priceTo: 12.59,
-    url: 'https://www.alibaba.com/product-detail/Cute-Lolita-Maid-Dress-Plus-Size_1601687638877.html',
+    url: '/inquiry',
     blurb: 'Kawaii black-white maid dress with apron — plus-size catgirl roleplay.',
   },
   {
@@ -226,7 +226,7 @@ export const PRODUCTS = [
       'https://sc04.alicdn.com/kf/H5fc55f62a92941c5931e82075b1af8efp/Silky-Satin-Floral-Robe-Japanese-Traditional-Kimono.jpg',
     priceFrom: 9.2,
     priceTo: 9.8,
-    url: 'https://www.alibaba.com/product-detail/Silky-Satin-Floral-Robe-Japanese-Traditional_1601019282544.html',
+    url: '/inquiry',
     blurb: 'Satin floral kimono with obi belt — traditional Japanese yukata style.',
   },
   {
@@ -240,7 +240,7 @@ export const PRODUCTS = [
       'https://sc04.alicdn.com/kf/H9c5d88933b1a4ec18883992314c0719c8/Kids-Sequin-Princess-Tulle-Dress-Girls-Sparkly.png',
     priceFrom: 9.69,
     priceTo: 11.25,
-    url: 'https://www.alibaba.com/product-detail/Kids-Sequin-Princess-Tulle-Dress-Girls_1601789054240.html',
+    url: '/inquiry',
     blurb: 'Sparkly bubble-sleeve gown for Halloween parties and birthdays.',
   },
   {
@@ -254,7 +254,7 @@ export const PRODUCTS = [
       'https://sc04.alicdn.com/kf/He59edf13102542aea861fdab311ecef3H/Girls-Ballet-Tutu-Princess-Dress-3D-Floral.png',
     priceFrom: 7.37,
     priceTo: 8.69,
-    url: 'https://www.alibaba.com/product-detail/Girls-Ballet-Tutu-Princess-Dress-3D_1601930221114.html',
+    url: '/inquiry',
     blurb: '3D floral applique on a swirl-embroidered tutu — stage & choir ready.',
   },
   {
@@ -268,7 +268,7 @@ export const PRODUCTS = [
       'https://sc04.alicdn.com/kf/Hc5d341d142764046a4f9bdff08986d98P/Hot-Selling-Cindy-Princess-Dress-Solid-Color.jpg',
     priceFrom: 9.9,
     priceTo: 12.59,
-    url: 'https://www.alibaba.com/product-detail/Hot-Selling-Cindy-Princess-Dress-Solid_1601019964342.html',
+    url: '/inquiry',
     blurb: 'Puffy gauze princess dress — a hot-selling birthday & cosplay pick.',
   },
   {
@@ -282,7 +282,7 @@ export const PRODUCTS = [
       'https://sc04.alicdn.com/kf/H8adf56e18c5c4bf192a5bf7605ea89ccC/Christmas-Girl-s-Princess-Flower-Girl-s.png',
     priceFrom: 10.79,
     priceTo: 12.77,
-    url: 'https://www.alibaba.com/product-detail/Christmas-Girl-s-Princess-Flower-Girl_1601894506218.html',
+    url: '/inquiry',
     blurb: 'Sequin mesh cake-tutu style — flower girl & Christmas party favorite.',
   },
   {
@@ -296,7 +296,7 @@ export const PRODUCTS = [
       'https://sc04.alicdn.com/kf/Hc285824d8cd5409c91e76eb8d660314f1/Cute-Kids-Pink-Pig-Animal-Cosplay-Costume.jpg',
     priceFrom: 1.59,
     priceTo: 2.02,
-    url: 'https://www.alibaba.com/product-detail/Cute-Kids-Pink-Pig-Animal-Cosplay_1601885860475.html',
+    url: '/inquiry',
     blurb: 'Complete pig set — headband, nose, bow, tail, gloves and tutu.',
   },
   {
@@ -310,7 +310,7 @@ export const PRODUCTS = [
       'https://sc04.alicdn.com/kf/Hb0f386b6cd9f4321b4ccb60f60b46248D/New-Arrival-Halloween-Anime-Style-Costume-Set.jpg',
     priceFrom: 4.99,
     priceTo: 6.29,
-    url: 'https://www.alibaba.com/product-detail/New-Arrival-Halloween-Anime-Style-Costume_1601013027695.html',
+    url: '/inquiry',
     blurb: "Anime-style pirate suit & top for little boys' cosplay performance.",
   },
   {
@@ -324,7 +324,7 @@ export const PRODUCTS = [
       'https://sc04.alicdn.com/kf/H08f229b495144590bb1be9ce22104ba6v/Unisex-Children-Scientist-Lab-Coat-Costume-Set.png',
     priceFrom: 5.59,
     priceTo: 6.99,
-    url: 'https://www.alibaba.com/product-detail/Unisex-Children-Scientist-Lab-Coat-Costume_1601885785572.html',
+    url: '/inquiry',
     blurb: 'Breathable lab coat with goggles and ID card — career day classic.',
   },
   {
@@ -338,7 +338,7 @@ export const PRODUCTS = [
       'https://sc04.alicdn.com/kf/He64fab74131f4a8cadecf99caf5806e1l.png',
     priceFrom: null,
     priceTo: null,
-    url: 'https://www.alibaba.com/product-detail/Halloween-Costumes-Helper-Costume-for-Girls_1601573109311.html',
+    url: '/inquiry',
     blurb: 'Traffic-director helper outfit — community helper dress-up favorite.',
   },
   {
@@ -352,7 +352,7 @@ export const PRODUCTS = [
       'https://sc04.alicdn.com/kf/H0fac5017e4ee493eb80557b39587e46ao/Funny-Beer-Mug-Costume-for-Kids-Oktoberfest.png',
     priceFrom: 6.59,
     priceTo: 7.59,
-    url: 'https://www.alibaba.com/product-detail/Funny-Beer-Mug-Costume-for-Kids_1601845414511.html',
+    url: '/inquiry',
     blurb: 'Yellow ale-cup tunic with foam handle — Oktoberfest party gag hit.',
   },
   {
@@ -366,7 +366,7 @@ export const PRODUCTS = [
       'https://sc04.alicdn.com/kf/H536c5b3b182d419dafaee4e637c1779fE/Mens-Bavarian-Oktoberfest-Costume-Set-Lederhosen-Orange.png',
     priceFrom: 11.59,
     priceTo: 13.99,
-    url: 'https://www.alibaba.com/product-detail/Mens-Bavarian-Oktoberfest-Costume-Set-Lederhosen_1601922255732.html',
+    url: '/inquiry',
     blurb: 'Lederhosen, vest, shirt and alpine hat — the complete Bavarian outfit.',
   },
   {
@@ -380,7 +380,7 @@ export const PRODUCTS = [
       'https://sc04.alicdn.com/kf/H5edf6297ca38439089280d8e48ebc9335/New-Arrival-Christmas-Costume-Family-Santa-Claus.jpg',
     priceFrom: 10.56,
     priceTo: 13.66,
-    url: 'https://www.alibaba.com/product-detail/New-Arrival-Christmas-Costume-Family-Santa_1601273833860.html',
+    url: '/inquiry',
     blurb: 'Family Santa suits from XS to 2XL — matching Christmas cosplay sets.',
   },
   {
@@ -394,7 +394,7 @@ export const PRODUCTS = [
       'https://sc04.alicdn.com/kf/H8405edd1e60d42e3849f5f59c9dc187fn/Hot-Sale-Customizable-Green-Christmas-Party-Unisex.jpg',
     priceFrom: 6.5,
     priceTo: 7,
-    url: 'https://www.alibaba.com/product-detail/Hot-Sale-Customizable-Green-Christmas-Party_1601018570958.html',
+    url: '/inquiry',
     blurb: 'Green Christmas tree suit for kids — customizable unisex holiday look.',
   },
   {
@@ -408,7 +408,7 @@ export const PRODUCTS = [
       'https://sc04.alicdn.com/kf/H324dcfc952bb49be991b4e957124aa86d/Customizable-Halloween-Christmas-Boys-Cosplay-Gingerbread-Man.jpg',
     priceFrom: 7.14,
     priceTo: 8.16,
-    url: 'https://www.alibaba.com/product-detail/Customizable-Halloween-Christmas-Boys-Cosplay-Gingerbread_1601211966167.html',
+    url: '/inquiry',
     blurb: 'Brown gingerbread bodysuit — a sweet hit for Christmas & Halloween.',
   },
   {
@@ -421,7 +421,7 @@ export const PRODUCTS = [
     image: 'https://sc04.alicdn.com/kf/H954ba1514f2c4aad97419e5e793564eco/Adult-Bloody-Bride-Costume-Red-Sleeveless-Tulle.jpg',
     priceFrom: 11.06,
     priceTo: 14.03,
-    url: 'https://www.alibaba.com/product-detail/Adult-Bloody-Bride-Costume-Red-Sleeveless_1601934305457.html',
+    url: '/inquiry',
     blurb: 'Sleeveless tulle gown with lace veil — horror bride for stage & party.',
   },
   {
@@ -434,7 +434,7 @@ export const PRODUCTS = [
     image: 'https://sc04.alicdn.com/kf/Ha51ed5d9259844c9ba85f7240029c82bN/Kids-Horror-Mummy-Costume-Gauze-Wrapped-Hooded.jpg',
     priceFrom: 7.19,
     priceTo: 8.36,
-    url: 'https://www.alibaba.com/product-detail/Kids-Horror-Mummy-Costume-Gauze-Wrapped_1601918372432.html',
+    url: '/inquiry',
     blurb: 'Gauze-wrapped hooded jumpsuit with a tattered bandage look.',
   },
   {
@@ -447,7 +447,7 @@ export const PRODUCTS = [
     image: 'https://sc04.alicdn.com/kf/He0ac442e61bd4a81823b3bd1476ec99f1/Mens-Skull-King-Cosplay-Costume-Blue-Muscle.png',
     priceFrom: 8.99,
     priceTo: 10.43,
-    url: 'https://www.alibaba.com/product-detail/Mens-Skull-King-Cosplay-Costume-Blue_1601914387782.html',
+    url: '/inquiry',
     blurb: 'Blue muscle bodysuit, bone mask, cape & tassets — skull king look.',
   },
   {
@@ -460,7 +460,7 @@ export const PRODUCTS = [
     image: 'https://sc04.alicdn.com/kf/H7d9fc6f3da48406e9ec4e5b932ae8b374/Adult-Retro-Clown-Costume-Jumpsuit-Ruffled-Collar.png',
     priceFrom: 17.63,
     priceTo: 20.51,
-    url: 'https://www.alibaba.com/product-detail/Adult-Retro-Clown-Costume-Jumpsuit-Ruffled_1601927914201.html',
+    url: '/inquiry',
     blurb: 'Two-tone jumpsuit, ruffled collar & pointed hat — vintage circus clown.',
   },
   {
@@ -473,7 +473,7 @@ export const PRODUCTS = [
     image: 'https://sc04.alicdn.com/kf/He5ef59442b51433eb2a7a0618268a5266/Kids-Halloween-Prince-Charming-Costume-Royal-King.png',
     priceFrom: 8.69,
     priceTo: 10.19,
-    url: 'https://www.alibaba.com/product-detail/Kids-Halloween-Prince-Charming-Costume-Royal_1601664974839.html',
+    url: '/inquiry',
     blurb: 'Royal king outfit for little princes — role-play Halloween classic.',
   },
   {
@@ -486,7 +486,7 @@ export const PRODUCTS = [
     image: 'https://sc04.alicdn.com/kf/H80a2dbf5070048e6a2f2bcc71373e45eS/3-8-Birthday-Gift-Little-Girl-Princess.jpg',
     priceFrom: 5.04,
     priceTo: 5.46,
-    url: 'https://www.alibaba.com/product-detail/3-8-Birthday-Gift-Little-Girl_1601270289425.html',
+    url: '/inquiry',
     blurb: 'Dress-up set with cape & crown — a princess gift box for ages 3–8.',
   },
   {
@@ -499,7 +499,7 @@ export const PRODUCTS = [
     image: 'https://sc04.alicdn.com/kf/H458ee597df0f4efaadca842f73825e0aC/Sofia-Princess-Dress-Birthday-Costume-Puff-Sleeve.jpg',
     priceFrom: 8.19,
     priceTo: 9.49,
-    url: 'https://www.alibaba.com/product-detail/Sofia-Princess-Dress-Birthday-Costume-Puff_1601686837385.html',
+    url: '/inquiry',
     blurb: 'Puff-sleeve princess dress — a storybook party favorite.',
   },
   {
@@ -512,7 +512,7 @@ export const PRODUCTS = [
     image: 'https://sc04.alicdn.com/kf/Hc740d5b177484dea8a216d4437899451J/Little-Girls-Pink-Nurse-Costume-Short-Sleeve.png',
     priceFrom: 8.49,
     priceTo: 9.89,
-    url: 'https://www.alibaba.com/product-detail/Little-Girls-Pink-Nurse-Costume-Short_1601867813203.html',
+    url: '/inquiry',
     blurb: 'Pattern dress with apron & hat — career-day nurse for little girls.',
   },
   {
@@ -525,7 +525,7 @@ export const PRODUCTS = [
     image: 'https://sc04.alicdn.com/kf/Hc0ae6a3c0ff746eb821f7b0b0622ab02I/Children-s-Halloween-Firefighter-Performance-Stage-Costumes.jpg',
     priceFrom: 5.5,
     priceTo: 6.9,
-    url: 'https://www.alibaba.com/product-detail/Children-s-Halloween-Firefighter-Performance-Stage_1601126159959.html',
+    url: '/inquiry',
     blurb: 'Character-inspired firefighter stage set — hero for a day.',
   },
   {
@@ -538,7 +538,7 @@ export const PRODUCTS = [
     image: 'https://sc04.alicdn.com/kf/Hdfa922e156f641169f26beb84a75416em/Halloween-Cop-Costume-Black-Suit-Boys-Kids.jpg',
     priceFrom: 10.48,
     priceTo: 12.38,
-    url: 'https://www.alibaba.com/product-detail/Halloween-Cop-Costume-Black-Suit-Boys_1601574286486.html',
+    url: '/inquiry',
     blurb: 'Black cop suit set for boys — uniform cosplay for career day.',
   },
   {
@@ -551,7 +551,7 @@ export const PRODUCTS = [
     image: 'https://sc04.alicdn.com/kf/Hefbef72112cd4bc28c0d72b8010a5db2E/6pcs-Halloween-Clothes-Surgeon-Dr-Set-Career.jpg',
     priceFrom: 7.3,
     priceTo: 7.8,
-    url: 'https://www.alibaba.com/product-detail/6pcs-Halloween-Clothes-Surgeon-Dr-Set_1601016237899.html',
+    url: '/inquiry',
     blurb: '6-piece hospital set with stethoscope — role-play kit for kids.',
   },
   {
@@ -564,7 +564,7 @@ export const PRODUCTS = [
     image: 'https://sc04.alicdn.com/kf/H2704c2647cc84b0db215db3672752e8fo/Adult-Unisex-Funny-Banana-Suit-Yellow-Costume.jpg',
     priceFrom: 5.59,
     priceTo: 6.19,
-    url: 'https://www.alibaba.com/product-detail/Adult-Unisex-Funny-Banana-Suit-Yellow_1601595436310.html',
+    url: '/inquiry',
     blurb: 'Light yellow banana suit — an instant gag for any party.',
   },
   {
@@ -577,7 +577,7 @@ export const PRODUCTS = [
     image: 'https://sc04.alicdn.com/kf/Hb0263d552b464b15ba043d983663d969E/Funny-Halloween-Dinosaur-Inflatable-Costume-Tyrannosaurus-Rex.jpg',
     priceFrom: 17,
     priceTo: 17.9,
-    url: 'https://www.alibaba.com/product-detail/Funny-Halloween-Dinosaur-Inflatable-Costume-Tyrannosaurus_1601165346242.html',
+    url: '/inquiry',
     blurb: 'Inflatable T-Rex suit — big laughs at carnivals and parades.',
   },
   {
@@ -590,7 +590,7 @@ export const PRODUCTS = [
     image: 'https://sc04.alicdn.com/kf/H6f779f33a5094f929263187053271ac7Y/Cosplay-Party-Animal-Mascot-Costume-Fancy-Dress.jpg',
     priceFrom: 12.14,
     priceTo: null,
-    url: 'https://www.alibaba.com/product-detail/Cosplay-Party-Animal-Mascot-Costume-Fancy_1601291011499.html',
+    url: '/inquiry',
     blurb: 'Air-blow-up shark jumpsuit — mascot-style fancy dress.',
   },
   {
@@ -603,7 +603,7 @@ export const PRODUCTS = [
     image: 'https://sc04.alicdn.com/kf/H6ab53dcd366e4e1c9934230a72f564a2d/King-Crown-for-Kids-Polyester-Prince-Tiara.jpg',
     priceFrom: 0.7,
     priceTo: null,
-    url: 'https://www.alibaba.com/product-detail/King-Crown-for-Kids-Polyester-Prince_1601022310184.html',
+    url: '/inquiry',
     blurb: 'Polyester king crown & tiara — an easy add-on to any royal look.',
   },
   {
@@ -616,7 +616,7 @@ export const PRODUCTS = [
     image: 'https://sc04.alicdn.com/kf/Hc5db7cb48cb846d8b2089005a6a5fcf2t/Halloween-Carnival-Half-Face-Phantom-Mask-One.jpg',
     priceFrom: 1.67,
     priceTo: 3.54,
-    url: 'https://www.alibaba.com/product-detail/Halloween-Carnival-Half-Face-Phantom-Mask_1601019019009.html',
+    url: '/inquiry',
     blurb: 'Half-face Phantom of the Opera mask — masquerade nightclub hit.',
   },
   {
@@ -629,7 +629,7 @@ export const PRODUCTS = [
     image: 'https://sc04.alicdn.com/kf/H89e6d033bc3843388fa9b019a6cbcebcN/Christmas-Tutu-Skirt-for-Girls-Puffy-Tulle.jpg',
     priceFrom: 2.78,
     priceTo: 2.8,
-    url: 'https://www.alibaba.com/product-detail/Christmas-Tutu-Skirt-for-Girls-Puffy_1601630427180.html',
+    url: '/inquiry',
     blurb: 'Puffy tulle tutu with tree & reindeer foil print — festive favorite.',
   },
   {
@@ -642,7 +642,7 @@ export const PRODUCTS = [
     image: 'https://sc04.alicdn.com/kf/H3589b23b6bbf4cce8ffc75599b3dbe42L/Golden-Santa-Claus-Cosplay-Costume-Adult-Men.jpg',
     priceFrom: 15.48,
     priceTo: 21.85,
-    url: 'https://www.alibaba.com/product-detail/Golden-Santa-Claus-Cosplay-Costume-Adult_1601586334940.html',
+    url: '/inquiry',
     blurb: 'Plush golden Santa suit with hat & beard — deluxe performance set.',
   },
   {
@@ -655,7 +655,7 @@ export const PRODUCTS = [
     image: '/products/miles-morales-spiderman.jpg',
     priceFrom: 4.96,
     priceTo: null,
-    url: 'https://detail.1688.com/offer/1057529956433.html',
+    url: '/inquiry',
     blurb: 'Into the Spider-Verse hero look — kids & adult sizes.',
   },
   {
@@ -668,7 +668,7 @@ export const PRODUCTS = [
     image: '/products/spider-gwen.jpg',
     priceFrom: 6.76,
     priceTo: null,
-    url: 'https://detail.1688.com/offer/1057546484270.html',
+    url: '/inquiry',
     blurb: 'Spider-Gwen style with printed muscle & web details.',
   },
   {
@@ -681,7 +681,7 @@ export const PRODUCTS = [
     image: '/products/iron-spider.jpg',
     priceFrom: 6.76,
     priceTo: null,
-    url: 'https://detail.1688.com/offer/1048003693133.html',
+    url: '/inquiry',
     blurb: 'Armored Iron Spider look with metallic print accents.',
   },
   {
@@ -694,7 +694,7 @@ export const PRODUCTS = [
     image: '/products/venom-symbiote.jpg',
     priceFrom: 7.44,
     priceTo: null,
-    url: 'https://detail.1688.com/offer/677781421791.html',
+    url: '/inquiry',
     blurb: 'Black symbiote muscle suit — a cross-border bestseller.',
   },
   {
@@ -707,7 +707,7 @@ export const PRODUCTS = [
     image: '/products/spiderman-peter-parker.jpg',
     priceFrom: 7.89,
     priceTo: null,
-    url: 'https://detail.1688.com/offer/1044012337052.html',
+    url: '/inquiry',
     blurb: 'Movie-grade print with 3D muscle shading.',
   },
   {
@@ -720,7 +720,7 @@ export const PRODUCTS = [
     image: '/products/venom-carnage-red.jpg',
     priceFrom: 6.76,
     priceTo: null,
-    url: 'https://detail.1688.com/offer/1055943056841.html',
+    url: '/inquiry',
     blurb: 'Red Carnage hero print — bold and screen-accurate.',
   },
   {
@@ -733,7 +733,7 @@ export const PRODUCTS = [
     image: '/products/lightning-venom.jpg',
     priceFrom: 9.01,
     priceTo: null,
-    url: 'https://detail.1688.com/offer/678350480192.html',
+    url: '/inquiry',
     blurb: 'Iridescent flash print that pops under stage lights.',
   },
   {
@@ -746,7 +746,7 @@ export const PRODUCTS = [
     image: '/products/venom-blackpanther-kids.jpg',
     priceFrom: 7.44,
     priceTo: null,
-    url: 'https://detail.1688.com/offer/974035074934.html',
+    url: '/inquiry',
     blurb: 'Hooded hero muscle suit — little heroes’ favorite.',
   },
   {
@@ -759,7 +759,7 @@ export const PRODUCTS = [
     image: '/products/captain-america-muscle.jpg',
     priceFrom: 7.44,
     priceTo: null,
-    url: 'https://detail.1688.com/offer/970052340311.html',
+    url: '/inquiry',
     blurb: 'Shield-star print with padded muscle silhouette.',
   },
   {
@@ -772,7 +772,7 @@ export const PRODUCTS = [
     image: '/products/deadpool-cosplay.jpg',
     priceFrom: 7.89,
     priceTo: null,
-    url: 'https://detail.1688.com/offer/678069917532.html',
+    url: '/inquiry',
     blurb: 'The wisecracking merc — red & black muscle suit.',
   },
   {
@@ -785,7 +785,7 @@ export const PRODUCTS = [
     image: '/products/wolverine-deadpool3.jpg',
     priceFrom: 7.89,
     priceTo: null,
-    url: 'https://detail.1688.com/offer/971543476372.html',
+    url: '/inquiry',
     blurb: 'Claw-print hero suit from the big-screen duo.',
   },
   {
@@ -798,7 +798,7 @@ export const PRODUCTS = [
     image: '/products/hero-capes-set.jpg',
     priceFrom: 2.03,
     priceTo: null,
-    url: 'https://detail.1688.com/offer/1047498472235.html',
+    url: '/inquiry',
     blurb: 'Five-in-one hero cape set — instant costume upgrade.',
   },
   {

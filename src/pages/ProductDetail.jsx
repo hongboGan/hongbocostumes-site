@@ -105,10 +105,12 @@ export default function ProductDetail() {
                 <a
                   className="pd__source"
                   href={p.url}
-                  target="_blank"
-                  rel="noreferrer"
+                  target={p.url.startsWith('/') ? undefined : '_blank'}
+                  rel={p.url.startsWith('/') ? undefined : 'noreferrer'}
                 >
-                  View this listing on our Alibaba store ↗
+                  {p.url.startsWith('/')
+                    ? 'Request pricing and MOQ ↗'
+                    : 'View this listing on our Alibaba store ↗'}
                 </a>
               ) : null}
             </div>
