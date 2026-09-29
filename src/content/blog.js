@@ -4,6 +4,39 @@
 
 export const BLOG_POSTS = [
   {
+    slug: 'cosplay-addons-masks-wigs-gloves',
+    title: 'Cosplay Add-Ons: The Three Accessories That Grow Every Order',
+    date: '2026-09-29',
+    tags: ['Accessories', 'Buying guide', 'Wholesale'],
+    cover: '/products/hero-capes-set.jpg',
+    excerpt:
+      'Beginners buy the details first and the suit second. Here are the three accessory clusters they ask about most, and how to bundle them into bigger orders.',
+    sources: [
+      'r/CosplayHelp first-cosplay accessory threads',
+      'r/CosplayHelp wig tools and styling discussions',
+      'r/sewing costume and cosplay weekly question thread',
+    ],
+    body:
+      'Beginners rarely start with a full suit. They start with the details and build outward \u2014 and the questions in cosplay help communities show it. Hair, gloves, masks and headwear dominate first-cosplay threads; the bodysuit is usually what they buy *after* deciding the look is worth it. That is a merchandising signal worth acting on: accessories are the first purchase, the cheapest item to ship, and the easiest thing to add to an order already in progress.\n\n' +
+      '## What beginners actually ask about\n\n' +
+      '- **Hair first.** Wig questions \u2014 which tools to buy, how to cut bangs, how to make an inexpensive wig look natural \u2014 are the largest single cluster in first-cosplay threads. A wig changes a silhouette more than any other purchase.\n' +
+      '- **Gloves second.** The recurring answer is to buy stretch gloves and modify them: cut, glue, spike, recolour. Basic gloves are a modification blank, not a finished product.\n' +
+      '- **Masks and headwear third.** A plain hood becomes a character with a mask; a plain outfit becomes a costume with a crown or a headpiece.\n' +
+      '- **Capes and small props** turn a bodysuit into a recognisable look for group orders and party events.\n\n' +
+      '## Why add-ons beat a wider range of suits\n\n' +
+      '- **They attach without a new decision.** A buyer who has chosen a suit will add a mask, a cape or gloves if the option is in front of them at that moment.\n' +
+      '- **They ship cheaply** and pack into the same carton as the suit, with no extra volumetric weight.\n' +
+      '- **They carry the best margin in the catalogue.** The lowest-cost items are usually the highest-multiple ones \u2014 which is why a mask or a pair of gloves can be the most profitable line on the page.\n' +
+      '- **They lower the return rate on the whole order.** When the look arrives complete, buyers keep it.\n\n' +
+      '## How to bundle for the season\n\n' +
+      '- Group one **mask**, one **cape or headpiece** and one **glove** option into a kit, rather than listing them as loose extras.\n' +
+      '- Put the add-ons on the **same page as the suit**, high enough to be seen before the buy button, so they are chosen at the moment of choice.\n' +
+      '- Price the kit slightly below the sum of the parts \u2014 cheaper than discounting the suit itself.\n' +
+      '- Keep one **low-price entry item** in the range for buyers trialling you for the first time.\n\n' +
+      'A **[cape set](/products/hero-capes-set)** is the fastest way to turn any suit into a group look, and a **[tactical ghost half-mask](/products/tactical-ghost-mask)** is the kind of low-cost line that pulls a trial order in. For a full-face look the **[Phantom half-face mask](/products/phantom-mask)** covers the character without covering the mouth, and the **[kids\' crown and tiara](/products/king-crown-kids)** does for a plain outfit what a mask does for a hood.\n\n' +
+      'Selling costumes and want the accessory range that attaches to them? [Send an inquiry](/inquiry) with the suits you stock \u2014 we will come back with a bundle plan, pack ratios and pricing for the add-on lines. Prefer to talk it through? Message us on WhatsApp.',
+  },
+  {
     slug: 'couples-costume-sets-wholesale-pairs',
     title: 'Couples Costume Sets: How Wholesale Buyers Stock and Sell Pairs',
     date: '2026-09-28',
