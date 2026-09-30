@@ -4,6 +4,42 @@
 
 export const BLOG_POSTS = [
   {
+    slug: 'costume-overheating-fabric-specs',
+    title: 'Why Full-Body Costumes Overheat \u2014 and the Fabric Specs That Fix It',
+    date: '2026-09-30',
+    tags: ['Product specs', 'Comfort', 'Wholesale'],
+    cover: '/products/custom-3d-bodysuit.jpg',
+    excerpt:
+      'Mesh does not automatically mean cooler. Here are the fabric, liner and panel specs that decide whether a full-body costume can be worn for a whole day.',
+    sources: [
+      'r/CosplayHelp convention overheating and heat regulation threads',
+      'r/CosplayHelp breathable fabrics and under-layer discussions',
+      'r/cosplayers and r/dragoncon staying-cool-in-costume threads',
+    ],
+    body:
+      'Heat is the complaint that arrives after the sale. Threads about wearing armour, helmets and full-body suits at conventions are dominated by one question: how not to overheat. The fix is not "wear less" \u2014 it is what the suit is made of and how air moves through it. That is a spec decision, and it is one buyers can write into the order.\n\n' +
+      '## What the community threads keep reporting\n\n' +
+      '- **Helmets, masks and gloves make people sweat indoors**, not just outdoors \u2014 the problem is trapped air, not sunshine.\n' +
+      '- **Mesh is not automatically cooler.** A dense mesh layer slows evaporation and holds heat. A vent has to be an open single layer, not mesh glued over solid fabric.\n' +
+      '- **Foam torso armour is the worst case.** EVA over the chest and back leaves no airflow path at all.\n' +
+      '- **The underlayer matters as much as the shell.** A wicking or natural-fibre base layer under foam outperforms a second synthetic layer.\n' +
+      '- **Overheating is a safety problem, not a comfort preference.** Wearers cut the day short, and that becomes a return or a one-star review.\n\n' +
+      '## The specs to put in the order\n\n' +
+      '- **Open mesh panels at the sides and under the arms**, sized wide enough to actually pass air.\n' +
+      '- **A full-length front zipper**, so the suit can be opened and closed between photos without being removed.\n' +
+      '- **Detachable cape, mask or headpiece**, so layers come off without undressing.\n' +
+      '- **A moisture-wicking liner** instead of a second spandex layer.\n' +
+      '- **One size up for airflow**, still fitted at the shoulders and chest.\n' +
+      '- **Mid-weight four-way stretch spandex** rather than a heavy laminated shell.\n\n' +
+      '## Why the spec pays for itself\n\n' +
+      '- **Fewer returns.** "Too hot to wear" is treated as a defect, not a taste issue, and it is avoidable at the pattern stage.\n' +
+      '- **Higher perceived quality.** Buyers judge layers, zips and panel placement \u2014 not just the print.\n' +
+      '- **Repeat orders.** Event sellers re-order the suits their customers can wear for a full day.\n' +
+      '- **Safety.** Heat exhaustion is a liability claim, not a complaint.\n\n' +
+      'Our [custom-printed bodysuit](/products/custom-3d-bodysuit) line is where panel placement, liner and fabric weight are set to your spec, and both the [hero bodysuit with a full-length zip](/products/miles-morales-spiderman) and the [women\u2019s zipped hero suit](/products/spider-gwen) show how that front opening is built. Where a costume needs extra layers, a [reversible hero cape set](/products/hero-capes-set) keeps the cape detachable so the wearer can drop it during a parade and pick it up again for photos.\n\n' +
+      'Buying costumes for resale and want the ventilation spec written into your next order? [Send an inquiry](/inquiry) with the styles you stock \u2014 we will come back with fabric options, panel placement and pack pricing. Prefer to talk it through first? Message us on WhatsApp.',
+  },
+  {
     slug: 'cosplay-addons-masks-wigs-gloves',
     title: 'Cosplay Add-Ons: The Three Accessories That Grow Every Order',
     date: '2026-09-29',
