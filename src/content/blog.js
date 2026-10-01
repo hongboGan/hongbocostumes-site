@@ -4,6 +4,50 @@
 
 export const BLOG_POSTS = [
   {
+    slug: 'costume-odor-material-packing-specs',
+    title: 'Why New Costumes Smell \u2014 and the Material and Packing Specs That Fix It',
+    date: '2026-10-01',
+    tags: ['Materials', 'Product specs', 'Wholesale'],
+    cover: '/products/venom-blackpanther-kids.jpg',
+    excerpt:
+      'Costume odour is a sourcing problem, not a laundry problem. These material and packing specs cut the factory-smell complaints that drive returns.',
+    sources: [
+      'r/CosplayHelp costume odour and cleaning threads',
+      'r/cosplayprops costumes that cannot be washed',
+      'r/ChemicalSensitivities natural-fibre costume discussions',
+      'r/Costco kids costume washing thread',
+    ],
+    body:
+      'Every costuming community has the same thread: a new suit arrives smelling like a factory, the buyer hangs it outside for a week, and it still smells. Read as a sourcing signal rather than a laundry question, it points at something buyers can fix before the goods ever ship \u2014 the odour is residual from production and from the bag it was sealed in.\n\n' +
+      '## What the threads keep reporting\n\n' +
+      '- **"How do I get the smell out?"** is a recurring high-traffic question in costuming help communities, with dozens of replies and no clean answer.\n' +
+      '- **The pieces you cannot wash hold it longest.** Masks, foam armour and faux leather cannot go in a machine, so an odour that starts at the factory never fully leaves.\n' +
+      '- **Sensitive wearers react to the synthetic.** Some buyers report stinging eyes and headaches from all-polyester dress-up pieces, and ask specifically for natural-fibre options.\n' +
+      '- **Itchy seams get reported alongside odour**, and cheap kids\u2019 costumes are where both complaints cluster.\n' +
+      '- **Children chew their sleeves**, so what is in the fabric and in the print matters more on a child\u2019s piece than on an adult\u2019s.\n\n' +
+      '## Where the smell actually comes from\n\n' +
+      '- **Residual chemistry in the fabric** \u2014 dye carriers, softeners and finishing agents that were never fully rinsed out.\n' +
+      '- **Adhesives** on appliques, laminated layers and foam-backed prints.\n' +
+      '- **Large solvent-based prints.** A big plastisol or solvent print holds odour far longer than a small one.\n' +
+      '- **PVC, vinyl and faux leather** \u2014 the strongest source, and the most common material in masks and armour.\n' +
+      '- **Packing.** Sealing a warm garment straight off the line into a polybag traps the fumes with it, with no time to air out.\n\n' +
+      '## The specs to write into the order\n\n' +
+      '- **Water-based ink** for large prints, plus a rinse step after printing.\n' +
+      '- **24 to 48 hours of airing on racks** before bagging, rather than line-to-bag.\n' +
+      '- **Ventilated packing** \u2014 perforated or open-ended bags, or breathable cartons, instead of a fully sealed bag.\n' +
+      '- **Avoid PVC and vinyl** where the design allows, and specify a lower-odour alternative for masks and armour.\n' +
+      '- **A natural-fibre or lower-synthetic option** in the range for buyers with sensitivities.\n' +
+      '- **A care label that says to air the piece and spot-clean**, instead of leaving the buyer to guess.\n' +
+      '- **One pre-shipment sample**, air-tested before the full order is packed.\n\n' +
+      '## Why it pays for itself\n\n' +
+      '- **"Smells like chemicals" is a return reason**, and it is decided at the material stage \u2014 not in the buyer\u2019s wardrobe.\n' +
+      '- **It is a review problem.** Odour complaints read as a quality signal even when the construction is sound.\n' +
+      '- **It opens the sensitive-skin segment**, where buyers pay a premium for natural fibre and low-odour construction.\n' +
+      '- **It protects resale and rental channels**, where a garment has to survive a second owner.\n\n' +
+      'Print-heavy one-pieces are where ink choice shows up first, which is why the [custom-printed bodysuit](/products/custom-3d-bodysuit) line is specified by ink type and print size rather than colour alone. Hoods, masks and faux-leather pieces are the highest-odour parts of any set, so the [hooded kids hero suit](/products/venom-blackpanther-kids) and the [half-face mask](/products/tactical-ghost-mask) are the pieces worth air-testing first. The same rule applies to a full [zipped hero bodysuit](/products/spider-gwen), where the print covers most of the surface.\n\n' +
+      'Buying costumes for resale and want the low-odour spec written into your next order? [Send an inquiry](/inquiry) with the styles you stock \u2014 we will come back with material options, print method and packing details. Prefer to talk it through first? Message us on WhatsApp.',
+  },
+  {
     slug: 'costume-overheating-fabric-specs',
     title: 'Why Full-Body Costumes Overheat \u2014 and the Fabric Specs That Fix It',
     date: '2026-09-30',
