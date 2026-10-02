@@ -4,6 +4,50 @@
 
 export const BLOG_POSTS = [
   {
+    slug: 'cold-weather-costume-layering-sizing',
+    title: 'Halloween Costumes for Cold Climates: The Sizing Specs That Wear Over Layers',
+    date: '2026-10-02',
+    tags: ['Sizing', 'Kids', 'Wholesale'],
+    cover: '/products/glow-ghost-cape-kids.jpg',
+    excerpt:
+      'In cold-climate markets the costume has to fit over a coat, not instead of one. These sizing specs decide whether it gets worn at all.',
+    sources: [
+      'r/Parenting winterizing Halloween costumes thread',
+      'r/Parenting kids costume sizing discussions',
+      'r/toddlers cold-weather costume acceptance threads',
+      'r/wholefoods post-Halloween costume returns thread',
+    ],
+    body:
+      'In a cold market the trick-or-treat question is not which costume, but whether the child will wear it at all once the temperature drops. Parents solve it by sizing up and layering underneath \u2014 and if the costume cannot take those layers, it stays at home. For buyers selling into the northern US, Canada, the UK and northern Europe, that makes layering clearance a sizing spec rather than a preference.\n\n' +
+      '## What the parent threads keep reporting\n\n' +
+      '- **"Buy a size up"** is the standard advice for cold-weather costumes, specifically so warm clothes fit underneath.\n' +
+      '- **Layers go under, not over.** Parents describe tights or long underwear, then trousers, under dresses and skirts \u2014 so the garment has to be cut generously enough to hide them.\n' +
+      '- **The costume has to clear outerwear.** Older generations describe costumes sized to fit over snow suits; the same constraint now applies to a puffer jacket.\n' +
+      '- **When it does not fit, the costume loses.** The fallback is a coat over the top, or no costume at all, and parents describe both.\n' +
+      '- **Returns arrive after the night, not before it.** Costume returns cluster in the first days of November, when unworn or ill-fitting outfits go back.\n\n' +
+      '## Where the sizing actually fails\n\n' +
+      '- **Armhole and sleeve depth**, not body width, is usually the limiting measurement \u2014 a jacket needs room at the shoulder.\n' +
+      '- **Stiff waistbands and non-stretch seams** cannot accommodate a base layer.\n' +
+      '- **One-piece suits leave no route in**, because the layers have to go under a closed garment.\n' +
+      '- **Tulle and structured skirts crush** under a coat and do not recover for photographs.\n' +
+      '- **Short hems and thin cuffs** leave wrists and ankles exposed on the one evening the child is standing still outdoors.\n\n' +
+      '## The specs that solve it\n\n' +
+      '- **Generous armhole depth and a wider sleeve head**, so the costume goes on over a light jacket.\n' +
+      '- **Four-way stretch side panels** instead of a rigid waistband.\n' +
+      '- **Two-piece and cape-based designs**, which can be layered and removed separately.\n' +
+      '- **A stated size-up allowance in the size chart**, so the buyer knows which size covers a base layer.\n' +
+      '- **Capes and ponchos cut to wear over outerwear** \u2014 the simplest cold-weather fix in the range.\n' +
+      '- **Reflective or glow trim** for dark evenings, when the costume is the most visible thing the child is wearing.\n' +
+      '- **Longer hems and ribbed cuffs** at the wrists and ankles.\n\n' +
+      '## Why it pays for itself\n\n' +
+      '- **"Too small to wear over clothes" is a fit return**, and in a cold market it is predictable rather than occasional.\n' +
+      '- **It sells the size-up.** A chart that explains the layering allowance converts better than a warning that an item runs small.\n' +
+      '- **It protects the cold-market season.** In northern regions the wear window is a single evening; if the costume fails that evening, the order is a write-off.\n' +
+      '- **Visibility is a safety point**, and glow or reflective trim is cheap to add at the pattern stage.\n\n' +
+      'Capes are the cheapest way to solve cold weather, which is why a [glow-in-the-dark kids cape set](/products/glow-ghost-cape-kids) covers the dark part of the evening as well as the cold part, and a [reversible hero cape set](/products/hero-capes-set) layers over whatever the child is already wearing. Dresses take layers underneath more easily than one-pieces, so a [kids\u2019 sequin tulle gown](/products/sequin-princess-dress) is a better cold-market pick than a [hooded kids one-piece](/products/venom-blackpanther-kids), which needs the size-up built in.\n\n' +
+      'Buying for a cold-climate market and want the layering allowance built into the size chart? [Send an inquiry](/inquiry) with the styles and regions you sell into \u2014 we will come back with cut options, size grading and pack pricing. Prefer to talk it through first? Message us on WhatsApp.',
+  },
+  {
     slug: 'costume-odor-material-packing-specs',
     title: 'Why New Costumes Smell \u2014 and the Material and Packing Specs That Fix It',
     date: '2026-10-01',
