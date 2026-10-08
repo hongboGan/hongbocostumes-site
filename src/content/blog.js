@@ -33,6 +33,36 @@ export const BLOG_POSTS = [
       'Buying costumes by air or by container and want the packing numbers before you commit? [Send an inquiry](/inquiry) with the styles and quantities \u2014 we will come back with flat-pack dimensions, carton specs and pricing built for how the goods actually move. Prefer to talk it through first? Message us on WhatsApp.\n\n'
   },
   {
+    slug: 'late-season-halloween-costume-stocking',
+    title: 'What Late-Season Halloween Buyers Actually Buy \u2014 and How to Stock the Last Three Weeks',
+    date: '2026-10-03',
+    tags: ['Wholesale', 'Merchandising', 'Halloween'],
+    cover: '/products/tactical-ghost-mask.jpg',
+    excerpt:
+      'The last three weeks of October reward cheap, size-free and reusable pieces \u2014 not another size run of full suits.',
+    sources: [
+      'r/LifeProTips last-minute costume thread',
+      'r/Frugal cheap costume discussions',
+      'r/malefashionadvice low-effort costume threads',
+      'r/Halloween_Costumes reusable accessory ideas',
+    ],
+    body:
+      'The last three weeks of October do not look like the rest of the season. The threads that take off in mid-to-late October are not about which character suit to buy \u2014 they are about a costume that is cheap, quick, and assembled from things the buyer already owns. When the question changes, the stock that answers it changes with it.\n\n' +
+      '## What the late-season buyer is actually asking for\n\n' +
+      '- **Cheap comes first.** Cost is the dominant filter, ahead of character accuracy.\n- **Low effort.** The appeal is a costume that needs no ordering, no fitting, and no building.\n- **One piece, not a wardrobe.** The ask is for a single item that turns ordinary clothes into a costume.\n\n' +
+      '- **Reusable.** Buyers say plainly that they want something they can wear again, not a single-use outfit.\n- **Size-tolerant.** They are shopping under time pressure and cannot gamble on a fit.\n\n' +
+      '## Why demand shifts to one-size pieces\n\n' +
+      '- **The core size run of full suits is already gone.** Late buyers arrive after it has sold through.\n- **There is no time for an exchange.** A return cannot be replaced before the 31st.\n- **One-size pieces carry no size risk**, so a cape, a mask or a crown converts immediately.\n\n' +
+      '- **They read as a costume at a distance**, which is all a party or a doorway requires.\n- **They cross buyer types.** The same piece works for adults and for kids, which doubles its stock life.\n\n' +
+      '## How to stock the last three weeks\n\n' +
+      '- **Keep accessories deep, not full suits in long-tail sizes.** A mask, a cape and a headpiece cover more buyers per unit.\n- **Reorder size-free items first.** There is no size curve to get wrong and no dead stock at the end.\n- **Move the outfit-finishers to the front.** The late buyer decides at the door.\n\n' +
+      '- **Bundle one mask, one cape and one headpiece** just below the sum of the parts, so a rushed buyer takes the set.\n- **Stop reordering full suits mid-curve.** Late demand is thinner and harder to predict than the September run.\n- **Hold glow and reflective items**, because the final week is dark by early evening.\n\n' +
+      '## Why it shows up in the numbers\n\n' +
+      '- **Attachment without a new decision.** The buyer is not replacing anything, so there is no comparison to lose.\n- **No fit returns on size-free stock** \u2014 the main cost of a rushed order.\n- **The same unit sells twice**, for a kid\'s event one week and the party itself the next.\n- **It clears the shipping cutoff.** Accessories air-freight cheaply; full suits do not.\n\n' +
+      'The argument is easiest to see in a [one-size half-mask](/products/tactical-ghost-mask), which fits on the spot with no size decision at all, and in a [reversible cape set](/products/hero-capes-set), which turns whatever someone is already wearing into a costume. A [kids\' crown and tiara](/products/king-crown-kids) does the same job for a child at the last minute. That is why the late money sits in the pieces rather than in another [full-body hero suit](/products/miles-morales-spiderman), which is an early-season purchase \u2014 it needs a size run and time to ship.\n\n' +
+      'Buying for the last three weeks of the season and want the size-free lines that carry them? [Send an inquiry](/inquiry) with the styles you already stock \u2014 we will come back with accessory options, pack ratios and pricing built for a short reorder window. Prefer to talk it through first? Message us on WhatsApp.\n\n'
+  },
+  {
     slug: 'costume-attachment-closures-specs',
     title: 'Why Costume Pieces Fall Off \u2014 and the Attachment Specs That Hold Them',
     date: '2026-10-04',
