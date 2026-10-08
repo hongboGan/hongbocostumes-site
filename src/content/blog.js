@@ -4,6 +4,35 @@
 
 export const BLOG_POSTS = [
   {
+    slug: 'costume-packing-volume-shipping-cost',
+    title: 'Costume Packing Volume: Why Bulky Costumes Cost More to Ship',
+    date: '2026-10-05',
+    tags: ['Wholesale', 'Logistics', 'Product specs'],
+    cover: '/products/custom-3d-bodysuit.jpg',
+    excerpt:
+      'A costume\'s freight bill is set by the space it takes up rather than the weight on the scale \u2014 which makes packability an order spec, not a logistics afterthought.',
+    sources: [
+      'r/shipping costume and apparel freight cost threads',
+      'r/CosplayHelp transporting props and packing discussions',
+      'r/Fabrics vacuum and shrink-pack fabric risk thread',
+      'r/logistics dimensional weight and density class thread',
+    ],
+    body:
+      'A costume\'s freight bill is usually set by how much space it takes up, not by what it weighs. That makes packability a product spec you agree at sampling \u2014 not a logistics detail to fix after the container lands.\n\n' +
+      '## What buyers and makers keep running into\n\n' +
+      '- **"Clothes don\'t weigh much, but they take up space."** In one shipping thread that single line is the whole problem: a light costume in a large carton is priced as a large carton.\n- **Oversize, not overweight.** A cosplayer pricing a single prop found shipping at roughly **$70 one way** \u2014 about $140 for a round trip \u2014 and decided carrying it was cheaper.\n- **Length is penalised directly on flights.** The working rule quoted in one cosplay thread is that many airlines set baggage limits off **length + width + height added together**, so a long, thin prop can fail a limit while still being light.\n\n' +
+      '- **Rigid pieces do not compress.** The standard answer for foam armour is a hard case or an airline-approved trunk \u2014 which adds volume and weight of its own.\n- **Long items can attract an oversize fee even by sea**, per a thread on buying props from Chinese suppliers.\n- **Vacuum compression has casualties.** One fabrics thread asks plainly whether faux leather or satin gets permanently creased by shrink-pack vacuum suction \u2014 the outcome buyers fear.\n\n' +
+      '## Why volume, not weight, sets the invoice\n\n' +
+      '- **Chargeable weight is the greater of actual and volumetric weight.** Forwarder-published guidance shows the air figure built from carton dimensions with a divisor that varies by carrier; sea freight is priced on cubic metres.\n- **Freight also keys off density class**, so a low-density costume carton can price worse than a dense one of the same mass.\n- **The divisor is not the point \u2014 the dimensions are.** Carton size is the lever you actually control.\n\n' +
+      '- **Every centimetre is paid for twice** on a two-way move: outbound and any return.\n- **It sits in the landed cost of the unit**, not in a side line a buyer can ignore.\n\n' +
+      '## The packing specs to write into the order\n\n' +
+      '- **Buy flat, not puffy.** Inflatable-style suits are the clearest case: cheap per unit, expensive per carton.\n- **Squash the packing, not the garment.** Fold and stack flat rather than pulling vacuum on anything coated, printed or heat-sensitive.\n- **Keep rigid pieces out of the soft-goods carton** and protect them in their own pack.\n\n' +
+      '- **Ask for a folded-dimension figure per style** \u2014 the flat pack size \u2014 alongside the weight.\n- **Design joints to come apart**, so a long prop can ship shorter.\n- **Specify the carton before you specify the quantity.** Carton size is what the forwarder quotes.\n- **Confirm density on the first order**, before the volume is committed.\n\n' +
+      '## Where it shows in a catalogue\n\n' +
+      'The spread runs from a [custom bodysuit](/products/custom-3d-bodysuit), which folds almost flat, to an [inflatable character suit](/products/dino-inflatable), where the air that makes the costume also fills the carton. A [layered tunic set](/products/templar-knight-set) costs more to move than its weight suggests, because it is several pieces plus a belt, and a [rigid half-mask](/products/tactical-ghost-mask) needs crush protection a polybag will not give it.\n\n' +
+      'Buying costumes by air or by container and want the packing numbers before you commit? [Send an inquiry](/inquiry) with the styles and quantities \u2014 we will come back with flat-pack dimensions, carton specs and pricing built for how the goods actually move. Prefer to talk it through first? Message us on WhatsApp.\n\n'
+  },
+  {
     slug: 'cold-weather-costume-layering-sizing',
     title: 'Halloween Costumes for Cold Climates: The Sizing Specs That Wear Over Layers',
     date: '2026-10-02',

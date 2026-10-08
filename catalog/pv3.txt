@@ -1,0 +1,5 @@
+## Why volume, not weight, sets the invoice
+@@@BLOCK@@@
+- **Chargeable weight is the greater of actual and volumetric weight.** Forwarder-published guidance shows the air figure built from carton dimensions with a divisor that varies by carrier; sea freight is priced on cubic metres.
+- **Freight also keys off density class**, so a low-density costume carton can price worse than a dense one of the same mass.
+- **The divisor is not the point \u2014 the dimensions are.** Carton size is the lever you actually control.

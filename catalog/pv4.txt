@@ -1,0 +1,8 @@
+- **Every centimetre is paid for twice** on a two-way move: outbound and any return.
+- **It sits in the landed cost of the unit**, not in a side line a buyer can ignore.
+@@@BLOCK@@@
+## The packing specs to write into the order
+@@@BLOCK@@@
+- **Buy flat, not puffy.** Inflatable-style suits are the clearest case: cheap per unit, expensive per carton.
+- **Squash the packing, not the garment.** Fold and stack flat rather than pulling vacuum on anything coated, printed or heat-sensitive.
+- **Keep rigid pieces out of the soft-goods carton** and protect them in their own pack.

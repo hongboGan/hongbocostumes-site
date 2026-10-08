@@ -1,0 +1,4 @@
+- **Ask for a folded-dimension figure per style** \u2014 the flat pack size \u2014 alongside the weight.
+- **Design joints to come apart**, so a long prop can ship shorter.
+- **Specify the carton before you specify the quantity.** Carton size is what the forwarder quotes.
+- **Confirm density on the first order**, before the volume is committed.

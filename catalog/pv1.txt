@@ -1,0 +1,7 @@
+A costume's freight bill is usually set by how much space it takes up, not by what it weighs. That makes packability a product spec you agree at sampling \u2014 not a logistics detail to fix after the container lands.
+@@@BLOCK@@@
+## What buyers and makers keep running into
+@@@BLOCK@@@
+- **"Clothes don't weigh much, but they take up space."** In one shipping thread that single line is the whole problem: a light costume in a large carton is priced as a large carton.
+- **Oversize, not overweight.** A cosplayer pricing a single prop found shipping at roughly **$70 one way** \u2014 about $140 for a round trip \u2014 and decided carrying it was cheaper.
+- **Length is penalised directly on flights.** The working rule quoted in one cosplay thread is that many airlines set baggage limits off **length + width + height added together**, so a long, thin prop can fail a limit while still being light.
