@@ -1,0 +1,10 @@
+## The attachment specs to write into the order
+@@@BLOCK@@@
+- **Mechanical attachment first:** sew-on hook-and-loop, snaps with a backing plate, stitching through the seam.
+- **Glue as a supplement, never a substitute** \u2014 adhered *and* stitched.
+- **Abrade or prime foam and sealed surfaces** before any adhesive goes on.
+- **Two attachment points instead of one**, so a single failure does not drop the piece.
+@@@BLOCK@@@
+- **Bar-tack every stress point** \u2014 cape shoulders, mask elastics, strap ends.
+- **Detachable by design**, so a part can be removed and refitted rather than torn off.
+- **A fastener kit in the carton** \u2014 a spare snap or hook-and-loop pad \u2014 so a lost part does not become a return.

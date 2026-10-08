@@ -33,6 +33,36 @@ export const BLOG_POSTS = [
       'Buying costumes by air or by container and want the packing numbers before you commit? [Send an inquiry](/inquiry) with the styles and quantities \u2014 we will come back with flat-pack dimensions, carton specs and pricing built for how the goods actually move. Prefer to talk it through first? Message us on WhatsApp.\n\n'
   },
   {
+    slug: 'costume-attachment-closures-specs',
+    title: 'Why Costume Pieces Fall Off \u2014 and the Attachment Specs That Hold Them',
+    date: '2026-10-04',
+    tags: ['Construction', 'Product specs', 'Wholesale'],
+    cover: '/products/captain-america-muscle.jpg',
+    excerpt:
+      'Most costume failures are attachment failures, not fabric failures \u2014 and the fix belongs in the sampling spec, not in the customer\'s hands.',
+    sources: [
+      'r/CosplayHelp costume falling apart and attachment failures',
+      'r/CosplayHelp hot-gluing onto clothing threads',
+      'r/cosplayprops armour and piece attachment discussions',
+      'r/cosplay EVA foam to Lycra attachment thread',
+    ],
+    body:
+      'Most costume failures are not fabric failures. They are attachment failures: a cape that leaves the shoulders while the wearer is dancing, a snap that will not hold to smooth armour, jewels that drop off within a day of wear. All three are the same problem \u2014 and all three are decided at sampling, not in the customer\'s hands.\n\n' +
+      '## What the threads keep reporting\n\n' +
+      '- **A cape detaching mid-event.** The reported repair attempt \u2014 snaps hot-glued to a smooth armour surface \u2014 failed because the surface gave the adhesive nothing to grip, and the wearer changed costumes instead.\n- **Glue that holds briefly, then gives.** The parts that fail are the ones that move most, and gluing a joint under load is the recurring mistake.\n- **Light elements dropping off knit.** Sequins and jewels applied with adhesive fell away from a stretch knit within a day of use.\n\n' +
+      '- **Straps that will not stay joined**, because the glued joint itself is the load-bearing part.\n- **Adhesive-backed fasteners treated as permanent**, when they are not.\n\n' +
+      '## Why glue fails\n\n' +
+      '- **Smooth, non-porous surfaces** \u2014 sealed or painted foam, pleather, metal, printed panels \u2014 give adhesive nothing to key into.\n- **Stretch knit moves away from the bond** every time the garment is put on.\n- **Heat, sweat and friction** soften the joint exactly where the part moves most.\n\n' +
+      '- **Adhesive-backed hook-and-loop is a temporary fastener.** The glue layer is the weak link, not the hook.\n- **The failure appears only in use**, which is why it is invisible at pre-shipment inspection.\n\n' +
+      '## The attachment specs to write into the order\n\n' +
+      '- **Mechanical attachment first:** sew-on hook-and-loop, snaps with a backing plate, stitching through the seam.\n- **Glue as a supplement, never a substitute** \u2014 adhered *and* stitched.\n- **Abrade or prime foam and sealed surfaces** before any adhesive goes on.\n- **Two attachment points instead of one**, so a single failure does not drop the piece.\n\n' +
+      '- **Bar-tack every stress point** \u2014 cape shoulders, mask elastics, strap ends.\n- **Detachable by design**, so a part can be removed and refitted rather than torn off.\n- **A fastener kit in the carton** \u2014 a spare snap or hook-and-loop pad \u2014 so a lost part does not become a return.\n\n' +
+      '## Why it pays for itself\n\n' +
+      '- **A piece that falls off in a crowd is a safety problem**, not only a quality complaint.\n- **Attachment method is set at sampling.** Correcting it after the container lands is a rework bill.\n- **It is what buyers inspect.** Join construction reads as the quality signal on a costume, more than print does.\n- **It survives re-wear**, which matters for rental, resale and repeat orders.\n\n' +
+      'Attachment choice shows up most in a [cape set](/products/hero-capes-set), where the shoulder carries the load, and in a [half-face mask](/products/tactical-ghost-mask), where the elastic and its anchor take all the strain. On a [custom-printed bodysuit](/products/custom-3d-bodysuit), applied elements have to be stitched through the knit rather than glued to it \u2014 the same rule that governs a [full-body suit with attached panels](/products/venom-symbiote), where every added piece is a potential failure point.\n\n' +
+      'Specifying a costume with applied pieces, straps or detachable armour? [Send an inquiry](/inquiry) with the design and we will come back with attachment options, sampling notes and pack pricing. Prefer to talk it through first? Message us on WhatsApp.\n\n'
+  },
+  {
     slug: 'cold-weather-costume-layering-sizing',
     title: 'Halloween Costumes for Cold Climates: The Sizing Specs That Wear Over Layers',
     date: '2026-10-02',

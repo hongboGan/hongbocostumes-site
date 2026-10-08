@@ -1,0 +1,7 @@
+Most costume failures are not fabric failures. They are attachment failures: a cape that leaves the shoulders while the wearer is dancing, a snap that will not hold to smooth armour, jewels that drop off within a day of wear. All three are the same problem \u2014 and all three are decided at sampling, not in the customer's hands.
+@@@BLOCK@@@
+## What the threads keep reporting
+@@@BLOCK@@@
+- **A cape detaching mid-event.** The reported repair attempt \u2014 snaps hot-glued to a smooth armour surface \u2014 failed because the surface gave the adhesive nothing to grip, and the wearer changed costumes instead.
+- **Glue that holds briefly, then gives.** The parts that fail are the ones that move most, and gluing a joint under load is the recurring mistake.
+- **Light elements dropping off knit.** Sequins and jewels applied with adhesive fell away from a stretch knit within a day of use.

@@ -1,0 +1,11 @@
+- **Straps that will not stay joined**, because the glued joint itself is the load-bearing part.
+- **Adhesive-backed fasteners treated as permanent**, when they are not.
+@@@BLOCK@@@
+## Why glue fails
+@@@BLOCK@@@
+- **Smooth, non-porous surfaces** \u2014 sealed or painted foam, pleather, metal, printed panels \u2014 give adhesive nothing to key into.
+- **Stretch knit moves away from the bond** every time the garment is put on.
+- **Heat, sweat and friction** soften the joint exactly where the part moves most.
+@@@BLOCK@@@
+- **Adhesive-backed hook-and-loop is a temporary fastener.** The glue layer is the weak link, not the hook.
+- **The failure appears only in use**, which is why it is invisible at pre-shipment inspection.
