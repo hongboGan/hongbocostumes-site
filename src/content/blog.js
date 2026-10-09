@@ -4,6 +4,36 @@
 
 export const BLOG_POSTS = [
   {
+    slug: 'costume-opacity-lining-coverage-specs',
+    title: 'Why Costumes Look See-Through \u2014 and the Opacity and Lining Specs That Fix It',
+    date: '2026-10-09',
+    tags: ['Product specs', 'Fabric', 'Wholesale'],
+    cover: '/products/custom-3d-bodysuit.jpg',
+    excerpt:
+      'The most common "cheap costume" complaint is coverage: sheer fabric, no lining, and panels that go translucent under stretch \u2014 all settled at sampling.',
+    sources: [
+      'r/CosplayHelp modesty and revealing costume thread',
+      'r/CosplayHelp sheer white material for costume work',
+      'r/sewing sheer knit substrate for costume planning',
+      'r/Fabrics budget costume fabric behaviour',
+    ],
+    body:
+      'The complaint that reads as "cheap" to a buyer is rarely about price. It is about coverage: a costume that looks solid indoors and sheer in daylight, or a bodysuit thin enough that something has to be worn underneath. Coverage is settled at sampling \u2014 by fabric weight, lining and panel construction.\n\n' +
+      '## What the threads keep reporting\n\n' +
+      '- **"What do I wear underneath?"** Buyers of thin bodysuits describe adding a thermal top and leggings, then\n<omitted chars="672" />\n\n' +
+      '- **Buyers solve coverage themselves.** A long-running thread on revealing costumes is people adding panels, layers and longer hems after purchase.\n- **The cheapest substrate is the most sheer.** Sewing threads recommend inexpensive sheer knits for costume work and note they do not fray, which is exactly why they appear in low-cost costumes.\n\n' +
+      '## Why cheap costumes are see-through\n\n' +
+      '- **Opacity comes from yarn mass.** A lighter knit costs less per metre and is more translucent; the two facts move together.\n- **Stretch opens the fabric.** Coverage measured flat is not the coverage a wearer sees with the garment on.\n- **Applied decoration needs a backing**, or the reverse of an unlined panel is left exposed.\n- **Shop lighting hides it.** A costume that reads opaque at the counter can go sheer in daylight, which is where it is actually worn.\n\n' +
+      '- **No lining is the cheapest build**, and it fails no inspection because nothing is broken.\n- **Pale colourways go first**, so one fabric cannot serve the whole range.\n\n' +
+      '## The opacity and coverage specs to write into the order\n\n' +
+      '- **Set fabric weight per colourway**, not once for the style, because pale colours need more mass to read opaque.\n- **Measure transparency under stretch**, on a form rather than flat on a table.\n- **Line anything with appl\n<omitted chars="686" />\n\n' +
+      '- **Set minimum coverage points** \u2014 hem, shoulder, armhole, rise \u2014 as numbers on the spec sheet.\n- **State whether an underlayer is expected**, on the listing, instead of letting the buyer discover it.\n- **Keep a daylight photo of the sample on a form** as the reference for bulk approval.\n\n' +
+      '## Why it pays\n\n' +
+      '- **Coverage is judged before wearing**, so it drives reviews that a fit problem never reaches.\n- **A lining is a small unit cost; a coverage return is a full landed cost** plus freight both ways.\n- **Coverage requirements differ by market**, and the lining is where one pattern is adapted to several.\n- **It is the cheapest way to look expensive**, because the first thing a buyer reads as quality is whether light passes through the fabric.\n\n' +
+      'Coverage is easiest to specify where the fabric is doing the most work: a [stretch bodysuit](/products/custom-3d-bodysuit), where opacity has to hold at full stretch, and a [panelled hero suit](/products/venom-symbiote), where sheer inserts need a backing. Sequinned styles need the opposite treatment \u2014 a [sequin dress](/products/sequin-princess-dress) is only as good as the panel behind the decoration \u2014 and the same rule runs through a [printed stretch suit](/products/spider-gwen), where the print and the fabric weight have to be chosen together.\n\n' +
+      'Specifying a costume and want it to read opaque across the whole colour range? [Send an inquiry](/inquiry) with the style and the colours you sell \u2014 we will come back with fabric options, lining construction and sampling notes. Prefer to talk it through first? Message us on WhatsApp.\n\n'
+  },
+  {
     slug: 'costume-packing-volume-shipping-cost',
     title: 'Costume Packing Volume: Why Bulky Costumes Cost More to Ship',
     date: '2026-10-05',

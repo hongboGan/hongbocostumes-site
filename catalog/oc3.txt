@@ -1,0 +1,9 @@
+- **No lining is the cheapest build**, and it fails no inspection because nothing is broken.
+- **Pale colourways go first**, so one fabric cannot serve the whole range.
+@@@BLOCK@@@
+## The opacity and coverage specs to write into the order
+@@@BLOCK@@@
+- **Set fabric weight per colourway**, not once for the style, because pale colours need more mass to read opaque.
+- **Measure transparency under stretch**, on a form rather than flat on a table.
+- **Line anything with appl
+<omitted chars="686" />
