@@ -1,0 +1,5 @@
+## The visibility specs to write into the order
+@@@BLOCK@@@
+- **Specify reflectivity where the garment faces traffic** \u2014 hem, sleeve, shoulder, and the bag that swings beside the body.
+- **State whether the glow is a print or an applied patch**, because the two age differently across washes.
+- **Test the glow after washing**, not only on the sealed sample.

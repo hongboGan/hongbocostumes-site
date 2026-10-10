@@ -4,6 +4,35 @@
 
 export const BLOG_POSTS = [
   {
+    slug: 'halloween-night-visibility-glow-reflective-specs',
+    title: 'Being Seen on Halloween Night \u2014 Glow, Reflective and Visibility Specs',
+    date: '2026-10-10',
+    tags: ['Safety features', 'Product specs', 'Halloween'],
+    cover: '/products/glow-ghost-cape-kids.jpg',
+    excerpt:
+      'The last two weeks of October turn a costume into something worn on a dark street \u2014 which makes glow, reflectivity and colour range a sampling decision, not an accessory.',
+    sources: [
+      'r/Halloween_Costumes glowstick costume ideas',
+      'r/gifs parent-built LED stick-figure costume',
+      'r/Damnthatsinteresting electroluminescent costume thread',
+      'public safety guidance on reflective tape',
+    ],
+    body:
+      'The last two weeks of October change what a costume has to do. It stops being a party outfit and becomes something worn on a dark street. Buyers start asking about glow, reflectivity and pale colourways \u2014 features that are cheap to add at sampling and almost impossible to add later.\n\n' +
+      '## What the threads and guides keep pointing at\n\n' +
+      '- **Glow is asked for as a costume idea in its own right.** A thread on glowstick costume ideas is people building the light into the look rather than hiding it.\n- **Light-up is usually added at home.** One parent hot-glued a strand of LEDs to a child\'s\n<omitted chars="706" />\n\n' +
+      '- **Lighter colourways are recommended over dark ones**, which is a colour-range decision rather than a styling one.\n- **The ask arrives from the parent, not the wearer**, and usually in the last fortnight.\n\n' +
+      '## Why visibility has to be a sampling decision\n\n' +
+      '- **Reflective tape is applied, not added later** \u2014 if it is missing, the buyer buys tape and sticks it on, and the costume reads homemade.\n- **Glow-in-the-dark is either a print or a pigment in the yarn**, so it has to be chosen with the fabric, not after it.\n- **Pale and dark colourways cannot share one spec**, and the darkest suits are the hardest case because they read dark by design.\n- **The unit cost is small; the after-market fix is not**, and nothing on an unlit costume looks broken in inspection.\n\n' +
+      '## The visibility specs to write into the order\n\n' +
+      '- **Specify reflectivity where the garment faces traffic** \u2014 hem, sleeve, shoulder, and the bag that swings beside the body.\n- **State whether the glow is a print or an applied patch**, because the two age differently across washes.\n- **Test the glow after washing**, not only on the sealed sample.\n\n' +
+      '- **Keep pale colourways in the range**, and price them rather than dropping them.\n- **Check the wearer\'s own vision too** \u2014 eye openings, hood depth, and a hem that clears the stairs.\n- **Photograph the sample in low light**, not only on white, so the buyer sees what they are approving.\n\n' +
+      '## Why it pays\n\n' +
+      '- **It is the feature late buyers ask for by name**, and one of the few they will pay a little more for.\n- **A treat bag or reflective accessory is a natural attach-on**, raising units per order without a new pattern.\n- **It answers the plainness complaint**, which is what a fully dark costume triggers on a parent\'s first look.\n- **It survives re-wear**, so the costume still gets used after the 31st.\n\n' +
+      'Visibility is easiest to specify where the design already carries a light element: a [glow-in-the-dark kids cape](/products/glow-ghost-cape-kids) is the clearest case, since the glow is the product rather than an extra. An [iridescent glow-print suit](/products/venom-symbiote) shows how much a print can do on a dark base, a [cape set](/products/hero-capes-set) is where reflective trim is cheapest to add, and a [mesh-eye half-mask](/products/tactical-ghost-mask) is where the wearer\'s own vision matters as much as being seen.\n\n' +
+      'Buying for the final weeks of October and want the glow and reflective options priced? [Send an inquiry](/inquiry) with the styles you stock \u2014 we will come back with trim options, glow-print quotes and pack pricing. Prefer to talk it through first? Message us on WhatsApp.\n\n'
+  },
+  {
     slug: 'costume-opacity-lining-coverage-specs',
     title: 'Why Costumes Look See-Through \u2014 and the Opacity and Lining Specs That Fix It',
     date: '2026-10-09',
