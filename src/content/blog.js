@@ -4,6 +4,34 @@
 
 export const BLOG_POSTS = [
   {
+    slug: 'costume-care-labels-wash-coating-specs',
+    title: 'Costume Care Labels and Wash Specs \u2014 What a Costume Has to Survive',
+    date: '2026-10-12',
+    tags: ['Product specs', 'Care and durability', 'Wholesale'],
+    cover: '/products/venom-carnage-red.jpg',
+    excerpt:
+      'The second wave of costume complaints arrives after the first wash, not on delivery \u2014 which turns the care label, colourfastness and coating adhesion into sampling decisions.',
+    sources: [
+      'r/CosplayHelp pleather and patent-leather care questions',
+      'r/CosplayHelp long-term costume storage threads',
+      'r/ZeroWaste PU-leather care discussion',
+      'r/laundry and r/CleaningTips wash-damage and dye-transfer threads',
+    ],
+    body:
+      'The first complaint about a costume arrives at delivery. The second arrives a month later, after the first wash or a season folded in a bag: a coated panel flaking, dark sections marking the pale ones beside them, a print that no longer matches the photo. None of it is a defect in the usual sense, and all of it is settled at sampling.\n\n' +
+      '## What the care threads keep asking\n\n' +
+      '- **Storage is the most common question for coated material.** People ask whether to hang the suit, box it, keep it out of sunlight, and whether a plastic bag protects it or traps moisture.\n- **Dark parts marking lighter parts of the same garment** shows up repeatedly, usually after the costume has been folded away for a while.\n- **Coated "leather-look" surfaces are reported to peel with age**, and the view in those threads is that once the coating starts to go, care only delays it.\n\n' +
+      '- **Cleaning questions arrive attached to stains**, and the answers converge on a damp cloth, no soaking, no scratching and no direct sun.\n- **Heat is the common thread in wash-damage posts** \u2014 a printed design that lasted a year can be ruined by one warm wash.\n\n' +
+      '## Why care and coating are sampling decisions\n\n' +
+      '- **A care label that promises more than the material can do is a return**, and the buyer who printed it pays for it.\n- **Colourfastness is measurable.** Whether a black panel marks the pale one beside it is a test result, not an opinion.\n- **Coating adhesion is a material choice**, so it belongs in the same conversation as price.\n- **Prints are a process choice.** Heat and abrasion act differently on each print method, so the care line has to match the process used.\n- **Storage guidance is part of the product** for anything coated, structured or stiffly trimmed.\n\n' +
+      '@@@BLOCK@@@\n## The care and durability specs to write into the order\n\n' +
+      '- **Set the care instruction from the material**, not from whatever a competitor prints on a label.\n- **Ask for a rub-fastness test between the darkest and lightest parts of the same style.**\n- **Specify coated and knit panels by position**, so nothing is substituted at sampling.\n- **Test after three washes on a production unit**, not the sealed sample.\n- **Use an interleaf where a dark coated panel meets a pale one** in the bag.\n- **Put the storage line on the hang tag** while the tags are being printed.\n\n' +
+      '@@@BLOCK@@@\n## Why it pays\n\n' +
+      '- **It removes the year-two return**, which lands after the season and cannot be resold.\n- **It protects the listing rating**, because the review that kills a listing is written after washing, not on arrival.\n- **It is close to free at sampling** and expensive as an after-sales problem.\n- **It gives your customer something to pass on**, which is what a care card is for.\n\n' +
+      '@@@BLOCK@@@\nCare wording is easiest to agree on where the material is already the point: a [custom printed bodysuit](/products/custom-3d-bodysuit) lives or dies on how its print takes heat, a [glossy symbiote-style suit](/products/venom-carnage-red) is where a coated surface needs its own storage line, a [structured knight set](/products/templar-knight-set) shows how much trim one care instruction must cover, and a [mesh-eye half-mask](/products/tactical-ghost-mask) is where cleaning advice matters as much as fit.\n\n' +
+      'Want the care labels, rub-fastness testing and storage wording built into the spec? [Send an inquiry](/inquiry) with the styles you stock \u2014 we will come back with material options, test results and pack pricing. Prefer to talk it through first? Message us on WhatsApp.\n\n'
+  },
+  {
     slug: 'halloween-night-visibility-glow-reflective-specs',
     title: 'Being Seen on Halloween Night \u2014 Glow, Reflective and Visibility Specs',
     date: '2026-10-10',

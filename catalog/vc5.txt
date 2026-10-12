@@ -1,0 +1,9 @@
+@@@BLOCK@@@
+## The care and durability specs to write into the order
+@@@BLOCK@@@
+- **Set the care instruction from the material**, not from whatever a competitor prints on a label.
+- **Ask for a rub-fastness test between the darkest and lightest parts of the same style.**
+- **Specify coated and knit panels by position**, so nothing is substituted at sampling.
+- **Test after three washes on a production unit**, not the sealed sample.
+- **Use an interleaf where a dark coated panel meets a pale one** in the bag.
+- **Put the storage line on the hang tag** while the tags are being printed.
