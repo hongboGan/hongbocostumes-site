@@ -789,6 +789,19 @@ export const PRODUCTS = [
     blurb: 'Claw-print hero suit from the big-screen duo.',
   },
   {
+    id: 'black-spider-hero-bodysuit',
+    cat: 'movie',
+    ali: 'Superhero Costume',
+    name: 'Black Spider Hero Bodysuit',
+    fullTitle:
+      'Black Spider Hero Cosplay Bodysuit Superhero Jumpsuit Adult Halloween Zentai Costume',
+    image: '/products/black-spider-hero-bodysuit.jpg',
+    priceFrom: 4,
+    priceTo: 5.9,
+    url: '/inquiry',
+    blurb: 'Web-print black hero one-piece with mask — a full-body suit for Halloween and cons.',
+  },
+  {
     id: 'hero-capes-set',
     cat: 'props',
     ali: '1688 - Superhero capes & accessories',
