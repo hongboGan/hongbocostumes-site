@@ -796,6 +796,11 @@ export const PRODUCTS = [
     fullTitle:
       'Black Spider Hero Cosplay Bodysuit Superhero Jumpsuit Adult Halloween Zentai Costume',
     image: '/products/black-spider-hero-bodysuit.jpg',
+    images: [
+      '/products/black-spider-hero-bodysuit.jpg',
+      '/products/black-spider-hero-bodysuit-2.jpg',
+      '/products/black-spider-hero-bodysuit-3.jpg',
+    ],
     priceFrom: 4,
     priceTo: 5.9,
     url: '/inquiry',

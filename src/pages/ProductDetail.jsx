@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { ArrowUpRight, ArrowLeft, Check } from 'lucide-react';
 import ProductCard from '../components/ProductCard.jsx';
@@ -24,6 +25,7 @@ const FACTS = [
 export default function ProductDetail() {
   const { id } = useParams();
   const p = getProduct(id);
+  const [shot, setShot] = useState(0);
 
   usePageMeta(
     p ? `${p.name} | Hongbo Costumes` : 'Product not found | Hongbo Costumes',
@@ -35,6 +37,7 @@ export default function ProductDetail() {
 
   if (!p) return <NotFound />;
 
+  const gallery = p.images && p.images.length > 1 ? p.images : [p.image];
   const cat = getCategory(p.cat);
   const related = productsIn(p.cat).filter((x) => x.id !== p.id).slice(0, 4);
   const wa = waLink(
@@ -55,10 +58,26 @@ export default function ProductDetail() {
           <div className="pd__grid">
             <div className="pd__media">
               <div className="pd__frame">
-                <img src={p.image} alt={p.fullTitle} />
+                <img src={gallery[shot] || gallery[0]} alt={p.fullTitle} />
                 <span className="pd__chip">{cat.label}</span>
                 <span className="sticker sticker--lime pd__stock">In stock line</span>
               </div>
+              {gallery.length > 1 && (
+                <div className="pd__thumbs" role="group" aria-label="Product images">
+                  {gallery.map((src, i) => (
+                    <button
+                      key={src}
+                      type="button"
+                      className={`pd__thumb${i === shot ? ' is-active' : ''}`}
+                      onClick={() => setShot(i)}
+                      aria-label={`Show image ${i + 1} of ${gallery.length}`}
+                      aria-pressed={i === shot}
+                    >
+                      <img src={src} alt="" loading="lazy" />
+                    </button>
+                  ))}
+                </div>
+              )}
               <p className="pd__more">
                 More angles, size chart &amp; fabric swatches —{' '}
                 <Link to={`/inquiry?product=${p.id}`}>request by inquiry</Link>.
