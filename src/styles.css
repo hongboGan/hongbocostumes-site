@@ -1124,11 +1124,98 @@ select.field { appearance: auto; }
 /* ============================================================
    WhatsApp float / 404
    ============================================================ */
-.wafloat {
+/* Social profile links (Instagram / Facebook) beside the WhatsApp entry points */
+.socials { display: inline-flex; align-items: center; gap: 0.5rem; }
+.socials__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-weight: 800;
+  line-height: 1;
+}
+.socials__link svg { display: block; }
+
+/* top bar: plain icons beside the WhatsApp number */
+.topbar .socials__link { color: #fff; }
+.topbar .socials__link:hover { color: var(--lime); }
+
+/* header: bordered icon buttons beside the WhatsApp button */
+.socials--icons .socials__link {
+  width: 34px;
+  height: 34px;
+  justify-content: center;
+  border: 2px solid var(--ink);
+  border-radius: 10px;
+  background: var(--white);
+  color: var(--ink);
+  box-shadow: var(--shadow-ink);
+  transition: transform 0.16s ease, background 0.16s ease, color 0.16s ease;
+}
+.socials--icons .socials__link:hover {
+  transform: translate(-2px, -2px);
+  background: var(--ink);
+  color: var(--lime);
+}
+
+/* mobile drawer: labelled pills under the WhatsApp pill */
+.socials--mnav { margin-top: 0.7rem; }
+.socials--mnav .socials__link {
+  border: 2px solid var(--ink);
+  border-radius: 999px;
+  padding: 0.5rem 0.9rem;
+  background: var(--white);
+  color: var(--ink);
+  transition: background 0.16s ease, color 0.16s ease;
+}
+.socials--mnav .socials__link:hover { background: var(--ink); color: var(--lime); }
+
+/* footer brand: round buttons next to the WhatsApp button */
+.footer__actions { display: flex; flex-wrap: wrap; align-items: center; gap: 0.8rem; }
+.socials--footer .socials__link {
+  width: 36px;
+  height: 36px;
+  justify-content: center;
+  border: 2px solid rgba(255, 246, 233, 0.45);
+  border-radius: 50%;
+  color: var(--cream);
+  transition: border-color 0.16s ease, color 0.16s ease;
+}
+.socials--footer .socials__link:hover { border-color: var(--lime); color: var(--lime); }
+
+/* footer contact column: stacked links, matching the column rhythm */
+.footer__col .socials--col { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
+.footer__col .socials--col .socials__link { color: #cfc0de; }
+.footer__col .socials--col .socials__link:hover { color: var(--lime); }
+
+/* floating cluster: socials stacked above the WhatsApp pill */
+.floatbar {
   position: fixed;
   right: 1.4rem;
   bottom: 1.4rem;
   z-index: 90;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.55rem;
+}
+.socials--float .socials__link {
+  width: 42px;
+  height: 42px;
+  justify-content: center;
+  background: var(--ink);
+  color: var(--lime);
+  border: 2px solid var(--ink);
+  border-radius: 50%;
+  box-shadow: var(--shadow-ink);
+  transition: transform 0.16s ease, background 0.16s ease;
+}
+.socials--float .socials__link:hover {
+  transform: translateY(-3px);
+  background: var(--violet-deep);
+  color: var(--cream);
+}
+
+.wafloat {
   display: inline-flex;
   align-items: center;
   gap: 0.55rem;

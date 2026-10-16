@@ -22,6 +22,23 @@ export const WA_DEFAULT = waLink(
   `Hi ${SITE.name}! I'm interested in your costumes. Could you send me the catalog and wholesale prices?`
 );
 
+// Social profiles shown next to the WhatsApp entry points.
+// Facebook stays empty until a verified, publicly viewable page URL is supplied
+// — an unverified link must never be shipped to a live site.
+const FACEBOOK_URL = '';
+
+export const SOCIALS = [
+  {
+    id: 'instagram',
+    label: 'Instagram',
+    handle: '@maxxu508',
+    url: 'https://www.instagram.com/maxxu508/',
+  },
+  ...(FACEBOOK_URL
+    ? [{ id: 'facebook', label: 'Facebook', handle: '', url: FACEBOOK_URL }]
+    : []),
+];
+
 export const COMPANY = {
   headline: 'A costume factory that moves as fast as your selling season.',
   stats: [

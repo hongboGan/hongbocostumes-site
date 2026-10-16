@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import { Link, NavLink, Outlet, useLocation } from 'react-router-dom';
 import { Menu, X, Mail, ArrowUpRight } from 'lucide-react';
-import { CATEGORIES, SITE, WA_DEFAULT } from '../data.js';
-import { WaIcon } from './icons.jsx';
+import { CATEGORIES, SITE, SOCIALS, WA_DEFAULT } from '../data.js';
+import { FbIcon, IgIcon, WaIcon } from './icons.jsx';
 
 const TICKER = [
   'Factory Direct Wholesale',
@@ -12,6 +12,36 @@ const TICKER = [
   '91% On-Time Dispatch',
   'Rated 4.7/5 by Buyers',
 ];
+
+const SOCIAL_ICON = { instagram: IgIcon, facebook: FbIcon };
+
+// Social profile links, rendered beside the WhatsApp entry points.
+// Renders nothing at all when no profile is configured.
+function SocialLinks({ size = 15, showLabel = false, className = '' }) {
+  if (SOCIALS.length === 0) return null;
+
+  return (
+    <span className={`socials${className ? ` ${className}` : ''}`}>
+      {SOCIALS.map((s) => {
+        const Icon = SOCIAL_ICON[s.id];
+        return (
+          <a
+            key={s.id}
+            className="socials__link"
+            href={s.url}
+            target="_blank"
+            rel="noreferrer"
+            aria-label={`${SITE.name} on ${s.label}`}
+            title={`${SITE.name} on ${s.label}`}
+          >
+            {Icon ? <Icon size={size} /> : null}
+            {showLabel && <span>{s.label}</span>}
+          </a>
+        );
+      })}
+    </span>
+  );
+}
 
 function TopBar() {
   return (
@@ -25,14 +55,14 @@ function TopBar() {
           <a href={WA_DEFAULT} target="_blank" rel="noreferrer">
             <WaIcon size={13} /> {SITE.whatsappDisplay}
           </a>
+          <SocialLinks size={13} />
         </span>
       </div>
     </div>
   );
 }
 
-function Header() {
-  const [open, setOpen] = useState(false);
+function Header({ open, setOpen }) {
   const location = useLocation();
   useEffect(() => setOpen(false), [location.pathname, location.search]);
 
@@ -79,6 +109,7 @@ function Header() {
         </nav>
 
         <div className="header__cta">
+          <SocialLinks size={16} className="socials--icons hide-sm" />
           <a className="btn btn--wa btn--sm" href={WA_DEFAULT} target="_blank" rel="noreferrer">
             <WaIcon size={16} /> WhatsApp
           </a>
@@ -117,6 +148,7 @@ function Header() {
           <a className="mnav__wa" href={WA_DEFAULT} target="_blank" rel="noreferrer">
             <WaIcon size={17} /> Chat on WhatsApp — {SITE.whatsappDisplay}
           </a>
+          <SocialLinks size={17} showLabel className="socials--mnav" />
         </div>
       )}
     </header>
@@ -156,9 +188,12 @@ function Footer() {
             custom OEM/ODM and FBA-ready programs for retailers and sellers
             worldwide.
           </p>
-          <a className="btn btn--lime btn--sm" href={WA_DEFAULT} target="_blank" rel="noreferrer">
-            <WaIcon size={16} /> Chat on WhatsApp
-          </a>
+          <div className="footer__actions">
+            <a className="btn btn--lime btn--sm" href={WA_DEFAULT} target="_blank" rel="noreferrer">
+              <WaIcon size={16} /> Chat on WhatsApp
+            </a>
+            <SocialLinks size={16} className="socials--footer" />
+          </div>
         </div>
 
         <div className="footer__col">
@@ -188,6 +223,7 @@ function Footer() {
           <a href={WA_DEFAULT} target="_blank" rel="noreferrer">
             WhatsApp {SITE.whatsappDisplay}
           </a>
+          <SocialLinks size={15} showLabel className="socials--col" />
           <p className="footer__legal">
             Manufacturing: {SITE.legalName}, Wuhan, Hubei, China.
             <br />
@@ -205,12 +241,15 @@ function Footer() {
   );
 }
 
-function WaFloat() {
+function FloatBar() {
   return (
-    <a className="wafloat" href={WA_DEFAULT} target="_blank" rel="noreferrer">
-      <WaIcon size={26} />
-      <span>Chat with us</span>
-    </a>
+    <div className="floatbar">
+      <SocialLinks size={19} className="socials--float" />
+      <a className="wafloat" href={WA_DEFAULT} target="_blank" rel="noreferrer">
+        <WaIcon size={26} />
+        <span>Chat with us</span>
+      </a>
+    </div>
   );
 }
 
@@ -218,18 +257,21 @@ export default function Layout() {
   // Inquiry & product detail pages already have prominent in-page WhatsApp
   // CTAs; hide the floating button there to avoid overlapping form fields.
   const { pathname } = useLocation();
+  const [navOpen, setNavOpen] = useState(false);
   const hideFloat = pathname === '/inquiry' || /^\/products\/[^/]+\/?$/.test(pathname);
 
   return (
     <div className="site">
       <TopBar />
-      <Header />
+      <Header open={navOpen} setOpen={setNavOpen} />
       <Ticker />
       <main>
         <Outlet />
       </main>
       <Footer />
-      {!hideFloat && <WaFloat />}
+      {/* The mobile drawer reaches the bottom of the viewport, so the floating
+          cluster is hidden while it is open to avoid intercepting its taps. */}
+      {!hideFloat && !navOpen && <FloatBar />}
     </div>
   );
 }
