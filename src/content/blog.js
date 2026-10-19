@@ -4,6 +4,23 @@
 
 export const BLOG_POSTS = [
   {
+    slug: "kids-costume-safety-specs-parents-ask",
+    title: "Kids Costume Safety Specs - The Questions Parents Ask Before They Buy",
+    date: "2026-10-14",
+    tags: ["Safety features","Kids costumes","Product specs"],
+    cover: "/products/venom-blackpanther-kids.jpg",
+    excerpt:
+      "Two weeks before Halloween the questions parents ask are safety questions - can my child see, can they walk, what might come loose - and every one of them is settled at sampling.",
+    sources: [
+      "CPSC public guidance on Halloween costume hazards",
+      "parent discussions on childrens costume comfort, vision and stairs",
+      "r/Halloween_Costumes threads on costume-quality expectations",
+      "coverage of childrens dress-up flammability test failures",
+    ],
+    body:
+      "With two weeks to go, kids' costumes carry the volume, and the questions parents ask are not styling questions. Can my child see through it? Can they use stairs in it? Is anything on it small enough to end up in a mouth? Every one of those is settled at sampling, not in a disclaimer at the bottom of a product page.\n\n## The questions parents ask first\n\n- **Can my child see?** Parents test peripheral vision before they buy. Where the eye opening sits and how dark the mesh is decide that.\n- **Can they use stairs?** Hem and cape length is behind most of the photos of children tripping on Halloween.\n- **What is attached to it?** Crowns, badges, pendants and props are the parts that work loose and get picked up.\n- **Does it feel like clothing?** The recurring expectation in costume discussions is a piece that behaves like clothes rather than \"costume quality\".\n- **What does the label claim?** Parents read labels on dress-up, and some markets expect specific flammability wording on the tag.\n\n## Why these are specs, not disclaimers\n\n- **A safety paragraph cannot fix a hem** cut five centimetres too long for the age band it is sold to.\n- **Vision is a pattern decision.** Eye opening position and mesh tint are set on the pattern table, long before a parent complains.\n- **Choking risk is a trim decision.** How a crown or pendant is attached, and whether it can detach at all, is construction.\n- **Flammability wording is a material choice.** Whatever the tag claims has to sit inside the test result of the fabric actually used.\n- **Small parts are also a return reason**, so they cost the order twice.\n\n## The specs to write into a kids order\n\n- **Set hem and cape length by age band**, and print the finished length on the size chart.\n- **Specify the eye opening and the mesh** so neither is left to the sampling room.\n- **Attach the trims or leave them off** - no loose small parts on a kids style.\n- **Keep props soft, blunt and short**, and review them with the garment.\n- **Hold a flammability test report for every kids style**, and keep the tag wording inside what that report supports.\n- **State an age range, not only a size.**\n\n## Why it pays\n\n- **Kids' costumes drive the volume** in the final three weeks, and they drive the reviews with it.\n- **A parent whose child could see and walk buys again next year.**\n- **Paperwork is a sales asset.** Retailers increasingly ask for test documents before placing an order, and a supplier who already holds them shortens that conversation.\n- **It is cheapest at sampling**, and unfixable once the cartons are on the water.\n\nA kids suit is the clearest place to start: a [full-body kids costume](/products/venom-blackpanther-kids) puts hem, vision and closure specs in one garment, a [kids cape set](/products/hero-capes-set) is where length and neck closure matter most, a [mesh-eye mask](/products/tactical-ghost-mask) shows how much peripheral vision a pattern choice gives back, and a [kids pirate set](/products/pirate-kids-set) is where the prop rules apply before anything else.\n\nTwo weeks before Halloween and want the safety spec sheet, test documents and age-banded sizing built into your order? [Send an inquiry](/inquiry) with the styles you stock - we will come back with materials, test paperwork and pack pricing. Prefer to talk it through first? Message us on WhatsApp.",
+  },
+  {
     slug: 'costume-care-labels-wash-coating-specs',
     title: 'Costume Care Labels and Wash Specs \u2014 What a Costume Has to Survive',
     date: '2026-10-12',
