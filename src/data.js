@@ -884,6 +884,58 @@ export const PRODUCTS = [
     priceTo: null,
     blurb: 'Mesh-eyed tactical half-mask — a low-cost add-on that lifts every order value.',
   },
+  {
+    id: 'kids-stealth-ninja-set',
+    cat: 'kids',
+    ali: 'Kids Costume (stealth ninja)',
+    name: "Kids' Stealth Ninja Costume Set",
+    fullTitle:
+      'Kids Stealth Ninja Costume Set Black Hooded Jumpsuit with Mask Belt and Accessories for Boys Halloween Cosplay Party',
+    image: '/products/kids-stealth-ninja-set.jpg',
+    priceFrom: 7.2,
+    priceTo: null,
+    url: '/inquiry',
+    blurb: 'Hooded black ninja jumpsuit with belt and accessories — a top-selling generic kids look.',
+  },
+  {
+    id: 'kids-witch-dress-hat',
+    cat: 'kids',
+    ali: 'Kids Costume (purple witch)',
+    name: "Girls' Purple Witch Dress & Bat Wings",
+    fullTitle:
+      'Girls Purple Witch Costume Tiered Tulle Dress with Bat Wings and Headband Halloween Party Fancy Dress for Kids',
+    image: '/products/kids-witch-dress-hat.jpg',
+    priceFrom: 6.19,
+    priceTo: null,
+    url: '/inquiry',
+    blurb: 'Tiered purple-and-black witch dress with mesh wings — the classic witch look, no licence needed.',
+  },
+  {
+    id: 'kids-astronaut-suit',
+    cat: 'kids',
+    ali: 'Career Day Costume (astronaut)',
+    name: "Kids' Astronaut Space Suit with Helmet",
+    fullTitle:
+      'Kids Astronaut Costume White Space Jumpsuit with Hooded Helmet Spaceman Suit for Halloween Career Day Cosplay',
+    image: '/products/kids-astronaut-suit.jpg',
+    priceFrom: 6.9,
+    priceTo: null,
+    url: '/inquiry',
+    blurb: 'White space jumpsuit with hooded helmet — the generic version of the best-selling space-ranger look.',
+  },
+  {
+    id: 'hooded-ghost-robe',
+    cat: 'halloween',
+    ali: 'Halloween Costume (hooded ghost cloak)',
+    name: 'Tattered Hooded Ghost Cloak',
+    fullTitle:
+      'Adult Tattered Hooded Ghost Cloak Black Hooded Robe Cape Halloween Horror Fancy Dress Unisex',
+    image: '/products/hooded-ghost-robe.jpg',
+    priceFrom: 2.72,
+    priceTo: null,
+    url: '/inquiry',
+    blurb: 'Tattered hooded cloak — the generic hooded-ghost silhouette, at an entry price that sells in volume.',
+  },
 ];
 
 export const getCategory = (id) => CATEGORIES.find((c) => c.id === id);
