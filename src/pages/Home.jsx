@@ -11,6 +11,7 @@ import {
   getCategory,
   waLink,
 } from '../data.js';
+import { usePageMeta } from '../lib/seo.js';
 
 const BESTSELLER_IDS = [
   'santa-family-set',
@@ -39,6 +40,12 @@ function SectionTag({ children, color = 'lime' }) {
 }
 
 export default function Home() {
+  usePageMeta(
+    'Hongbo Costumes | Halloween & Cosplay Costume Manufacturer',
+    'Factory-direct wholesale costumes for retailers: Halloween, cosplay, superhero, kids and Christmas lines. OEM/ODM, samples in about 7 days, FBA-ready packing.',
+    '/'
+  );
+
   const bestsellers = BESTSELLER_IDS.map((id) => PRODUCTS.find((p) => p.id === id)).filter(Boolean);
   const superheroPicks = SUPERHERO_IDS.map((id) => PRODUCTS.find((p) => p.id === id)).filter(Boolean);
   const collage = ['santa-family-set', 'sequin-princess-dress', 'lolita-catgirl-maid']
@@ -114,7 +121,7 @@ export default function Home() {
               return (
                 <Link
                   key={c.id}
-                  to={`/products?cat=${c.id}`}
+                  to={`/collections/${c.id}`}
                   className={`cat card-acc card-acc--${c.id}`}
                   style={{ '--i': i }}
                 >
@@ -153,7 +160,7 @@ export default function Home() {
                 target market and we&rsquo;ll quote FOB.
               </p>
             </div>
-            <Link className="btn btn--lime btn--ghostlnk" to="/products?cat=movie">
+            <Link className="btn btn--lime btn--ghostlnk" to="/collections/movie">
               All superhero styles <ArrowUpRight size={17} />
             </Link>
           </div>

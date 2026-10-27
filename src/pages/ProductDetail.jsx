@@ -51,7 +51,7 @@ export default function ProductDetail() {
           <nav className="crumbs" aria-label="Breadcrumb">
             <Link to="/">Home</Link> <span>/</span>
             <Link to="/products">Products</Link> <span>/</span>
-            <Link to={`/products?cat=${p.cat}`}>{cat.label}</Link> <span>/</span>
+            <Link to={`/collections/${p.cat}`}>{cat.label}</Link> <span>/</span>
             <span className="crumbs__here">{p.name}</span>
           </nav>
 
@@ -146,7 +146,7 @@ export default function ProductDetail() {
                   You may also <em>stock</em> these.
                 </h2>
               </div>
-              <Link className="btn btn--ink btn--ghostlnk" to={`/products?cat=${p.cat}`}>
+              <Link className="btn btn--ink btn--ghostlnk" to={`/collections/${p.cat}`}>
                 View {cat.label} <ArrowUpRight size={17} />
               </Link>
             </div>

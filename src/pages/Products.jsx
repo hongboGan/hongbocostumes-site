@@ -1,5 +1,5 @@
 import { useMemo } from 'react';
-import { Link, useSearchParams } from 'react-router-dom';
+import { Link, useParams, useSearchParams } from 'react-router-dom';
 import { ArrowUpRight, SearchX } from 'lucide-react';
 import ProductCard from '../components/ProductCard.jsx';
 import { WaIcon } from '../components/icons.jsx';
@@ -12,31 +12,30 @@ import {
 import { usePageMeta } from '../lib/seo.js';
 
 export default function Products() {
-  const [params, setParams] = useSearchParams();
-  const requested = params.get('cat') || 'all';
-  // Unknown ?cat= values (stale links, crawler guesses) fall back to the full
+  const { slug } = useParams();
+  const [params] = useSearchParams();
+  // Category comes from the /collections/:slug route; the legacy ?cat= query is
+  // still honoured so old inbound links keep working.
+  const requested = slug || params.get('cat') || 'all';
+  // Unknown values (stale links, crawler guesses) fall back to the full
   // catalog, so the chip row and the list never contradict each other.
   const active = requested === 'all' || getCategory(requested) ? requested : 'all';
+  const activeCat = active === 'all' ? null : getCategory(active);
 
   usePageMeta(
-    'Wholesale Costumes & Cosplay Catalog | Hongbo Costumes',
-    'Factory catalogue of Halloween, cosplay, superhero, princess and Christmas costumes. Wholesale pricing, custom OEM/ODM and FBA-ready packing.',
-    '/products'
+    activeCat
+      ? `${activeCat.label} | Wholesale Costumes | Hongbo Costumes`
+      : 'Wholesale Costumes & Cosplay Catalog | Hongbo Costumes',
+    activeCat
+      ? `${activeCat.blurb} Factory-direct wholesale, custom OEM/ODM and FBA-ready packing.`
+      : 'Factory catalogue of Halloween, cosplay, superhero, princess and Christmas costumes. Wholesale pricing, custom OEM/ODM and FBA-ready packing.',
+    activeCat ? `/collections/${active}` : '/products'
   );
 
   const list = useMemo(
     () => (active === 'all' ? PRODUCTS : PRODUCTS.filter((p) => p.cat === active)),
     [active]
   );
-  const activeCat = active === 'all' ? null : getCategory(active);
-
-  const pick = (id) => {
-    const next = new URLSearchParams(params);
-    if (id === 'all') next.delete('cat');
-    else next.set('cat', id);
-    setParams(next, { replace: true });
-  };
-
   return (
     <>
       <section className="phead">
@@ -51,26 +50,26 @@ export default function Products() {
               : 'Factory-direct styles across Halloween, cosplay, princess, funny and holiday lines. Every style can be customized to your colors, sizes and logo.'}
           </p>
           <div className="chips" role="tablist" aria-label="Filter by category">
-            <button
+            <Link
               className={`chip ${active === 'all' ? 'chip--on' : ''}`}
-              onClick={() => pick('all')}
+              to="/products"
               role="tab"
               aria-selected={active === 'all'}
             >
               All <span>{PRODUCTS.length}</span>
-            </button>
+            </Link>
             {CATEGORIES.map((c) => {
               const n = PRODUCTS.filter((p) => p.cat === c.id).length;
               return (
-                <button
+                <Link
                   key={c.id}
                   className={`chip ${active === c.id ? 'chip--on' : ''}`}
-                  onClick={() => pick(c.id)}
+                  to={`/collections/${c.id}`}
                   role="tab"
                   aria-selected={active === c.id}
                 >
                   {c.label} <span>{n}</span>
-                </button>
+                </Link>
               );
             })}
           </div>

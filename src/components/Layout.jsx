@@ -91,7 +91,7 @@ function Header({ open, setOpen }) {
             </NavLink>
             <span className="flyout">
               {CATEGORIES.map((c) => (
-                <Link key={c.id} to={`/products?cat=${c.id}`}>
+                <Link key={c.id} to={`/collections/${c.id}`}>
                   {c.label}
                 </Link>
               ))}
@@ -132,7 +132,7 @@ function Header({ open, setOpen }) {
           <Link to="/" className="mnav__l">Home</Link>
           <p className="mnav__label">Products</p>
           {CATEGORIES.map((c) => (
-            <Link key={c.id} to={`/products?cat=${c.id}`} className="mnav__l mnav__sub">
+            <Link key={c.id} to={`/collections/${c.id}`} className="mnav__l mnav__sub">
               {c.label}
             </Link>
           ))}
@@ -199,7 +199,7 @@ function Footer() {
         <div className="footer__col">
           <p className="footer__h">Shop</p>
           {CATEGORIES.map((c) => (
-            <Link key={c.id} to={`/products?cat=${c.id}`}>
+            <Link key={c.id} to={`/collections/${c.id}`}>
               {c.label}
             </Link>
           ))}

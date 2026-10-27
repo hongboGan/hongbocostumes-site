@@ -7,18 +7,20 @@ import { createServer } from 'vite';
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { PRODUCTS } from '../src/data.js';
+import { CATEGORIES, PRODUCTS } from '../src/data.js';
 import { BLOG_POSTS } from '../src/content/blog.js';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const dist = join(root, 'dist');
 const SITE = 'https://www.hongbocostumes.com';
 
-// Query-based category URLs (/products?cat=...) cannot be prerendered as files;
-// they stay on the SPA fallback and are excluded here.
+// Category pages live at /collections/:slug so they can be prerendered as real
+// files with their own title, H1 and filtered grid. Legacy /products?cat=...
+// links still resolve client-side but are no longer the canonical form.
 const routes = [
   '/',
   '/products',
+  ...CATEGORIES.map((c) => `/collections/${c.id}`),
   ...PRODUCTS.map((p) => `/products/${p.id}`),
   '/inquiry',
   '/blog',
