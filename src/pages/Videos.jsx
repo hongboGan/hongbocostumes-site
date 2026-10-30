@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowUpRight, Play } from 'lucide-react';
 import { VIDEOS, videoThumb, videoUrl } from '../content/videos.js';
@@ -6,18 +6,45 @@ import { usePageMeta } from '../lib/seo.js';
 
 function Card({ video }) {
   const [playing, setPlaying] = useState(false);
+  const [blocked, setBlocked] = useState(false);
+  const loaded = useRef(false);
+
+  // Some networks (mainland China, corporate proxies) cannot reach YouTube. The
+  // iframe never fires onLoad there, so fall back to an explicit link instead of
+  // leaving a black box on screen.
+  useEffect(() => {
+    if (!playing) return undefined;
+    const timer = setTimeout(() => {
+      if (!loaded.current) setBlocked(true);
+    }, 8000);
+    return () => clearTimeout(timer);
+  }, [playing]);
 
   return (
     <article className="vcard">
       <div className="vcard__frame">
-        {playing ? (
+        {playing && !blocked ? (
           <iframe
             src={`https://www.youtube-nocookie.com/embed/${video.id}?autoplay=1&rel=0`}
             title={video.title}
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
             loading="lazy"
+            onLoad={() => {
+              loaded.current = true;
+            }}
           />
+        ) : blocked ? (
+          <div className="vcard__blocked">
+            <img src={videoThumb(video.id)} alt="" aria-hidden="true" />
+            <div className="vcard__blocked-msg">
+              <strong>Playback is blocked on this network.</strong>
+              <span>YouTube may be unreachable from your location or office firewall.</span>
+              <a href={videoUrl(video.id)} target="_blank" rel="noreferrer">
+                Watch on YouTube <ArrowUpRight size={14} />
+              </a>
+            </div>
+          </div>
         ) : (
           <button
             type="button"
@@ -46,6 +73,9 @@ function Card({ video }) {
             </span>
           ))}
         </div>
+        <a className="vcard__ext" href={videoUrl(video.id)} target="_blank" rel="noreferrer">
+          Open on YouTube <ArrowUpRight size={13} />
+        </a>
       </div>
     </article>
   );
