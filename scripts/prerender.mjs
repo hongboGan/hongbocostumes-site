@@ -9,6 +9,7 @@ import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { CATEGORIES, PRODUCTS } from '../src/data.js';
 import { BLOG_POSTS } from '../src/content/blog.js';
+import { VIDEOS } from '../src/content/videos.js';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const dist = join(root, 'dist');
@@ -25,6 +26,7 @@ const routes = [
   '/inquiry',
   '/blog',
   ...BLOG_POSTS.map((p) => `/blog/${p.slug}`),
+  '/videos',
 ];
 
 const images = new Map();
@@ -225,6 +227,40 @@ function structuredData(route) {
         ])
       );
     }
+  }
+
+  if (route === '/videos') {
+    graph.push({
+      '@type': 'CollectionPage',
+      '@id': `${SITE}/videos#page`,
+      name: 'Workshop Videos — Costume & Prop Craft Technique',
+      description:
+        'Curated craft videos on EVA foam armor, patterning and finishing, for buyers judging costume build quality.',
+      isPartOf: { '@id': SITE_ID },
+      mainEntity: {
+        '@type': 'ItemList',
+        itemListElement: VIDEOS.map((v, i) => ({
+          '@type': 'ListItem',
+          position: i + 1,
+          item: {
+            '@type': 'VideoObject',
+            name: v.title,
+            description: v.why,
+            thumbnailUrl: [`https://i.ytimg.com/vi/${v.id}/hqdefault.jpg`],
+            embedUrl: `https://www.youtube-nocookie.com/embed/${v.id}`,
+            contentUrl: `https://www.youtube.com/watch?v=${v.id}`,
+            duration: `PT${v.duration.split(':')[0]}M${v.duration.split(':')[1]}S`,
+            publisher: { '@type': 'Organization', name: v.channel },
+          },
+        })),
+      },
+    });
+    graph.push(
+      crumb([
+        { name: 'Home', path: '/' },
+        { name: 'Videos', path: '/videos' },
+      ])
+    );
   }
 
   return JSON.stringify({ '@context': 'https://schema.org', '@graph': graph }).replace(

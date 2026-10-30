@@ -103,6 +103,9 @@ function Header({ open, setOpen }) {
           <NavLink to="/blog" className={({ isActive }) => (isActive ? 'nav__link on' : 'nav__link')}>
             Blog
           </NavLink>
+          <NavLink to="/videos" className={({ isActive }) => (isActive ? 'nav__link on' : 'nav__link')}>
+            Videos
+          </NavLink>
           <NavLink to="/inquiry" className={({ isActive }) => (isActive ? 'nav__link on' : 'nav__link')}>
             Inquiry
           </NavLink>

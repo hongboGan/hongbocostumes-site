@@ -38,6 +38,7 @@ const urls = [
   })),
   { loc: `${BASE}/inquiry`, priority: '0.9', freq: 'yearly' },
   { loc: `${BASE}/blog`, priority: '0.9', freq: 'daily' },
+  { loc: `${BASE}/videos`, priority: '0.8', freq: 'weekly' },
   ...BLOG_POSTS.map((p) => ({
     loc: `${BASE}/blog/${p.slug}`,
     priority: '0.7',

@@ -6,6 +6,7 @@ import ProductDetail from './pages/ProductDetail.jsx';
 import Inquiry from './pages/Inquiry.jsx';
 import Blog from './pages/Blog.jsx';
 import BlogPost from './pages/BlogPost.jsx';
+import Videos from './pages/Videos.jsx';
 import NotFound from './pages/NotFound.jsx';
 
 // Shared route table. The browser entry (main.jsx) wraps this in BrowserRouter;
@@ -21,6 +22,7 @@ export function AppRoutes() {
         <Route path="/inquiry" element={<Inquiry />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:slug" element={<BlogPost />} />
+        <Route path="/videos" element={<Videos />} />
         <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
