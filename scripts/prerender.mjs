@@ -59,6 +59,180 @@ function headTags(route, meta) {
     .join('\n    ');
 }
 
+const ORG_ID = `${SITE}/#organization`;
+const SITE_ID = `${SITE}/#website`;
+
+const absUrl = (p) => (p ? (p.startsWith('http') ? p : `${SITE}${p}`) : undefined);
+
+const crumb = (items) => ({
+  '@type': 'BreadcrumbList',
+  itemListElement: items.map((it, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: it.name,
+    item: `${SITE}${it.path}`,
+  })),
+});
+
+// Structured data is emitted into the static HTML, not the client bundle: the
+// crawlers that matter here (Googlebot's first pass, Bingbot, GPTBot) never run
+// JavaScript, so anything injected after hydration is invisible to them.
+function structuredData(route) {
+  const graph = [
+    {
+      '@type': 'Organization',
+      '@id': ORG_ID,
+      name: 'Hongbo Costumes',
+      legalName: 'Wuhan Ouwanni Clothing Co., Ltd.',
+      url: SITE,
+      description:
+        'Factory-direct Halloween, cosplay and stage costume manufacturer in Wuhan, China. OEM/ODM production, low MOQ and FBA-ready packing.',
+      email: 'Zoe@hoburn.group',
+      telephone: '+86 181 2042 4228',
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: 'Wuhan',
+        addressRegion: 'Hubei',
+        addressCountry: 'CN',
+      },
+      contactPoint: {
+        '@type': 'ContactPoint',
+        contactType: 'sales',
+        telephone: '+86 181 2042 4228',
+        email: 'Zoe@hoburn.group',
+        availableLanguage: ['en', 'zh'],
+        areaServed: 'Worldwide',
+      },
+    },
+    {
+      '@type': 'WebSite',
+      '@id': SITE_ID,
+      url: SITE,
+      name: 'Hongbo Costumes',
+      inLanguage: 'en',
+      publisher: { '@id': ORG_ID },
+    },
+  ];
+
+  if (route === '/products') {
+    graph.push({
+      '@type': 'CollectionPage',
+      name: 'Wholesale Costumes & Cosplay Catalog',
+      url: `${SITE}/products`,
+      isPartOf: { '@id': SITE_ID },
+      mainEntity: {
+        '@type': 'ItemList',
+        numberOfItems: PRODUCTS.length,
+        itemListElement: PRODUCTS.slice(0, 30).map((p, i) => ({
+          '@type': 'ListItem',
+          position: i + 1,
+          url: `${SITE}/products/${p.id}`,
+          name: p.name,
+        })),
+      },
+    });
+  }
+
+  if (route.startsWith('/collections/')) {
+    const id = route.split('/')[2];
+    const cat = CATEGORIES.find((c) => c.id === id);
+    const items = PRODUCTS.filter((p) => p.cat === id);
+    if (cat) {
+      graph.push({
+        '@type': 'CollectionPage',
+        name: `${cat.label} — wholesale costumes`,
+        description: cat.blurb,
+        url: `${SITE}${route}`,
+        isPartOf: { '@id': SITE_ID },
+        mainEntity: {
+          '@type': 'ItemList',
+          numberOfItems: items.length,
+          itemListElement: items.map((p, i) => ({
+            '@type': 'ListItem',
+            position: i + 1,
+            url: `${SITE}/products/${p.id}`,
+            name: p.name,
+          })),
+        },
+      });
+      graph.push(
+        crumb([
+          { name: 'Home', path: '/' },
+          { name: 'Collections', path: '/products' },
+          { name: cat.label, path: route },
+        ])
+      );
+    }
+  }
+
+  if (route.startsWith('/products/')) {
+    const p = PRODUCTS.find((x) => `/products/${x.id}` === route);
+    if (p) {
+      graph.push({
+        '@type': 'Product',
+        '@id': `${SITE}${route}#product`,
+        name: p.name,
+        alternateName: p.fullTitle,
+        description: p.blurb,
+        image: [absUrl(p.image)],
+        sku: p.id,
+        category: p.ali,
+        brand: { '@type': 'Brand', name: 'Hongbo Costumes' },
+        manufacturer: { '@id': ORG_ID },
+        offers: {
+          '@type': 'AggregateOffer',
+          priceCurrency: 'USD',
+          lowPrice: p.priceFrom,
+          highPrice: p.priceTo,
+          offerCount: 1,
+          availability: 'https://schema.org/InStock',
+          url: `${SITE}${route}`,
+          seller: { '@id': ORG_ID },
+        },
+      });
+      graph.push(
+        crumb([
+          { name: 'Home', path: '/' },
+          { name: 'Products', path: '/products' },
+          { name: p.name, path: route },
+        ])
+      );
+    }
+  }
+
+  if (route.startsWith('/blog/')) {
+    const post = BLOG_POSTS.find((x) => `/blog/${x.slug}` === route);
+    if (post) {
+      graph.push({
+        '@type': 'BlogPosting',
+        '@id': `${SITE}${route}#article`,
+        headline: post.title,
+        description: post.excerpt,
+        datePublished: post.date,
+        dateModified: post.date,
+        image: [absUrl(post.cover)],
+        articleSection: post.tags,
+        inLanguage: 'en',
+        mainEntityOfPage: { '@type': 'WebPage', '@id': `${SITE}${route}` },
+        author: { '@id': ORG_ID },
+        publisher: { '@id': ORG_ID },
+      });
+      graph.push(
+        crumb([
+          { name: 'Home', path: '/' },
+          { name: 'Blog', path: '/blog' },
+          { name: post.title, path: route },
+        ])
+      );
+    }
+  }
+
+  return JSON.stringify({ '@context': 'https://schema.org', '@graph': graph }).replace(
+    /<\//g,
+    '<\\/'
+  );
+}
+
 function outputPath(route) {
   if (route === '/') return join(dist, 'index.html');
   return join(dist, route.replace(/^\//, ''), 'index.html');
@@ -96,7 +270,7 @@ try {
       .replace(/<meta\s+name="description"[\s\S]*?\/>\s*/i, '')
       .replace(/<meta\s+property="og:[^"]+"[\s\S]*?\/>\s*/gi, '')
       .replace(/<link\s+rel="canonical"[^>]*>\s*/i, '')
-      .replace('</head>', `  ${headTags(route, meta)}\n  </head>`)
+      .replace('</head>', `  ${headTags(route, meta)}\n    <script type="application/ld+json">${structuredData(route)}</script>\n  </head>`)
       .replace(
         /<div id="root"><\/div>/,
         `<div id="root" data-prerender="${route}">${html}</div>`

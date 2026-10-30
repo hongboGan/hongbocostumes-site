@@ -3,6 +3,7 @@ import { createRoot, hydrateRoot } from 'react-dom/client';
 import { BrowserRouter, useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
 import { AppRoutes } from './App.jsx';
+import { initAnalytics } from './lib/analytics.js';
 import './styles.css';
 
 function ScrollToTop() {
@@ -28,6 +29,8 @@ function App() {
 function normalize(path) {
   return path.length > 1 ? path.replace(/\/+$/, '') : path;
 }
+
+initAnalytics();
 
 const container = document.getElementById('root');
 const tree = <App />;

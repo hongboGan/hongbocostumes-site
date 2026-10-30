@@ -10,6 +10,7 @@ import {
   getProduct,
   waLink,
 } from '../data.js';
+import { track } from '../lib/analytics.js';
 import { usePageMeta } from '../lib/seo.js';
 
 const FORM_URL = 'https://formsubmit.co/ajax/Zoe@hoburn.group';
@@ -79,6 +80,11 @@ export default function Inquiry() {
       });
       const data = await res.json().catch(() => null);
       if (res.ok && data && String(data.success) === 'true') {
+        track('form_submit', {
+          product: product ? product.id : 'general',
+          product_type: form.productType || '—',
+          page_path: window.location.pathname + window.location.search,
+        });
         setStatus('ok');
       } else {
         throw new Error((data && data.message) || `Form service error (${res.status})`);
