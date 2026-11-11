@@ -1,8 +1,38 @@
 // Curated workshop videos. Embedding only — playback and hosting stay with the
 // original creators on YouTube, which keeps the page fast and the rights clean.
 // Add three per week; keep the list newest-first. Verified against the live
-// watch pages on 2026-11-04.
+// watch pages on 2026-11-11.
 export const VIDEOS = [
+  {
+    id: 'dN3NHy7Asqc',
+    title: 'How to get started with Foam Armor',
+    channel: 'KamuiCosplay',
+    duration: '08:41',
+    views: '1.3M',
+    added: '2026-11-11',
+    tags: ['EVA foam', 'beginner', 'gluing'],
+    why: 'The beginner walkthrough we would hand a buyer who asks why foam density, contact cement and a heat gun make our armor cost more than a party-shop piece.',
+  },
+  {
+    id: 'pRGM0AG97ZU',
+    title: 'I Made Cosplay Knight Armor - Breastplate and Pauldrons EVA Foam Tutorial',
+    channel: 'Emily Boe',
+    duration: '06:34',
+    views: '253K',
+    added: '2026-11-11',
+    tags: ['armor', 'patterning', 'weathering'],
+    why: 'Duct-tape patterning, contact cement, gesso and a silver-plus-weathering pass in one build — the same finishing order our armor samples go through.',
+  },
+  {
+    id: 'n-aUbgUL_2E',
+    title: 'How to paint EVA Foam - Cosplay Quick Tip Clip | Cosplay Apprentice',
+    channel: 'Cosplay Apprentice',
+    duration: '07:28',
+    views: '112K',
+    added: '2026-11-11',
+    tags: ['painting', 'sealing', 'plastidip'],
+    why: 'Shows the heat-seal, Plasti-Dip and base-coat sequence that keeps paint from cracking on flexible foam, the most common complaint after a season of wear.',
+  },
   {
     id: 'OXUnVaSAY6c',
     title: 'Turning Foam into Metal | Painting Tutorial',
