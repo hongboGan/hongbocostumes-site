@@ -387,6 +387,25 @@ export const PRODUCTS = [
     blurb: 'Lederhosen, vest, shirt and alpine hat — the complete Bavarian outfit.',
   },
   {
+    id: 'womens-red-velvet-christmas-cape-set',
+    cat: 'christmas',
+    ali: 'Christmas&Thanksgiving',
+    name: "Women's Red Velvet Christmas Cape Set",
+    fullTitle:
+      'Christmas Costume Womens Red Velvet Cape Set with Santa Hat and Striped Thigh High Stockings Ruffle Tulle Trim Party Cosplay Outfit',
+    image: '/products/womens-red-velvet-christmas-cape-set.jpg',
+    images: [
+      '/products/womens-red-velvet-christmas-cape-set.jpg',
+      '/products/womens-red-velvet-christmas-cape-set-scene.jpg',
+      '/products/womens-red-velvet-christmas-cape-set-flatlay.jpg',
+      '/products/womens-red-velvet-christmas-cape-set-scene2.jpg',
+    ],
+    priceFrom: 7.87,
+    priceTo: 9.13,
+    url: '/inquiry',
+    blurb: 'Three-piece Christmas set — red velvet cape with tulle ruffles and pom-pom trim, Santa hat and striped thigh-high stockings.',
+  },
+  {
     id: 'santa-family-set',
     cat: 'christmas',
     ali: 'Christmas&Thanksgiving',
