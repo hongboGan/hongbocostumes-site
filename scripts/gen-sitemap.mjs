@@ -26,6 +26,7 @@ if (existsSync(sitemapPath)) {
 const urls = [
   { loc: `${BASE}/`, priority: '1.0', freq: 'weekly' },
   { loc: `${BASE}/products`, priority: '0.9', freq: 'weekly' },
+  { loc: `${BASE}/hero-suits`, priority: '0.9', freq: 'weekly' },
   ...CATEGORIES.map((c) => ({
     loc: `${BASE}/collections/${c.id}`,
     priority: '0.7',

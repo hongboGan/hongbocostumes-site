@@ -10,6 +10,7 @@ import { fileURLToPath } from 'node:url';
 import { CATEGORIES, PRODUCTS } from '../src/data.js';
 import { BLOG_POSTS } from '../src/content/blog.js';
 import { VIDEOS } from '../src/content/videos.js';
+import { HERO_SUIT_IDS } from '../src/content/heroSuits.js';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const dist = join(root, 'dist');
@@ -27,6 +28,7 @@ const routes = [
   '/blog',
   ...BLOG_POSTS.map((p) => `/blog/${p.slug}`),
   '/videos',
+  '/hero-suits',
 ];
 
 const images = new Map();
@@ -259,6 +261,37 @@ function structuredData(route) {
       crumb([
         { name: 'Home', path: '/' },
         { name: 'Videos', path: '/videos' },
+      ])
+    );
+  }
+
+  if (route === '/hero-suits') {
+    const heroItems = HERO_SUIT_IDS.map((id) => PRODUCTS.find((p) => p.id === id)).filter(
+      Boolean
+    );
+    graph.push({
+      '@type': 'CollectionPage',
+      '@id': `${SITE}/hero-suits#page`,
+      name: 'Wholesale Hero Suits — Full-Body Bodysuits and Armour Sets',
+      description:
+        'Factory-direct full-body hero suits: stretch bodysuits, printed and sewn colour blocking, stitched armour and detachable cowls. Wholesale pricing and custom builds.',
+      url: `${SITE}/hero-suits`,
+      isPartOf: { '@id': SITE_ID },
+      mainEntity: {
+        '@type': 'ItemList',
+        numberOfItems: heroItems.length,
+        itemListElement: heroItems.map((p, i) => ({
+          '@type': 'ListItem',
+          position: i + 1,
+          url: `${SITE}/products/${p.id}`,
+          name: p.name,
+        })),
+      },
+    });
+    graph.push(
+      crumb([
+        { name: 'Home', path: '/' },
+        { name: 'Hero Suits', path: '/hero-suits' },
       ])
     );
   }

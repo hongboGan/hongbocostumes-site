@@ -213,6 +213,7 @@ function Footer() {
           <p className="footer__h">Company</p>
           <Link to="/">Home</Link>
           <Link to="/products">Products</Link>
+          <Link to="/hero-suits">Hero suits</Link>
           <Link to="/blog">Blog &amp; insights</Link>
           <Link to="/inquiry">Request a quote</Link>
           <a href="https://ouwanni.en.alibaba.com/" target="_blank" rel="noreferrer">
