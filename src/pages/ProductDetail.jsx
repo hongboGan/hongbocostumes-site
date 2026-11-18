@@ -28,7 +28,7 @@ export default function ProductDetail() {
   const [shot, setShot] = useState(0);
 
   usePageMeta(
-    p ? `${p.name} | Hongbo Costumes` : 'Product not found | Hongbo Costumes',
+    p ? `${p.seoTitle || p.name} | Hongbo Costumes` : 'Product not found | Hongbo Costumes',
     p
       ? `${p.blurb} Factory-direct wholesale with OEM/ODM, samples in about 7 days and FBA-ready packing.`
       : undefined,

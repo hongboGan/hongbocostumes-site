@@ -722,6 +722,7 @@ export const PRODUCTS = [
   },
   {
     id: 'venom-symbiote',
+    seoTitle: "Wholesale Symbiote Bodysuit - Black Hero Suit Manufacturer",
     cat: 'movie',
     ali: '1688 - Superhero (Venom)',
     name: 'Venom Symbiote Style Bodysuit',
@@ -970,6 +971,7 @@ export const PRODUCTS = [
   },
   {
     id: 'kids-stealth-ninja-costume',
+    seoTitle: "Boys' Stealth Ninja Costume - Wholesale Kids Ninja Suit",
     cat: 'kids',
     ali: 'Kids Ninja Costume',
     name: 'Kids Stealth Ninja Costume',
@@ -1022,6 +1024,7 @@ export const PRODUCTS = [
   },
   {
     id: 'womens-gothic-witch-gown',
+    seoTitle: "Wholesale Gothic Witch Gown - Women's Witch Costume",
     cat: 'halloween',
     ali: 'Halloween Costume (gothic witch gown)',
     name: "Women's Gothic Witch Gown",
@@ -1035,6 +1038,7 @@ export const PRODUCTS = [
   },
   {
     id: 'mens-ringmaster-tailcoat',
+    seoTitle: "Ringmaster Tailcoat - Wholesale Circus Ringmaster Costume",
     cat: 'funny',
     ali: 'Ringmaster Tailcoat',
     name: "Men's Ringmaster Tailcoat",
@@ -1048,6 +1052,7 @@ export const PRODUCTS = [
   },
   {
     id: 'womens-camo-jumpsuit',
+    seoTitle: "Wholesale Camo Jumpsuit Costume - Women's Tactical Suit",
     cat: 'funny',
     ali: 'Camo Jumpsuit Costume',
     name: "Women's Camo Utility Jumpsuit",

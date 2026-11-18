@@ -31,11 +31,11 @@ export const BLOG_POSTS = [
   },
   {
     slug: "leftover-halloween-costume-stock-clear-or-carry",
-    title: "Leftover Halloween Costume Stock: What to Clear, What to Carry, What to Write Off",
+    title: '3 Rules for Leftover Halloween Stock: Clear, Carry or Write Off',
     date: '2026-10-28',
     tags: ["Wholesale","Inventory","Operations"],
     cover: "/products/womens-gothic-witch-gown.jpg",
-    excerpt: "The week after Halloween decides whether the season's margin survives. Sort leftover stock by what will still sell next October, not by what is left on the shelf.",
+    excerpt: 'The first week of November sets the recovery rate, and each clearance step costs more than the last. A rule set for clearing leftover stock instead of a mood.',
     sources: [
           "r/SpiritHalloween threads on after-holiday markdowns and what is worth buying at 50% off",
           "r/Halloween_Costumes discussion on costume sales the day after Halloween"
@@ -708,12 +708,11 @@ Supplying a school, a PTA fundraiser or a theme week? [Send an inquiry](/inquiry
   },
   {
     slug: 'inclusive-costume-sizing-extended-size-ranges',
-    title: 'Inclusive Costume Sizing: Why One-Piece Suits Fail and How Extended Size Ranges Win',
+    title: 'One-Piece Costumes Fail on Torso Length - How to Grade Extended Sizes',
     date: '2026-09-17',
     tags: ['Sizing', 'Cosplay', 'Buying guide'],
     cover: '/products/venom-symbiote.jpg',
-    excerpt:
-      'One-piece suits fail on torso length, stretch percentage and zip design \u2014 not on weight. What buyers should measure, and how retailers extend a size range without doubling stock.',
+    excerpt: 'It is torso length, not weight, that sends a one-piece suit back. How to measure shoulder-to-crotch, where to add stretch, and how to extend a size range without doubling stock.',
     sources: [
       'r/CosplayHelp plus-size and one-piece fit threads',
       'r/cosplayers bodysuit alteration discussions',
@@ -869,12 +868,11 @@ Want wholesale pricing on horror styles, or fabric samples for the veil and gauz
   },
   {
     slug: 'spiderman-suit-fit-guide-sizing',
-    title: 'Spider-Man Suit Fit Guide: The Questions Buyers Ask Before They Order',
+    title: 'Do Spider-Man Bodysuits Run Small? Size by Height, Not Chest',
     date: '2026-09-14',
     tags: ['Cosplay', 'Sizing', 'Buying guide'],
     cover: '/products/spiderman-peter-parker.jpg',
-    excerpt:
-      'Height vs chest sizing, stretch behaviour and layering \u2014 the fit questions cosplay communities repeat every autumn, answered for buyers and retailers.',
+    excerpt: 'Most hero suits are sold by height band, not chest size, and four-way stretch only absorbs 5-8 cm. What to measure before you order, and how to size a wholesale run.',
     sources: [
       'r/CosplayHelp fit & stretch threads',
       'r/cosplayers bodysuit fitting discussions',
