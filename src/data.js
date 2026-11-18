@@ -734,6 +734,19 @@ export const PRODUCTS = [
     blurb: 'Black symbiote muscle suit — a cross-border bestseller.',
   },
   {
+    id: 'red-tactical-bodysuit-cowl-suit',
+    cat: 'movie',
+    ali: "1688 - Costume (Red Tactical Suit)",
+    name: "Red Tactical Bodysuit with Cowl",
+    fullTitle:
+      "Men's Red Tactical Bodysuit Full-Body Armour Suit with Cowl, Gloves and Thigh Holster - Stage and Cosplay Costume",
+    image: '/products/red-tactical-bodysuit-cowl-suit.jpg',
+    priceFrom: 28.93,
+    priceTo: 33.56,
+    url: '/inquiry',
+    blurb: 'Multi-panel red armour suit with moulded chest plates, black reinforced knees, utility belt, thigh holster and detachable cowl.',
+  },
+  {
     id: 'spiderman-peter-parker',
     cat: 'movie',
     ali: '1688 - Superhero (Peter Parker)',
