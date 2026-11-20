@@ -71,12 +71,12 @@ export const BLOG_POSTS = [
   },
   {
     slug: "kids-costume-safety-specs-parents-ask",
-    title: "Kids Costume Safety Specs - The Questions Parents Ask Before They Buy",
+    title: "Kids Costume Safety: Can They See and Breathe in That Mask?",
     date: "2026-10-14",
     tags: ["Safety features","Kids costumes","Product specs"],
     cover: "/products/venom-blackpanther-kids.jpg",
     excerpt:
-      "Two weeks before Halloween the questions parents ask are safety questions - can my child see, can they walk, what might come loose - and every one of them is settled at sampling.",
+      "Eye opening size, peripheral vision, airflow through a mask and hem length are decided at sampling, not at the party. The specs to write into a kids costume order, and the ones to reject.",
     sources: [
       "CPSC public guidance on Halloween costume hazards",
       "parent discussions on childrens costume comfort, vision and stairs",
