@@ -219,6 +219,20 @@ export const PRODUCTS = [
     blurb: 'Movie-style Moana costume with matching necklace — carnival party ready.',
   },
   {
+    id: 'kpop-stage-outfit-black-gold',
+    cat: 'anime',
+    ali: "1688 - Costume (K-Pop Stage Outfit)",
+    name: "Black & Gold K-Pop Stage Outfit",
+    seoTitle: "K-Pop Stage Outfit - Wholesale Black & Gold Performance Costume",
+    fullTitle:
+      "K-Pop Stage Outfit - Black Sequin Jacket with Iridescent Skirt or Shorts, Wholesale Performance Costume",
+    image: '/products/kpop-stage-outfit-black-gold.jpg',
+    priceFrom: 24.72,
+    priceTo: 28.68,
+    url: '/inquiry',
+    blurb: "Black sequin cropped jacket with gold epaulettes, iridescent skirt or shorts, gold belt and chain harness. S-3XL plus kids 120-150.",
+  },
+  {
     id: 'lolita-catgirl-maid',
     cat: 'anime',
     ali: 'Anime Costume',
