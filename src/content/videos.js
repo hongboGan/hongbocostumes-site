@@ -1,8 +1,38 @@
 // Curated workshop videos. Embedding only — playback and hosting stay with the
 // original creators on YouTube, which keeps the page fast and the rights clean.
 // Add three per week; keep the list newest-first. Verified against the live
-// watch pages on 2026-11-11.
+// watch pages on 2026-11-25.
 export const VIDEOS = [
+  {
+    id: 'bsmAzZqaHJw',
+    title: 'How to Make Male Foam Cosplay Armor, Tutorial Part 1',
+    channel: 'Evil Ted Smith',
+    duration: '17:08',
+    views: '962K',
+    added: '2026-11-25',
+    tags: ['armor', 'patterning', 'assembly'],
+    why: 'A full chest-and-pauldron rig patterned on a duct-tape body form, with every seam bevelled and pre-heated before glue-up — the order our armor line stops a piece for skipping.',
+  },
+  {
+    id: 'XEa4GwcWJpw',
+    title: 'Basic EVA Foam Costume Helmet Template Tutorial',
+    channel: 'Punished Props Academy',
+    duration: '09:01',
+    views: '260K',
+    added: '2026-11-25',
+    tags: ['patterning', 'helmet', 'fit'],
+    why: 'Turns a duct-tape head wrap into a printed helmet pattern and scales it 10% for foam thickness — the allowance step that decides whether a finished helmet fits a buyer.',
+  },
+  {
+    id: 'vRrfclFDiS0',
+    title: 'Build EVA Foam Cosplay with Pepakura Designer!',
+    channel: 'Heroes Workshop',
+    duration: '1:53:42',
+    views: '235K',
+    added: '2026-11-25',
+    tags: ['pepakura', 'cutting', 'sealing'],
+    why: 'A chaptered start-to-finish helmet build — scaling, bevel cuts, seam filling, sealing and paint — useful when a buyer asks how we hold a shape across a production run.',
+  },
   {
     id: 'dN3NHy7Asqc',
     title: 'How to get started with Foam Armor',
