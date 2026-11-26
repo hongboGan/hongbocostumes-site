@@ -219,6 +219,20 @@ export const PRODUCTS = [
     blurb: 'Movie-style Moana costume with matching necklace — carnival party ready.',
   },
   {
+    id: 'pirate-captain-coat-vintage',
+    cat: 'halloween',
+    ali: `1688 - Costume (Vintage Pirate Coat)`,
+    name: `Vintage Pirate Captain Coat`,
+    seoTitle: `Vintage Pirate Captain Coat - Wholesale Long Pirate Coat`,
+    fullTitle:
+      `Vintage Pirate Captain Coat - Long Double-Breasted 18th Century Style Coat in Four Colours`,
+    image: '/products/pirate-captain-coat-vintage.jpg',
+    priceFrom: 15.56,
+    priceTo: 16.11,
+    url: '/inquiry',
+    blurb: `Long-line captain's coat with double-breasted brass buttons, frog-loop trim and deep buttoned cuffs. Polyester, 553g in size M. S-2XL, in brown, black, green and red.`,
+  },
+  {
     id: 'kpop-stage-outfit-black-gold',
     cat: 'anime',
     ali: "1688 - Costume (K-Pop Stage Outfit)",
